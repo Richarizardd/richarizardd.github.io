@@ -1,0 +1,31 @@
+{% include header.html %}
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>{{ page.title }}</h2>
+							<p></p>
+						</header>
+						<section class="wrapper style5">
+							<div class="innermost">
+								<ul class="blog">
+    							{% for post in site.categories.lifehacks %}
+
+								<li>
+					                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+						                     <header>
+							                     <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+							                     {% if post.modified %}
+							                     <p><span class="date"><time datetime="{{ page.modified }}" itemprop="dateModified">Updated on {{ post.modified | date: "%B %d, %Y" }}</time></span>{% else %}
+							                     <p><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>{% endif %}</p>
+						                     </header>
+
+						                     <p class="summary">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+					                     </div>
+			                  	
+			                  	</li>
+								{% endfor %}
+								</ul>
+							</div>
+						</section>
+					</article>
+{% include footer.html %}
