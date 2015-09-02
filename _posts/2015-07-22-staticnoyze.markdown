@@ -21,3 +21,4 @@ Joking aside, this experience was very electrifying as I pushed myself to my lim
 
 <p>
 Update! This is is their performance at [World Of Dance Los Angeles 2015](https://www.youtube.com/watch?v=5XpaB9gu_4o). Was cool to learn this set!
+</p>
