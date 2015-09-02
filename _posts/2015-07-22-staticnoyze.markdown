@@ -2,7 +2,7 @@
 layout:     post
 title:      "Auditioning for Static Noyze in | July"
 subtitle:   "I be looking very heavy metal and reflective - Azealia Banks"
-date:       2015-08-14 12:00:00
+date:       2015-07-22 12:00:00
 author:     "Richard Chen"
 header-img: "img/staticnoyzeheader.jpg"
 ---
