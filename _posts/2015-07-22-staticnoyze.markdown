@@ -1,11 +1,13 @@
 ---
-layout:     post
-title:      "Auditioning for Static Noyze in | July"
-subtitle:   "I be looking very heavy metal and reflective - Azealia Banks"
-date:       2015-07-22 12:00:00
-author:     "Richard Chen"
-header-img: "img/staticnoyzeheader.jpg"
+layout: post
+title: "Auditioning for Static Noyze in | July"
+subtitle: "I be looking very heavy metal and reflective - Azealia Banks"
+date: {}
+author: Richard Chen
+"header-img": img/staticnoyzeheader.jpg
+published: true
 ---
+
 <p> 
 Being a part of the dance scene in the Boston-Cambridge area this summer has been an amazing experience. The workshops offered by Norheastern’s Kinematix are really high quality, and MIT’s Constructs has people with different styles in popping that are always down to session. To end my July on a high note, I auditioned for Static Noyze, who placed 3rd in World of Dance New Jersey. Watching their set on WOD was a lot of fun, but learning the new pieces of their Ninja Set gave me a really fresh perspective on how professional dance groups teach choreography, and the discipline these dance groups whip themselves with 4 days a week is intense. These people don’t pretend to be ninjas.
 </p>
@@ -17,3 +19,5 @@ Being a part of the dance scene in the Boston-Cambridge area this summer has bee
 Joking aside, this experience was very electrifying as I pushed myself to my limits in their audition, and also eye-opening as I realized what it took to compete at the top level. I hope they have a really good set in WODLA, and I hope I can bring the dance energy I felt today to Ecelctics!
 </p>
 
+<p>
+Update! This is is their performance at [World Of Dance Los Angeles 2015](https://www.youtube.com/watch?v=5XpaB9gu_4o). Was cool to learn this set!
