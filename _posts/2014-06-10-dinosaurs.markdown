@@ -1,43 +1,19 @@
 ---
 layout:     post
-title:      "Dinosaurs are extinct today"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
-date:       2014-06-10 12:00:00
-author:     "Start Bootstrap"
-header-img: "img/post-bg-01.jpg"
+title:      "Auditioning for Static Noyze in | July"
+subtitle:   "I be looking very heavy metal and reflective - Azealia Banks"
+date:       2015-08-14 12:00:00
+author:     "Richard Chen"
+header-img: "img/staticnoyzeheader.jpg"
 ---
+<p> 
+Being a part of the dance scene in the Boston-Cambridge area this summer has been an amazing experience. The workshops offered by Norheastern’s Kinematix are really high quality, and MIT’s Constructs has people with different styles in popping that are always down to session. To end my July on a high note, I auditioned for Static Noyze, who placed 3rd in World of Dance New Jersey. Watching their set on WOD was a lot of fun, but learning the new pieces of their Ninja Set gave me a really fresh perspective on how professional dance groups teach choreography, and the discipline these dance groups whip themselves with 4 days a week is intense. These people don’t pretend to be ninjas.
+</p>
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<p>I’ve also never sweated this much in life. The first few minutes, I worked up “Stage 1 Sweat” – the good kind of sweat that pumps you up and lights your body on fire. Then came “Stage 2 Sweat” – the kind of sweat that drips to uncomfortable places, that pools into dark, oval circles on your shirt and that makes you awkwardly keep wiping away sweat but you have nothing try to wipe with anymore. It’s getting tiring, but OK, OK still moving. I’ve always floated around “Stage 2 Sweat” from running, weightlifting, and other choreography pieces, but as they taught the final song, my body skyrocketed into “Stage 3 Sweat” – S3S. Before reaching this stage, my hair had gotten some of that good, sexy push-back from dancing so much, but S3S stiffened my hair like I had overdone my Gatsby. I literally lost my cool RIP. Hitting the beats in the foreground and background was like playing DDR SuperNova all over again (the best DDR). In front of me were streams of sick tuts, wrist-breaks and body rolls against the floor, and I was lagging behind trying to desperately follow everything until my energy bar depleted to zero (and later exploded). And that’s how my auditions went.
+</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>
+Joking aside, this experience was very electrifying as I pushed myself to my limits in their audition, and also eye-opening as I realized what it took to compete at the top level. I hope they have a really good set in WODLA, and I hope I can bring the dance energy I felt today to Ecelctics!
+</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
-</a>
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
