@@ -4,7 +4,7 @@ title: "Auditioning for Static Noyze in | July"
 subtitle: "I be looking very heavy metal and reflective - Azealia Banks"
 date: 2015-07-22 12:00:00
 author: Richard Chen
-header-img: "img/staticnoyzeheader.jpg"
+header-img: "img/home-bg.jpg"
 ---
 
 <p> 
