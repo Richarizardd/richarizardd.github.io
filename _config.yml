@@ -1,12 +1,12 @@
 # Site settings
 title: Richard Chen
-email: rchen40@jhu.edu
 header-img: img/home-bg.jpg
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: rchen40@jhu.edu
+description: "Richard Chen - Undergraduate Bioinformatcian at Johns Hopkins University"
 baseurl: ""
-url: "richarizardd.me"
+url: "http://yourdomain.com"
 github_username:  richarizardd
-facebook_username:  RichardChen.95
+facebook_username:  Richard.Chen.95
 
 # Build settings
 markdown: kramdown
