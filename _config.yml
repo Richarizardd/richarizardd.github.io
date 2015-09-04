@@ -5,9 +5,8 @@ email: rchen40@jhu.edu
 description: "Richard Chen - Undergraduate Bioinformatcian at Johns Hopkins University"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
 github_username:  richarizardd
-facebook_username:  IronSummitMedia
+facebook_username:  Richard.Chen.95
 
 # Build settings
 markdown: kramdown
