@@ -7,7 +7,7 @@
     <subtitle>Undergraduate Bioinformatician at Johns Hopkins University</subtitle>
     <link href="/atom.xml" rel="self"/>
     <link href="/" rel="alternate" type="text/html"/>
-    <updated>2015-09-30T17:20:36-04:00</updated>
+    <updated>2015-09-30T17:20:48-04:00</updated>
     <id>/</id>
     <author>
 			<name>Richard Chen</name>
@@ -106,76 +106,6 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt; This might be the closest entry I&#39;ll ever write in summarizing my Hopkins Experience. I&#39;ve learned some of the coolest, most niche areas of study in biology, I&#39;ve learned how to complain,  I&#39;ve learned what it means to fail and suffer, I&#39;ve learned that failing will happen again in the future and its OK, I&#39;ve also learned how to not complain, I&#39;ve developed a thick outer core that makes me bitter and sarcastic and a small inner core that just wants to dance to &quot;Elastic Heart&quot;, and I&#39;ve made strong friends that&#39;ll last a life time. That is Hopkins in a nut shell. So, eh? It&#39;s OK so far. &lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Project Ideas</title>
-        <link href="/research/project-ideas/"/>
-        <updated>2015-05-11T05:32:23-04:00</updated>
-        <id>/research/project-ideas</id>
-        <author>
-					<name>Richard Chen</name>
-					<uri>/</uri>
-					<email>rchen40@jhu.edu</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The XMPP community is part of the Google summer of Code 2015 and for XMPP-IoT we have several projects&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-this-xmpp-iot&quot;&gt;What is this XMPP-IoT&lt;/h1&gt;
-&lt;p&gt;There are many solutions how to connect Internet of Things (IoT) devices to internet, to create services and interesting applications. on this site you find an introduction to how we mimic the world of people chatting to enable &lt;strong&gt;any device to any device&lt;/strong&gt; interoperability. Supporting all usecases that IoT needs. Especially the possibility to be a way for companies to interact through federation.&lt;/p&gt;
-
-&lt;p&gt;The projects are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wiki.xmpp.org/web/Summer_of_Code_2015#Prototyping_tools.2C_for_Internet_of_Things_Using_SleekXMPP_and_Web&quot;&gt;prototyping tools with python and javascript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wiki.xmpp.org/web/Summer_of_Code_2015#Adding_XMPP-IoT_to_the_openHAB_smarthome_project_using_Smack&quot;&gt;Adding XMPP-iot to openHAB using java SMACK&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The third IoT realted project is maintained by Process one&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wiki.xmpp.org/web/Summer_of_Code_2015#Provisioning_and_registry_of_Things_.28IoT.29_for_ejabberd&quot;&gt;Provisioning and registry of Things for Ejabberd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can also propose others if you have an idea. post it to the chat room or mailing list&lt;/p&gt;
-
-&lt;h1 id=&quot;talk-to-us&quot;&gt;Talk to us!&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We’d really like to talk with you a bit, so please come by the XSF’s GSoC MUC room at gsoc@muc.xmpp.org and have a chat. &lt;a href=&quot;http://logs.xmpp.org/gsoc&quot;&gt;you find the logs here&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mail.jabber.org/mailman/listinfo/gsoc&quot;&gt;Join the gsoc maillist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;there is also a twitter handle &lt;a href=&quot;https://twitter.com/XMPPIoT&quot;&gt;@XMPPIoT to be used&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;teaser-tasks-for-prototyping-tools&quot;&gt;Teaser tasks for prototyping tools&lt;/h2&gt;
-
-&lt;p&gt;To be able to quickly startup any project you need to have prototyping tools. Using python and javascript in combination gives you a very quick start on almost any device&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run the sample scripts under the &lt;a href=&quot;http://xmpp-iot.github.io/tutorials/&quot;&gt;Tutorials&lt;/a&gt; And propose better ones to understand the concepts.&lt;/li&gt;
-  &lt;li&gt;Create a python script “makingfriends” to manage friendship subscriptions between devices when you need several JID’s to be able to talk to each other.&lt;/li&gt;
-  &lt;li&gt;Build a one to many chat room example of a device sending values to many devices in a MUC chatroom using XEP323 message stanzas&lt;/li&gt;
-  &lt;li&gt;Look at the scripts avaliable in the &lt;a href=&quot;https://github.com/joachimlindborg/SleekXMPP/tree/xep_0323_325/examples/IoT&quot;&gt;SleekXMPP IoT examples&lt;/a&gt; especially the PhilipsHue. Create a mapping to another open API for a device.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;teaser-tasks-for-openhab&quot;&gt;Teaser tasks for openHAB&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://openhab.org/&quot;&gt;OpenHAB&lt;/a&gt; is an opensoruce project acting as a control environment for a smart home bridging between many different physical protocols. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;start an OpenHAB instance and trigger the XMPP module to send a plain chat message &lt;strong&gt;ex “Toggle”&lt;/strong&gt; or &lt;strong&gt;“relay=True”&lt;/strong&gt;.  This can be sent to another OpenHAB instance recieving the message and acting on it’s local variables. It can also be sent to the  &lt;a href=&quot;http://xmpp-iot.github.io/tutorials/python-tutorial/&quot;&gt;python script in the tutorial&lt;/a&gt; triggering a relay to “Toggle”.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Implement a first SMACK-extension for the  &lt;a href=&quot;http://xmpp.org/extensions/xep-0323.html&quot;&gt;XEP323 basic stanzas&lt;/a&gt;. First a read request.   &lt;a href=&quot;https://github.com/igniterealtime/Smack/tree/master/smack-extensions&quot;&gt;Smack extensions&lt;/a&gt; some more info &lt;a href=&quot;https://www.igniterealtime.org/builds/smack/docs/latest/documentation/extensions/index.html&quot;&gt;Smack docs&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is maintained by &lt;a href=&quot;http://lsys.se/&quot;&gt;Joachim Lindborg&lt;/a&gt;  member of the  &lt;a href=&quot;http://xmpp.org/about-xmpp/xsf/xsf-member-list/&quot;&gt;XMPP Extensions Foundation&lt;/a&gt;&lt;/p&gt;
-
 
         </content>
     </entry>
