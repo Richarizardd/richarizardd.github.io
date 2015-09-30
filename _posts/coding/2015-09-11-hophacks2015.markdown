@@ -3,6 +3,7 @@ layout: article
 title:  "Galvanic Stress Response"
 categories: coding
 modified: 2015-09-11 12:00:00
+author: richard_chen andy_tsai
 tags: []
 toc: true
 image:
@@ -10,6 +11,7 @@ image:
 share: false
 comments: true
 ---
+
 <h2 class="section-heading">Inspiration</h2>
 There is a large sub-population of people that struggle with stress, especially stress that compounds to excessive levels. Many do not have the means of communicating this to those that can help, such as the severely autistic or special needs people. Not being able to address the stress until it manifests as a violent outburst or break down is a problem for many caregivers and guardians. Being able to monitor someone's relative stress level would give these people a tool to pre-emptively help, and minimize the damaging effects of compounding stress. Given the target population, we wanted to make something that was easy and convenient to use, something that can be slipped on to instantly start monitoring the individual. Furthermore, we developed the system to easily add more data sources and metrics, allowing it to contribute to the quantified self.
 
