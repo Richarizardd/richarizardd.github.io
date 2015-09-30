@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-title2: "Blog Archive"
+title2: "Personal Blog"
 date: 2014-11-04T04:04:04-04:00
 modified:
 excerpt: ""
