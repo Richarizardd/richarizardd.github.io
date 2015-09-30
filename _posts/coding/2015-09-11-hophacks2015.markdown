@@ -3,7 +3,8 @@ layout: article
 title:  "Galvanic Stress Response"
 categories: coding
 modified: 2015-09-11 12:00:00
-author: richard_chen andy_tsai
+author1: richard_chen
+author2: andy_tsai
 tags: []
 toc: true
 image:

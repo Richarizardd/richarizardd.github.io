@@ -1,0 +1,11 @@
+{% if page.author2 %}
+  {% assign author2 = site.data.authors[page.author2] %}
+	  <div class="author-image">
+		<img src="{{ site.url }}/images/{{ author2.avatar }}" alt="{{ author2.name }}">
+	</div><!-- ./author-image -->
+	<div class="author-content">
+		<h3 class="author-name" >Written by {% if author2.web %}<a href="{{ author2.web }}" itemprop="author">{{ author2.name }}</a>{% else %}<span itemprop="author">{{ author2.name }}</span>{% endif %}</h3>
+		<p class="author-bio">{{ author2.bio }}</p>
+	</div><!-- ./author-content -->
+{% endif %}
+
