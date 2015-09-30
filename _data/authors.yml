@@ -3,12 +3,11 @@
 richard_chen:
     name: Richard Chen
     email: rchen40@jhu.edu
-    bio: "OK, you were right, Andy"
-    avatar: bio-photo.jpg
+    bio: ""
+    avatar: bio-photo-richard.jpg
 
 andy_tsai:
   name: Andrew Tsai
   email: atsai11@jhu.edu
-  bio: "We should have dropped out and gone to Berkeley. Sunk cost fallacy dude."
+  bio: "Sunk cost fallacy dude."
   avatar: bio-photo-andy.jpg
-  twitter: rhymeswithsackit
