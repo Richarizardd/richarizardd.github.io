@@ -1,16 +1,39 @@
-# Site settings
-title: Richard Chen
-header-img: img/home-bg.jpg
-email: rchen40@jhu.edu
-description: "Richard Chen - Undergraduate Bioinformatcian at Johns Hopkins University"
-baseurl: ""
-url: "http://yourdomain.com"
-github_username:  richarizardd
-facebook_username:  Richard.Chen.95
+# Site wide configuration
 
-# Build settings
+title: Richarizardd
+description: "Undergraduate Bioinformatician at Johns Hopkins University"
+logo: 120x120.gif # 120x120 px default image used for Twitter summary card
+teaser: 400x250.gif # 400x250 px default teaser image used in image archive grid
+locale:
+url:
+
+blog_name: Richarizardd
+blog_description: Undergraduate Bioinformatician at Johns Hopkins University
+blog_url:
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: "Richard Chen"
+  email: "rchen40@jhu.edu"
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

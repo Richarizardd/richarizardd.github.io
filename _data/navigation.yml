@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Research
+  url: /research
+  excerpt: My Research Projects
+  image: prototyping-iot_400x250.png
+
+- title: Coding
+  url: /coding
+  excerpt: My Coding Projects
+  image: 400x250.gif
+
+- title: Blog Archive
+  url: /blog
+  excerpt: My personal blog
+  image: friends_image_400x250_white.png
+
+- title: About
+  url: /about
+  excerpt: About Me
+  image: 400x250.gif
