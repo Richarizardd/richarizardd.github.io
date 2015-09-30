@@ -1,12 +1,11 @@
 ---
-layout: article
+layout: archive
 title2: "About Me"
 date: 2014-11-04T09:44:20-04:00
 modified:
-categories: about
 excerpt2: "You've met me at a strange time in my life."
 image:
-  feature: home-bg.jpg
+  feature: home-bg2.jpg
   teaser:
 ---
 
@@ -22,10 +21,4 @@ devices to collaborate just as you and I can be friends and start
 chatting.
 
 The extensions created on top of the XMPP protocol all solves
-different usecases. Read, Write, consume 
-
-This is a github based open site connected to the
-[XMPP](http://xmpp.org/) Please help out if you have the time and make
-a fork and a pull request. <a href="https://github.com/xmpp-iot/xmpp-iot.github.io" class="btn">View on GitHub</a>
-
-This is maintained by [Joachim Lindborg](http://lsys.se/)  member of the  [XMPP Extensions Foundation](http://xmpp.org/about-xmpp/xsf/xsf-member-list/)
+different usecases. Read, Write, consume
