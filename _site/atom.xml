@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+    
+
     <title>Richarizardd</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-		<icon>/apple-touch-icon-precomposed.png</icon>
+		<icon>richarizardd.github.io/apple-touch-icon-precomposed.png</icon>
     <subtitle>Undergraduate Bioinformatician at Johns Hopkins University</subtitle>
-    <link href="/atom.xml" rel="self"/>
-    <link href="/" rel="alternate" type="text/html"/>
-    <updated>2015-09-30T22:55:17-04:00</updated>
-    <id>/</id>
+    <link href="richarizardd.github.io/atom.xml" rel="self"/>
+    <link href="richarizardd.github.io/" rel="alternate" type="text/html"/>
+    <updated>2015-09-30T23:19:04-04:00</updated>
+    <id>richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
-			<uri>/</uri>
+			<uri>richarizardd.github.io/</uri>
 			<email>rchen40@jhu.edu</email>
 		</author>
 
     
     <entry>
         <title>Galvanic Stress Response</title>
-        <link href="/coding/hophacks2015/"/>
+        <link href="richarizardd.github.io/coding/hophacks2015/"/>
         <updated>2015-09-11T00:00:00-04:00</updated>
-        <id>/coding/hophacks2015</id>
+        <id>richarizardd.github.io/coding/hophacks2015</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	
+        	&lt;img src=&quot;richarizardd.github.io/images/hophacks2015bg.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Inspiration&lt;/h2&gt;
 &lt;p&gt;There is a large sub-population of people that struggle with stress, especially stress that compounds to excessive levels. Many do not have the means of communicating this to those that can help, such as the severely autistic or special needs people. Not being able to address the stress until it manifests as a violent outburst or break down is a problem for many caregivers and guardians. Being able to monitor someone’s relative stress level would give these people a tool to pre-emptively help, and minimize the damaging effects of compounding stress. Given the target population, we wanted to make something that was easy and convenient to use, something that can be slipped on to instantly start monitoring the individual. Furthermore, we developed the system to easily add more data sources and metrics, allowing it to contribute to the quantified self.&lt;/p&gt;
 
@@ -54,16 +56,16 @@
     
     <entry>
         <title>Auditioning for Static Noyze in | July</title>
-        <link href="/blog/staticnoyze/"/>
+        <link href="richarizardd.github.io/blog/staticnoyze/"/>
         <updated>2015-07-22T00:00:00-04:00</updated>
-        <id>/blog/staticnoyze</id>
+        <id>richarizardd.github.io/blog/staticnoyze</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;/images/staticnoyze-bg.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;richarizardd.github.io/images/staticnoyze-bg.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Dancing in Boston-Cambridge&lt;/h2&gt;
 &lt;p&gt;	Being a part of the dance scene in the Boston-Cambridge area this summer has been an amazing experience. The workshops offered by Norheastern’s Kinematix are really high quality, and MIT’s Constructs has people with different styles in popping that are always down to session. To end my July on a high note, I auditioned for Static Noyze, who placed 3rd in World of Dance New Jersey. Watching their set on WOD was a lot of fun, but learning the new pieces of their Ninja Set gave me a really fresh perspective on how professional dance groups teach choreography, and the discipline these dance groups whip themselves with 4 days a week is intense. These people don’t pretend to be ninjas.&lt;/p&gt;
 
@@ -79,16 +81,16 @@
     
     <entry>
         <title>Remembering the Scars of Sophomore Year in | July</title>
-        <link href="/blog/sophomore/"/>
+        <link href="richarizardd.github.io/blog/sophomore/"/>
         <updated>2015-07-11T00:00:00-04:00</updated>
-        <id>/blog/sophomore</id>
+        <id>richarizardd.github.io/blog/sophomore</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;/images/sophomore-bg.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;richarizardd.github.io/images/sophomore-bg.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Suffering&lt;/h2&gt;
 &lt;p&gt; I have a love-hate-&quot;love&quot; relationship with Johns Hopkins University. In my first year, I fell in love with Johns Hopkins tor the wealth of knowledge they try to pour into you. I love Biomedical Engineering for being a very Eclectic discipline in terms of combining math, biology, and a fair bit of engineering intuition to solve intricate problems and explain phenomena in the human body. &lt;/p&gt;
 &lt;p&gt; In my second year, I still loved it, but I started hating the intense academic culture the Hopkins Professors and Hopkins Student Body perpetuates. It feels intense in the sense that if you aren&#39;t studying for 6-12 hours, you&#39;re going to be left behind because everyone else is studying those 6-12 hours. At the same time, if you are the ones pushing to study 6-12 hours, people will throw labels at you like &quot;cut-throat&quot; or &quot;pre-med&quot; (It shouldn&#39;t carry a negative connotation, but it somehow does around here). Year round, the culture in Hopkins has a lot of &quot;ego&quot;-measuring competitions to see who can complain more about their coursework of lack-of sleep schedule. In the subsection of the &quot;Premed&quot; culture here, everyone silently watches everyone else for the person gunning down for volunteer positions in Hospitals, research fellowships, design teams, competitions, etc - people will sarcastically jeer and put-down that person in their mind for trying so hard, while silently trying to worm their way to the top as well. The cost of conversations will be minimized to asking for homework help; you want to be above the fierce academic culture by offering help since it seems like the decent thing to do, but it wears at you when you continuously conduct these question-answer transactions that become you&#39;re only connection to people. This hate leads into my other &quot;love&quot; for Hopkins, because this frustration has become a Stockholm Syndrome for complaining. On my good days, I try my best to be real and think, &quot;The try-hard &#39;Hopkins Culture&#39; doesn&#39;t actually mean anything. It&#39;s just a state of mind.&quot; On my bad days though, it infects me and I start to believe it, and I&#39;m stuck in this poisonous equilibrium, oscillating back and forth between exemplifying all the unpleasant qualities about Hopkins students and deriding those qualities; I would scramble to diagnose the illness that I think has loomed over Hopkins, when really it&#39;s just my ill perception of the world. Even writing this paragraph two months later, I have trouble drawing the line of being completely real and being hyper-dramatic. How much of my perception is valid? I&#39;m not sure, but when the school spirit our institution is in the Student Study Center rather than on our football field, there is some truth to my sadness. &lt;/p&gt;
@@ -112,16 +114,16 @@
     
     <entry>
         <title>Mole Sniffer</title>
-        <link href="/coding/hophacks2014/"/>
+        <link href="richarizardd.github.io/coding/hophacks2014/"/>
         <updated>2014-09-23T00:00:00-04:00</updated>
-        <id>/coding/hophacks2014</id>
+        <id>richarizardd.github.io/coding/hophacks2014</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	
+        	&lt;img src=&quot;richarizardd.github.io/images/hophacks2014bg2.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Vision&lt;/h2&gt;
 &lt;p&gt;As a team of four biomedical engineers from Hopkins, we wanted a powerful med-tech app that would have an immediate impact in the world around us. Our vision was to benefit the largest user base in a lightweight, scale-able manner. As skin cancer is the most common cancer in the United States, there is an obvious need for a low-cost early detection system.&lt;/p&gt;
 
@@ -142,16 +144,16 @@
     
     <entry>
         <title>An Immersion into Vinyl in | July</title>
-        <link href="/blog/vinylimmersion/"/>
+        <link href="richarizardd.github.io/blog/vinylimmersion/"/>
         <updated>2014-08-14T00:00:00-04:00</updated>
-        <id>/blog/vinylimmersion</id>
+        <id>richarizardd.github.io/blog/vinylimmersion</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;/images/recordplayer.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;richarizardd.github.io/images/recordplayer.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Stepping In&lt;/h2&gt;
 &lt;p&gt;	Lured by my curiosity, I stepped into my first record shop, Dimensions Music, on August 11th, and a smell hit me – a combination of musty odors and dust that relayed to me this place has not been disturbed in a very long time. I found this shop sealed in a perfect time capsule on the corner of West Lexington Street and Park Avenue, shielded away in a bubble of anachronism from the streets of Baltimore that have withered away into phosphorescent landing strips for crime and destitution.&lt;/p&gt;
 
@@ -166,16 +168,16 @@
     
     <entry>
         <title>Making Ratatouille in | July</title>
-        <link href="/blog/ratatouille/"/>
+        <link href="richarizardd.github.io/blog/ratatouille/"/>
         <updated>2014-07-20T00:00:00-04:00</updated>
-        <id>/blog/ratatouille</id>
+        <id>richarizardd.github.io/blog/ratatouille</id>
         <author>
 					<name>Richard Chen</name>
-					<uri>/</uri>
+					<uri>richarizardd.github.io/</uri>
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;/images/ratatouille.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;richarizardd.github.io/images/ratatouille.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Save me from this summer&lt;/h2&gt;
 &lt;p&gt;For the better half of July, I&#39;ve been stuck in a torpor - the weather here in Baltimore alternates between sunny skies to a maelstorm of  heavy rain, the summer course I&#39;m taking, Discrete Mathematics, constantly stupefies me with proofs and theorems, and my injured hand has rendered me pretty much incapacitated. I haven&#39;t been able to properly lift and dance due to my injury, but at the same time, I haven&#39;t been able to let it heal either since I have to always write and take notes, which works the tendons and the wrist in my hand.&lt;/p&gt;
 

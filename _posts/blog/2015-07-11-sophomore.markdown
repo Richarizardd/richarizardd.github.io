@@ -4,6 +4,7 @@ title:  "Remembering the Scars of Sophomore Year in | July"
 title2:  "Remembering the Scars of Sophomore Year in | July"
 excerpt: "We should have went to Berkeley - Andy Tsai"
 excerpt2: "We should have went to Berkeley - Andy Tsai"
+author1: richard_chen
 categories: blog
 modified: 2015-07-11 12:00:00
 tags: []

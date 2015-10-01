@@ -1,11 +1,16 @@
 ---
 layout: article
 title:  "Mole Sniffer"
+title2:  "Mole Sniffer"
+excerpt: "HopHacks Fall 2014"
+excerpt2: "HopHacks Fall 2014"
+author1: richard_chen
 categories: coding
 modified: 2015-09-11 12:00:00
 tags: []
 toc: true
 image:
+ feature: hophacks2014bg2.jpg
  teaser: hophacks2014.png
 share: false
 comments: true

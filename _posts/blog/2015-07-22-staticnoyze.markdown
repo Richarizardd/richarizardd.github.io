@@ -4,6 +4,7 @@ title: "Auditioning for Static Noyze in | July"
 title2:  "Auditioning for Static Noyze in | July"
 excerpt: "I be feeling very heavy, metal, and reflective - Azealia Banks"
 excerpt2: "I be feeling very heavy, metal, and reflective - Azealia Banks"
+author1: richard_chen
 categories: blog
 modified: 2015-07-22 12:00:00
 tags: []

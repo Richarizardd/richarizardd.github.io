@@ -1,6 +1,9 @@
 ---
 layout: article
 title:  "Galvanic Stress Response"
+title2:  "Galvanic Stress Response"
+excerpt: "HopHacks Fall 2015"
+excerpt2: "HopHacks Fall 2015"
 categories: coding
 modified: 2015-09-11 12:00:00
 author1: richard_chen
@@ -8,6 +11,7 @@ author2: andy_tsai
 tags: []
 toc: true
 image:
+ feature: hophacks2015bg.jpg
  teaser: hophacks2015.jpg
 share: false
 comments: true

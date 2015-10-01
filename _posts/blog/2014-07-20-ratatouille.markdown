@@ -4,6 +4,7 @@ title: "Making Ratatouille in | July"
 title2:  "Making Ratatouille in | July"
 excerpt: "Anyone can cook! - Ratatouille"
 excerpt2: "Anyone can cook! - Ratatouille"
+author1: richard_chen
 categories: blog
 modified: 2014-07-20 12:00:00
 tags: []
