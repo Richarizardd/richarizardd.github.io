@@ -1,11 +1,15 @@
 ---
 layout: article
-title:  "Auditioning for Static Noyze in | July"
+title: "Auditioning for Static Noyze in | July"
+title2:  "Auditioning for Static Noyze in | July"
+excerpt: "I be feeling very heavy, metal, and reflective - Azealia Banks"
+excerpt2: "I be feeling very heavy, metal, and reflective - Azealia Banks"
 categories: blog
 modified: 2015-07-22 12:00:00
 tags: []
-toc: true
+toc: false
 image:
+ feature: staticnoyze-bg.jpg
  teaser: staticnoyze-bg.jpg
 share: false
 comments: false

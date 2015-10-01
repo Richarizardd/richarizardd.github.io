@@ -1,11 +1,15 @@
 ---
 layout: article
-title:  "Making Ratatouille in | July"
+title: "Making Ratatouille in | July"
+title2:  "Making Ratatouille in | July"
+excerpt: "Anyone can cook! - Ratatouille"
+excerpt2: "Anyone can cook! - Ratatouille"
 categories: blog
 modified: 2014-07-20 12:00:00
 tags: []
-toc: true
+toc: false
 image:
+ feature: ratatouille.jpg
  teaser: ratatouille.jpg
 share: false
 comments: true

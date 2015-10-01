@@ -1,11 +1,15 @@
 ---
 layout: article
 title:  "Remembering the Scars of Sophomore Year in | July"
+title2:  "Remembering the Scars of Sophomore Year in | July"
+excerpt: "We should have went to Berkeley - Andy Tsai"
+excerpt2: "We should have went to Berkeley - Andy Tsai"
 categories: blog
 modified: 2015-07-11 12:00:00
 tags: []
-toc: true
+toc: false
 image:
+ feature: sophomore-bg.jpg
  teaser: sophomore-bg.jpg
 share: false
 comments: true

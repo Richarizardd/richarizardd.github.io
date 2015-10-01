@@ -1,11 +1,15 @@
 ---
 layout: article
-title:  "An Immersion into Vinyl in | July"
+title: "An Immersion into Vinyl in | July"
+title2:  "An Immersion into Vinyl in | July"
+excerpt: "The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry"
+excerpt2: "The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry"
 categories: blog
 modified: 2014-08-14 12:00:00
 tags: []
-toc: true
+toc: false
 image:
+ feature: recordplayer.jpg
  teaser: recordplayer.jpg
 share: false
 comments: true
