@@ -2,8 +2,8 @@
 layout: article
 title:  "Galvanic Stress Response"
 title2:  "Galvanic Stress Response"
-excerpt: "HopHacks Fall 2015"
-excerpt2: "HopHacks Fall 2015"
+excerpt: "An application that learns emotional outbreaks in Autism patients. - HopHacks Fall 2015"
+excerpt2: "An application that learns emotional outbreaks in Autism patients. - HopHacks Fall 2015"
 categories: coding
 modified: 2015-09-11 12:00:00
 author1: richard_chen

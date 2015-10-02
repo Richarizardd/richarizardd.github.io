@@ -2,8 +2,8 @@
 layout: article
 title:  "Mole Sniffer"
 title2:  "Mole Sniffer"
-excerpt: "HopHacks Fall 2014"
-excerpt2: "HopHacks Fall 2014"
+excerpt: "A mobile app that detects melanoma from color, size, and shape - HopHacks Fall 2014"
+excerpt2: "A mobile app that detects melanoma from color, size, and shape - HopHacks Fall 2014"
 author1: richard_chen
 categories: coding
 modified: 2015-09-11 12:00:00
