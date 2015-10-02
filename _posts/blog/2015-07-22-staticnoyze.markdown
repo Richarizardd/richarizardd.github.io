@@ -26,3 +26,5 @@ ads: false
 <h2 class="section-heading">WODLA next year I suppose</h2>
 <p>	Joking aside, this experience was very electrifying as I pushed myself to my limits in their audition, and also eye-opening as I realized what it took to compete at the top level. I hope they have a really good set in WODLA, and I hope I can bring the dance energy I felt today to Ecelctics!</p>
 <p>	Update! This is is their performance at World Of Dance Los Angeles 2015. Was cool to learn this set!</p>
+
+<iframe src="https://www.youtube.com/watch?v=5XpaB9gu_4o" frameborder="0" id="fitvid217053"> </iframe>
