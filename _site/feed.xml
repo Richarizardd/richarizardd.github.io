@@ -3,8 +3,8 @@
 	<channel>
 		<title>Richarizardd</title>
 		<description>Undergraduate Bioinformatician at Johns Hopkins University</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://richarizardd.github.io</link>
+		<atom:link href="https://richarizardd.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 	</channel>
 </rss>

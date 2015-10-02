@@ -1,7 +1,7 @@
 <header id="masthead">
 	<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
   <div class="inner-wrap">
-    <a href="site.url" class="site-title">{{ site.title }}</a>
+    <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>
