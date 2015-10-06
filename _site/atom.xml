@@ -9,7 +9,7 @@
     <subtitle>Undergraduate Bioinformatician at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-02T04:41:26-04:00</updated>
+    <updated>2015-10-02T22:12:43-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -110,6 +110,23 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt; This might be the closest entry I&#39;ll ever write in summarizing my Hopkins Experience. I&#39;ve learned some of the coolest, most niche areas of study in biology, I&#39;ve learned how to complain,  I&#39;ve learned what it means to fail and suffer, I&#39;ve learned that failing will happen again in the future and its OK, I&#39;ve also learned how to not complain, I&#39;ve developed a thick outer core that makes me bitter and sarcastic and a small inner core that just wants to dance to &quot;Elastic Heart&quot;, and I&#39;ve made strong friends that&#39;ll last a life time. That is Hopkins in a nut shell. So, eh? It&#39;s OK so far. &lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Portable Otoacoustic Emissions</title>
+        <link href="https://richarizardd.github.io/coding/oae/"/>
+        <updated>2015-06-15T00:00:00-04:00</updated>
+        <id>https://richarizardd.github.io/coding/oae</id>
+        <author>
+					<name>Richard Chen</name>
+					<uri>https://richarizardd.github.io/</uri>
+					<email>rchen40@jhu.edu</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://richarizardd.github.io/images/ewh.png&quot;&gt;&lt;br/&gt;
+        	
 
         </content>
     </entry>
