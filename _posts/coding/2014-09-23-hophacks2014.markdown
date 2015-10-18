@@ -26,7 +26,7 @@ Our application is comprised of two parts: Mole Sniffer and Holy Moley.
 Mole Sniffer allows the user to quickly capture a photo of a mole. Different properties are analyzed via computer vision to detect known indicators of skin cancer. If desired, the patient can anonymously upload the photo to the cloud, where a qualified healthcare professional can provide advice.
 
 
-<figure class="third">
+<figure class="half">
 	<img src="{{ site.url }}/images/molesnif.jpg">
 	<img src="{{ site.url }}/images/rolymoley.jpg">
 </figure>
