@@ -27,7 +27,6 @@ Mole Sniffer allows the user to quickly capture a photo of a mole. Different pro
 
 
 <figure class="third">
-	<img src="{{ site.url }}/images/select.jpg">
 	<img src="{{ site.url }}/images/molesnif.jpg">
 	<img src="{{ site.url }}/images/rolymoley.jpg">
 </figure>
