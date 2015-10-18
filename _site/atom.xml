@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-18T15:12:26-04:00</updated>
+    <updated>2015-10-18T15:12:30-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -131,7 +131,7 @@
 
 &lt;p&gt;Mole Sniffer allows the user to quickly capture a photo of a mole. Different properties are analyzed via computer vision to detect known indicators of skin cancer. If desired, the patient can anonymously upload the photo to the cloud, where a qualified healthcare professional can provide advice.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
+&lt;figure class=&quot;third&quot;&gt;
 	&lt;img src=&quot;https://richarizardd.github.io/images/select.jpg&quot; /&gt;
 	&lt;img src=&quot;https://richarizardd.github.io/images/molesnif.jpg&quot; /&gt;
 	&lt;img src=&quot;https://richarizardd.github.io/images/rolymoley.jpg&quot; /&gt;
