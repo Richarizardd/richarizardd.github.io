@@ -60,6 +60,11 @@ comments: true
 * Make sure you get all of your vegetables to almost the exact same diameter! If your eggplant is just a little bit bigger, you won't be able to make the beautiful fan.
 
 <h2 class="section-heading">Finished Product!</h2>
+
+<figure class="second">
+	<img src="{{ site.url }}/images/ratatouille.jpg">
+</figure>
+
 <p>I had a lot of fun making Ratatouille, and its colorful pattern and vibrant taste makes pretty great to bring to a party. I think what made this dish really stand out was the Piperade Mixture; It had a strong, spicy taste on its own, while also packed with flavor from the tomatoes. When roasted underneath the sliced vegetables, everything caramelized altogether, and it made eating these vegetables a treat. I've never been a fan of eggplant or zuccihini, but after making this, I'm going to be rethinking my old diet of chicken, curry, steamed bok choy, and Chipotle.</p>
 
 <p>This dish was a great wake up call to an overall lethargic July. I would love to make this again if given the time, and I hope you can share this recipe as well!</p>
