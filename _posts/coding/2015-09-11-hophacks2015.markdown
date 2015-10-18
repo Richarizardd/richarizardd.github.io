@@ -32,7 +32,7 @@ The device is based on a home-brew galvanic skin response (GSR) sensor. Measurin
 <h2 class="section-heading">How We Built It</h2>
 The GSR sensor consists of 2 electrodes integrated into an elastic wrist-band. The wrist-band, when worn, contacts the forearm on the top and bottom, providing a comfortable location to measure GSR. A unique Super-Mario “M” allows the positioning to be fun and easy. The electrodes are connected to a simple circuit to measure the GSR, and a 16-bit ADC reads the value. The digitized information is read in by the Raspberry Pi and uploaded to a hosted Mongo database.
 
-<figure class="second">
+<figure class="half">
 	<img src="{{ site.url }}/images/mario.jpg">
 </figure>
 
