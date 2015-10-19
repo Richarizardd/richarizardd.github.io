@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-19T01:17:02-04:00</updated>
+    <updated>2015-10-19T02:29:03-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -19,7 +19,7 @@
 
     
     <entry>
-        <title>Predicting Cardiac Output from Arterial Blood Pressure</title>
+        <title>Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks</title>
         <link href="https://richarizardd.github.io/research/icm12/"/>
         <updated>2015-09-22T00:00:00-04:00</updated>
         <id>https://richarizardd.github.io/research/icm12</id>
@@ -29,41 +29,24 @@
 					<email>rchen40@jhu.edu</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014bg2.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;https://richarizardd.github.io/images/icm4-neuronal_network.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;In this project, we estimated Cardiac Output from Arterial Blood Pressure waveform data from various algorithms in the PhysioToolkit software.&lt;/p&gt;
+&lt;p&gt;Epilepsy is an important neurological disease characterized by episodes of uncontrollable, vigorous, neuroelectrical activity called seizures, and affects 60 million people worldwide. To better understand the mechanisms and cause of this disease, scientists have long been trying to develop models for this disease. The seminal paper by Segal et al in 1990 was one of the first to characterize the epileptiform activity of cell cultures in vitro. By allowing neurons to form small networks (some of them as small as two neurons) in vitro, scientists can study epileptiform activity and analyze synaptic actions in a simplified, reduced system. In this report, we develop a computational two-neuron network based on the work of Av-ron et al and Rinzel. Through this computational model, we seek to replicate and analyze the results obtained by Segal et al. &lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Methods&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Background&lt;/h2&gt;
+&lt;h4 class=&quot;section-heading&quot;&gt;Original Hodgkin Huxley Model&lt;/h4&gt;
+&lt;p&gt;Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:&lt;/p&gt;
 
-&lt;p&gt;Here is an example MathJax inline rendering \( 1/x^{2} \), and here is a block rendering: 
-\[ \frac{1}{n^{2}} \]&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;$$ I = \dfrac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) $$&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;$$ \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n $$&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;$$ \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m $$&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;$$ \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l $$&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; \nabla \cdot E = \frac{\rho}{\epsilon_0} &lt;/script&gt;&lt;/p&gt;
-&lt;div&gt;
-\begin{equation}
-\frac{1}{x^4}.
-\end{equation}
-&lt;/div&gt;
+&lt;p&gt;where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: &lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt; P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}} &lt;/script&gt;
+&lt;p align=&quot;center&quot;&gt;$$ \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}} $$&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-      \vdots &amp; \ddots &amp; \vdots \\
-      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
- %]]&gt;&lt;/script&gt;
+&lt;p align=&quot;center&quot;&gt;$$ \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}} $$&lt;/p&gt;
 
         </content>
     </entry>
