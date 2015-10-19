@@ -17,7 +17,7 @@ sass:
     sass_dir: _sass
     style: compressed
 permalink: /:categories/:title/
-markdown: kramdown
+markdown: discount
 highlighter: pygments
 gems:
   - jekyll-sitemap
