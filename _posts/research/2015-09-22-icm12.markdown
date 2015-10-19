@@ -25,10 +25,10 @@ In this project, we estimated Cardiac Output from Arterial Blood Pressure wavefo
 
 
 
-$$ \nabla \cdot E = \frac{\rho}{\epsilon_0} $$
+$$ \nabla \cdot E = \frac{\rho}{\epsilon_0} $$ \s
 
 
-$$ P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}} $$
+$$ P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}} $$ \s
 
 
 
