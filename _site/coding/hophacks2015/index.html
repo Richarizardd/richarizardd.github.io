@@ -17,22 +17,22 @@
 	
 	
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://richarizardd.github.io/images/hophacks2015bg.jpg">
+	<meta name="twitter:image" content="/images/hophacks2015bg.jpg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Galvanic Stress Response">
 	<meta property="og:description" content="An application that detects emotional outbreaks in Autism patients. - HopHacks Fall 2015">
-	<meta property="og:url" content="https://richarizardd.github.io/coding/hophacks2015/">
+	<meta property="og:url" content="/coding/hophacks2015/">
 	<meta property="og:site_name" content="Richarizardd">
 
     
 
-    <link rel="canonical" href="https://richarizardd.github.io/coding/hophacks2015/">
+    <link rel="canonical" href="/coding/hophacks2015/">
 
-    <link href="https://richarizardd.github.io/atom.xml" type="application/atom+xml" rel="alternate" title="Richarizardd Atom Feed">
-    <link href="https://richarizardd.github.io/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Richarizardd Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -55,11 +55,11 @@
     }
     </style>
 
-    <link rel="stylesheet" href="https://richarizardd.github.io/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="https://richarizardd.github.io/js/vendor/html5shiv.min.js"></script>
-      <script src="https://richarizardd.github.io/js/vendor/respond.min.js"></script>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
     <![endif]-->
 
     <!-- Mathjax -->
@@ -77,7 +77,7 @@
 
 	<header class="intro-header" style="background-image: url('/')">
   <div class="inner-wrap">
-    <a href="https://richarizardd.github.io" class="site-title">Richarizardd</a>
+    <a href="" class="site-title">Richarizardd</a>
     <nav role="navigation" class="menu top-menu">
         <ul class="menu-item">
 	<li class="home"><a href="/">Richarizardd</a></li>
@@ -85,22 +85,22 @@
     
         
     
-    <li><a href="https://richarizardd.github.io/research" >Research</a></li>
+    <li><a href="/research" >Research</a></li>
   
     
         
     
-    <li><a href="https://richarizardd.github.io/coding" >Coding</a></li>
+    <li><a href="/coding" >Coding</a></li>
   
     
         
     
-    <li><a href="https://richarizardd.github.io/blog" >Personal</a></li>
+    <li><a href="/blog" >Personal</a></li>
   
     
         
     
-    <li><a href="https://richarizardd.github.io/about" >About</a></li>
+    <li><a href="/about" >About</a></li>
   
 </ul>
     </nav>
@@ -110,7 +110,7 @@
 
     
     
-    <div class="page-lead" style="background-image:url(https://richarizardd.github.io/images/hophacks2015bg.jpg)">
+    <div class="page-lead" style="background-image:url(/images/hophacks2015bg.jpg)">
       <div class="wrap page-lead-content">
         <h1>Galvanic Stress Response</h1>
         <h2>An application that detects emotional outbreaks in Autism patients. - HopHacks Fall 2015</h2>
@@ -127,37 +127,49 @@
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 
 		<nav class="breadcrumbs">
-  <a href="https://richarizardd.github.io">Home</a> <span class="divider">/</span> <a href="https://richarizardd.github.io/coding/">Coding</a> <span class="divider">/</span>
+  <a href="">Home</a> <span class="divider">/</span> <a href="/coding/">Coding</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
 				<h2 class="section-heading">Motivation</h2>
+
+
 <p>Autism is a spectrum disorder that affects the families of over 3.5 million people in the United States. Disabilities in Autism range from speech and language impairments to emotional outbreaks and violent breakdowns. These outbreaks manifest from being unable to communicate and address stress, which can make it hard for people suffering from this disease to live normal lives. For Autism parents, being able to monitor stress level of their children can prevent emotional outbreaks, and minimize the damaging effects of compounding stress. In the Autism community, raising a child with autism can be challenging, so we want to put an open sourced tool in the hands of guardians to better understand and help their child.</p>
 
 <h2 class="section-heading">What It Does</h2>
+
+
 <p>The device is based on a home-brew galvanic skin response (GSR) sensor. Measuring GSR gives an easy, indirect method of gauging relative stress levels by peeking at the sympathetic nervous system. When stressed, the GSR naturally increases, and vice versa. The sensor reports data to a Raspberry Pi, which is uploaded to a hosted database. An easy to use web-app allows someone to monitor the person from anywhere, and to watch for any irregularities. If abnormal stress levels are observed, the guardian can respond appropriately.</p>
 
-<figure class="half">
-	<img src="https://richarizardd.github.io/images/rasp.jpg" />
-	<img src="https://richarizardd.github.io/images/process.jpg" />
-</figure>
+<p><figure class="half">
+    <img src="/images/rasp.jpg">
+    <img src="/images/process.jpg">
+</figure></p>
 
 <h2 class="section-heading">How We Built It</h2>
+
+
 <p>The GSR sensor consists of 2 electrodes integrated into an elastic wrist-band. The wrist-band, when worn, contacts the forearm on the top and bottom, providing a comfortable location to measure GSR. A unique Super-Mario “M” allows the positioning to be fun and easy. The electrodes are connected to a simple circuit to measure the GSR, and a 16-bit ADC reads the value. The digitized information is read in by the Raspberry Pi and uploaded to a hosted Mongo database.</p>
 
-<figure class="second">
-	<img src="https://richarizardd.github.io/images/mario.jpg" />
-</figure>
+<p><figure class="second">
+    <img src="/images/mario.jpg">
+</figure></p>
 
 <h2 class="section-heading">Challenges We Ran Into</h2>
+
+
 <p>Among the challenges we ran into were reading analog signals with the Raspberry Pi. Originally, we used an Arduino Uno to read the voltages and send them to the Pi via USB. Then BookHolders came along and provided us with an analog to digital converter with an I2C interface; which was fortunate because reading data via USB was unstable and prone to crashing our program. We were also provided with a OLED I2C screen, which allowed us to consider giving extra information about the data.</p>
 
 <h2 class="section-heading">Accomplishments That We're Proud Of</h2>
-<p>We’re really proud of our sensor and its surprising functionality and our ability to display the information on both the small screen on the Pi, the Android app as well as a live stream and static graph in the browser, allowing the information to be accessed from nearly anywhere. Though our device does not have 100% functionality, we’re really proud of how we built this device in only 36 hours, and we hope to raise awareness of a very poorly understood disease.</p>
+
+
+<p>We're really proud of our sensor and its surprising functionality and our ability to display the information on both the small screen on the Pi, the Android app as well as a live stream and static graph in the browser, allowing the information to be accessed from nearly anywhere. Though our device does not have 100% functionality, we're really proud of how we built this device in only 36 hours, and we hope to raise awareness of a very poorly understood disease.</p>
 
 <h2 class="section-heading">What's Next For The Galvanic Stress Response</h2>
-<p>We did this project mainly for fun, but we hope to continue experimenting with the “Galvanic Stress Response” to more useful and more accurate. In addition to the GSR sensor, we want to include a heart rate sensor in the wrist-band, increasing the accuracy of the sensor. For now at least, this tool is open sourced on my GitHub, and we’re open to recieving any feedback!</p>
+
+
+<p>We did this project mainly for fun, but we hope to continue experimenting with the "Galvanic Stress Response" to more useful and more accurate. In addition to the GSR sensor, we want to include a heart rate sensor in the wrist-band, increasing the accuracy of the sensor. For now at least, this tool is open sourced on my GitHub, and we're open to recieving any feedback!</p>
 
 				<hr />
 				<footer class="page-footer">
@@ -165,7 +177,7 @@
   
 
 <div class="author-image">
-	<img src="https://richarizardd.github.io/images/bio-photo-richard.jpg" alt="Richard Chen">
+	<img src="/images/bio-photo-richard.jpg" alt="Richard Chen">
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >Written by <span itemprop="author">Richard Chen</span></h3>
@@ -174,7 +186,7 @@
 					
   
 	  <div class="author-image">
-		<img src="https://richarizardd.github.io/images/bio-photo-andy.jpg" alt="Andrew Tsai">
+		<img src="/images/bio-photo-andy.jpg" alt="Andrew Tsai">
 	</div><!-- ./author-image -->
 	<div class="author-content">
 		<h3 class="author-name" >Written by <span itemprop="author">Andrew Tsai</span></h3>
@@ -217,17 +229,17 @@
       
         
       
-			<li><a href="https://richarizardd.github.io" ></a></li>
+			<li><a href="" ></a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2015 <a href="https://richarizardd.github.io">Richarizardd</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2015 <a href="">Richarizardd</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
 </footer>
 
     </div>
 
-    <script src="https://richarizardd.github.io/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="https://richarizardd.github.io/js/main.js"></script>
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
     
     
     <script type="text/javascript">
