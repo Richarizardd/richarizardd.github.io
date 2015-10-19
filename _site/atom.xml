@@ -7,7 +7,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="/atom.xml" rel="self"/>
     <link href="/" rel="alternate" type="text/html"/>
-    <updated>2015-10-18T20:59:25-04:00</updated>
+    <updated>2015-10-18T21:14:37-04:00</updated>
     <id>/</id>
     <author>
 			<name>Richard Chen</name>
@@ -36,7 +36,7 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;Methods&lt;/h2&gt;
 
 
-&lt;p&gt;Here is an example MathJax inline rendering \( \color{black}{I = \frac{C&lt;em&gt;{m}dV&lt;/em&gt;{m}}{dt} + g&lt;em&gt;{K}n^{4}(V&lt;/em&gt;{m} - V&lt;em&gt;{K}) + g&lt;/em&gt;{Na}m^{3}h(V&lt;em&gt;{m} - V&lt;/em&gt;{Na}) + g&lt;em&gt;{l}(V&lt;/em&gt;{m} - V_{l})} \), and here is a block rendering:
+&lt;p&gt;Here is an example MathJax inline rendering \( \color{black}{I = 1/x^{2}} \), and here is a block rendering:
 \[ \frac{1}{n^{2}} \]&lt;/p&gt;
 
         </content>
