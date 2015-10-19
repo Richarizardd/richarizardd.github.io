@@ -17,9 +17,7 @@ sass:
     sass_dir: _sass
     style: compressed
 permalink: /:categories/:title/
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
+markdown: rdiscount
 highlighter: pygments
 gems:
   - jekyll-sitemap
