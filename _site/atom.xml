@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-18T23:52:46-04:00</updated>
+    <updated>2015-10-19T00:07:39-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -37,6 +37,12 @@
 
 &lt;p&gt;Here is an example MathJax inline rendering \( 1/x^{2} \), and here is a block rendering: 
 \[ \frac{1}{n^{2}} \]&lt;/p&gt;
+
+&lt;div&gt;
+\begin{equation}
+\frac{1}{x^4}.
+\end{equation}
+&lt;/div&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 
