@@ -23,6 +23,6 @@ In this project, we estimated Cardiac Output from Arterial Blood Pressure wavefo
 
 <h2 class="section-heading">Methods</h2>
 
-Here is an example MathJax inline rendering \\( \color{black}{1/x^{2}} \\), and here is a block rendering: 
+Here is an example MathJax inline rendering \\( \color{black}{I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l})} \\), and here is a block rendering: 
 \\[ \frac{1}{n^{2}} \\]
 
