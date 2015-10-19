@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-19T02:44:42-04:00</updated>
+    <updated>2015-10-19T02:46:43-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -23,38 +23,6 @@
         <link href="https://richarizardd.github.io/research/icm4/"/>
         <updated>2015-09-22T00:00:00-04:00</updated>
         <id>https://richarizardd.github.io/research/icm4</id>
-        <author>
-					<name>Richard Chen</name>
-					<uri>https://richarizardd.github.io/</uri>
-					<email>rchen40@jhu.edu</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://richarizardd.github.io/images/icm4-neuronal_network.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Epilepsy is an important neurological disease characterized by episodes of uncontrollable, vigorous, neuroelectrical activity called seizures, and affects 60 million people worldwide. To better understand the mechanisms and cause of this disease, scientists have long been trying to develop models for this disease. The seminal paper by Segal et al in 1990 was one of the first to characterize the epileptiform activity of cell cultures in vitro. By allowing neurons to form small networks (some of them as small as two neurons) in vitro, scientists can study epileptiform activity and analyze synaptic actions in a simplified, reduced system. In this report, we develop a computational two-neuron network based on the work of Av-ron et al and Rinzel. Through this computational model, we seek to replicate and analyze the results obtained by Segal et al. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Background&lt;/h2&gt;
-&lt;h4 class=&quot;section-heading&quot;&gt;Original Hodgkin Huxley Model&lt;/h4&gt;
-&lt;p&gt;Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) &lt;/script&gt; &lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt; \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n &lt;/script&gt;&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt; \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m &lt;/script&gt;&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt; \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l &lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: &lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}} &lt;/script&gt;&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt; \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}} &lt;/script&gt;&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks</title>
-        <link href="https://richarizardd.github.io/research/icm12/"/>
-        <updated>2015-09-22T00:00:00-04:00</updated>
-        <id>https://richarizardd.github.io/research/icm12</id>
         <author>
 					<name>Richard Chen</name>
 					<uri>https://richarizardd.github.io/</uri>
