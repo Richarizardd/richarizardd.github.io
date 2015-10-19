@@ -25,11 +25,11 @@ Hodgkin and Huxley were the first scientists to develop a mathematical model to 
 
 $$ I = \dfrac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) $$ <br>
 
-$$ \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n $$
+$$ \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n $$ <br>
 
-$$ \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m $$
+$$ \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m $$ <br>
 
-$$ \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l $$
+$$ \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l $$ <br>
 
 where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: 
 
