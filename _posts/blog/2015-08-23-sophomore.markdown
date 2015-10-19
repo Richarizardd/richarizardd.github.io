@@ -23,7 +23,7 @@ comments: true
 <p> I'm reading this blog post over again right now and I can't help but laugh. I wanted to write about my summer experience in the Boston-Cambridge area and all the exciting things I'm seeing, but my introduction in explaining my pre-summer mental state spun into a bitter tangent that wants to remember the scars of Sophomore Spring. I didn't really want to revisit any of more of these thoughts. I've hammered them enough in my own Amygdala, triggering a bottomless cocktail of anxiety, fear, and stress, however I've already written this much, so I might as well get my thoughts into something physical, and maybe I can let this moment pass. Some of my thoughts might be over the place, but I don't feel like I have the authority to provide a systematic, analytical breakdown of this school, since everyone has a different experience, and I don't want to perpetuate cycles no' mo'. Some of my thoughts might also be spurious and it ironically perpetuates "The Hopkins Culture" by complaining, but at that time, it was what I felt and it was real to me. </p>
 
 <h2 class="section-heading">What Went Wrong</h2>
-<p> Um. Not sleeping enough, not exercising enough, and having unhealthy relationships. That's about it. I've learned my lesson! </p>
+<p> Not sleeping enough, not exercising enough, and having unhealthy relationships. That's about it. I've learned my lesson! </p>
 
 <h2 class="section-heading">It Wasn't Really That Bad</h2>
 <p> Sophomore Year made me an emotionless husk for a couple weeks after school ended, but I still had a lot of new positive experiences. </p>
