@@ -2,8 +2,8 @@
 layout: article
 title:  "Remembering the Scars of Sophomore Year in | August"
 title2:  "Remembering the Scars of Sophomore Year in | August"
-excerpt: "We should have went to Berkeley - Andy Tsai"
-excerpt2: "We should have went to Berkeley - Andy Tsai"
+excerpt: "I wish I was in California - Andy Tsai"
+excerpt2: "I wish I was in California - Andy Tsai"
 author1: richard_chen
 categories: blog
 modified: 2015-08-23 12:00:00
