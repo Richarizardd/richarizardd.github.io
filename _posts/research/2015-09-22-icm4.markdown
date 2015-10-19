@@ -37,3 +37,5 @@ where n, m and h concerns the activation of potassium channels, the activation o
 $$ \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}} $$<br>
 
 $$ \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}} $$
+
+Please come back soon! This page is still in development :)
