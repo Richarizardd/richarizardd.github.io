@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-19T00:09:35-04:00</updated>
+    <updated>2015-10-19T00:42:54-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -44,6 +44,8 @@
 \frac{1}{x^4}.
 \end{equation}
 &lt;/div&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt; P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}} &lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 
