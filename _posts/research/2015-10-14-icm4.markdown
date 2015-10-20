@@ -34,17 +34,17 @@ $$ \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l $$
 
 where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: 
 
-$$ \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}} $$<br>
+{% raw %}
+<div class="equation" data-expr="\displaystyle \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}}"></div>
 
-$$ \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}} $$
+{% raw %}
+<div class="equation" data-expr="\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}"></div>
 
 Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)
 
 {% raw %}
 <!-- The Normal Distribution -->
 <div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}"></div>
-{% endraw }
-
 
 <script type="text/javascript">
 
