@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-20T02:20:18-04:00</updated>
+    <updated>2015-10-20T02:21:24-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -49,14 +49,12 @@
 
 &lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}}&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;{% raw %}
-&amp;lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)&lt;/p&gt;
 
-&lt;p&gt;{% raw %}
 &lt;!-- The Normal Distribution --&gt;
-&amp;lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&gt;&lt;/div&gt;
 
 &lt;script type=&quot;text/javascript&quot;&gt;
 
