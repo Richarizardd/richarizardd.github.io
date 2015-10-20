@@ -44,3 +44,20 @@ We're really proud of our sensor and its surprising functionality and our abilit
 
 <h2 class="section-heading">What's Next For The Galvanic Stress Response</h2>
 We did this project mainly for fun, but we hope to continue experimenting with the "Galvanic Stress Response" to more useful and more accurate. In addition to the GSR sensor, we want to include a heart rate sensor in the wrist-band, increasing the accuracy of the sensor. For now at least, this tool is open sourced on my GitHub, and we're open to recieving any feedback!
+
+{% raw %}
+<!-- The Normal Distribution -->
+<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}"></div>
+{% endraw }
+
+<script type="text/javascript">
+
+    // grab all elements in DOM with the class 'equation'
+    var tex = document.getElementsByClassName("equation");
+
+    // for each element, render the expression attribute
+    Array.prototype.forEach.call(tex, function(el) {
+        katex.render(el.getAttribute("data-expr"), el);
+    });
+
+</script>
