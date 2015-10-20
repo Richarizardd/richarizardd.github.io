@@ -38,12 +38,10 @@ $$ \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}} $$<br>
 
 $$ \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}} $$
 
-Please come back soon! This page is still in development :)
+Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)
 
-{% raw %}
 <!-- The Normal Distribution -->
-<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}"></div>
-{% endraw }
+<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}" text-align="center"></div>
 
 
 
