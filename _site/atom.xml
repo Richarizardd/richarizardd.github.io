@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-20T02:21:24-04:00</updated>
+    <updated>2015-10-20T02:23:16-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -37,13 +37,13 @@
 &lt;h4 class=&quot;section-heading&quot;&gt;Original Hodgkin Huxley Model&lt;/h4&gt;
 &lt;p&gt;Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) &lt;/script&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l})&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n &lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt; \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m &lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m&quot;&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l &lt;/script&gt;
+&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: &lt;/p&gt;
 
@@ -51,23 +51,20 @@
 
 &lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)&lt;/p&gt;
+&lt;p&gt;Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)
+]
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;!-- The Normal Distribution --&gt;
-&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;// grab all elements in DOM with the class &#39;equation&#39;
+var tex = document.getElementsByClassName(&quot;equation&quot;);
 
-&lt;script type=&quot;text/javascript&quot;&gt;
+// for each element, render the expression attribute
+Array.prototype.forEach.call(tex, function(el) {
+    katex.render(el.getAttribute(&quot;data-expr&quot;), el);
+});
+&lt;/code&gt;&lt;/pre&gt;
 
-    // grab all elements in DOM with the class &#39;equation&#39;
-    var tex = document.getElementsByClassName(&quot;equation&quot;);
-
-    // for each element, render the expression attribute
-    Array.prototype.forEach.call(tex, function(el) {
-        katex.render(el.getAttribute(&quot;data-expr&quot;), el);
-    });
-
-&lt;/script&gt;
-
+&lt;p&gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
 
         </content>
     </entry>

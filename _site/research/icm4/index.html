@@ -148,13 +148,13 @@
 <h4 class="section-heading">Original Hodgkin Huxley Model</h4>
 <p>Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:</p>
 
-<p><script type="math/tex"> I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) </script> <br /></p>
+<div class="equation" data-expr="\displaystyle I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l})"></div>
 
-<p><script type="math/tex"> \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n </script><br /></p>
+<div class="equation" data-expr="\displaystyle \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n"></div>
 
-<p><script type="math/tex"> \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m </script><br /></p>
+<div class="equation" data-expr="\displaystyle \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m"></div>
 
-<script type="math/tex; mode=display"> \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l </script>
+<div class="equation" data-expr="\displaystyle \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l"></div>
 
 <p>where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: </p>
 
@@ -162,23 +162,20 @@
 
 <div class="equation" data-expr="\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}"></div>
 
-<p>Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)</p>
+<p>Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)
+]
+<script type="text/javascript"></script></p>
 
-<!-- The Normal Distribution -->
-<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}"></div>
+<pre><code>// grab all elements in DOM with the class 'equation'
+var tex = document.getElementsByClassName("equation");
 
-<script type="text/javascript">
+// for each element, render the expression attribute
+Array.prototype.forEach.call(tex, function(el) {
+    katex.render(el.getAttribute("data-expr"), el);
+});
+</code></pre>
 
-    // grab all elements in DOM with the class 'equation'
-    var tex = document.getElementsByClassName("equation");
-
-    // for each element, render the expression attribute
-    Array.prototype.forEach.call(tex, function(el) {
-        katex.render(el.getAttribute("data-expr"), el);
-    });
-
-</script>
-
+<p>&lt;/script&gt;</p>
 
 				<hr />
 				<footer class="page-footer">
