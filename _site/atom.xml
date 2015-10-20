@@ -9,7 +9,7 @@
     <subtitle>Student at Johns Hopkins University</subtitle>
     <link href="https://richarizardd.github.io/atom.xml" rel="self"/>
     <link href="https://richarizardd.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-10-20T02:23:16-04:00</updated>
+    <updated>2015-10-20T02:25:53-04:00</updated>
     <id>https://richarizardd.github.io/</id>
     <author>
 			<name>Richard Chen</name>
@@ -44,6 +44,7 @@
 &lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m&quot;&gt;&lt;/div&gt;
 
 &lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l&quot;&gt;&lt;/div&gt;
+&lt;p&gt;{% endraw }&lt;/p&gt;
 
 &lt;p&gt;where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: &lt;/p&gt;
 
