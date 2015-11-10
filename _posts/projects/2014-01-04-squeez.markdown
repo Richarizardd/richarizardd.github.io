@@ -1,0 +1,34 @@
+---
+layout: article
+title:  "Quantitive Assessment of Regional Cardiac Function By SQUEEZ..."
+headline: "Quantitive Assessment of Regional Cardiac Function By SQUEEZ..."
+subheadline: "Journal of Cardiovascular Computerized Tomography"
+excerpt: "Journal of Cardiovascular Computerized Tomography"
+categories: projects
+tags: [research, imaging]
+toc: true
+work: "Research"
+comments: true
+featured: true
+image:
+ feature: squeez-feature.png
+ teaser: squeez-teaser.png
+---
+
+<h2 class="section-heading">Introduction</h2>
+Accurate identification of the extent of regional myocardial dysfunction is important in the diagnosis and management of patients with myocardial infarction. Tissue tagging MRI (tMRI) is currently the reference standard for noninvasive local cardiac function  analysis; however, it has practical drawbacks: lengthy and complicated image acquisition and analysis, long breath-holds and implanted devices are contraindicated. We have developed an algorithm for estimating regional cardiac function by tracking the LV endocardial surface called Stretch Quantification of Endocardial Engraved Zones (SQUEEZ). It produces high-resolution local function maps by tracking endocardial features such as papillary muscles and trabecular 
+structures. The objective was to investigate the correlation between SQUEEZ and myocardial strain from tMRI in acute myocardial infarction. 
+
+<h2 class="section-heading">Methods</h2>
+Myocardial infarction was created by ligation of the left anterior descending (LAD) coronary artery for 2 hours followed by reperfusion in five canines. Tagged and cine MRI scans were performed during the reperfusion phase. First-pass contrast enhanced CT scans were acquired (80 kVp, 600mA, 5-beat retrospectively gated occluded. The average delay between the CT and MRI scans was <1 hour. Circumferential myocardial strain (Ecc) was estimated by manual segmentation, and analysis of the tagged images using FindTags and Tagged Tissue Tracking software (Johns Hopkins University). The systolic CT images were analyzed by SQUEEZ. Since the baseline values for an akinetic segment measured by SQUEEZ=1 and Ecc=0, Ecc is compared against SQUEEZ-1. 
+
+<figure class="half">
+	<img src="{{ site.url }}/images/squeez-geometry.png">
+	<img src="{{ site.url }}/images/squeez-amir.png">
+</figure>
+
+<h2 class="section-heading">Results</h2>
+Global ejection fractions were calculated from both cine MRI and CT images for every animal (MRI: 28±4%, CT: 44±5%). For all systolic cardiac phases, Ecc and SQUEEZ values were mapped to the AHA 17-segment model and corrected for differences in global ejection fractions from CT and MRI (total of 85 segments at 5-10 time points). Analysis time was ~5 minutes for SQUEEZ and ~180 min for tMRI. Linear regression and Bland-Altman analysis was used to assess the correlation between the two metrics. The results show good agreement between (SQUEEZ-1) and Ecc: (r = 0.83, slope= 0.84, p<0.001). Furthermore, Bland-Altman showed a small bias of -0.003 with 95% confidence interval of 0.080. 
+
+<h2 class="section-heading">Conclusion</h2>
+SQUEEZ is both accurate and precise for the estimation of regional cardiac function from CT compared to a reference standard of MRI myocardial strain.

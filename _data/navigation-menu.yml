@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: "Projects"
+  url: /projects/
+
+- title: "Blog"
+  url: /blog/
+
+- title: "Academic Musings"
+  url: /academic-musings/
+
+- title: "About"
+  url: /about/

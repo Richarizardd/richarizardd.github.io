@@ -3,18 +3,20 @@ layout: article
 title: "Making Ratatouille in | July"
 title2:  "Making Ratatouille in | July"
 excerpt: "Anyone can cook! - Ratatouille"
-excerpt2: "Anyone can cook! - Ratatouille"
-author1: richard_chen
 categories: blog
-modified: 2014-07-20 12:00:00
-tags: []
-toc: false
-image:
- feature: ratatouille.jpg
- teaser: ratatouille.jpg
-share: false
+tags: [personal, vinyl]
+toc: true
 comments: true
+featured: true
+image:
+ feature: ratatouille-feature.jpg
+ teaser: ratatouille-teaser.jpg
 ---
+
+{% highlight r %}  
+data("iris")
+plot(iris$Sepal.Length ~ iris$Sepal.Width)
+{% endhighlight %}
 
 <h2 class="section-heading">Save me from this summer</h2>
 <p>For the better half of July, I've been stuck in a torpor - the weather here in Baltimore alternates between sunny skies to a maelstorm of  heavy rain, the summer course I'm taking, Discrete Mathematics, constantly stupefies me with proofs and theorems, and my injured hand has rendered me pretty much incapacitated. I haven't been able to properly lift and dance due to my injury, but at the same time, I haven't been able to let it heal either since I have to always write and take notes, which works the tendons and the wrist in my hand.</p>
@@ -62,7 +64,7 @@ comments: true
 <h2 class="section-heading">Finished Product!</h2>
 
 <figure class="second">
-	<img src="{{ site.url }}/images/ratatouille.jpg">
+	<img src="{{ site.url }}/images/ratatouille-finish.jpg">
 </figure>
 
 <p>I had a lot of fun making Ratatouille, and its colorful pattern and vibrant taste makes pretty great to bring to a party. I think what made this dish really stand out was the Piperade Mixture; It had a strong, spicy taste on its own, while also packed with flavor from the tomatoes. When roasted underneath the sliced vegetables, everything caramelized altogether, and it made eating these vegetables a treat. I've never been a fan of eggplant or zuccihini, but after making this, I'm going to be rethinking my old diet of chicken, curry, steamed bok choy, and Chipotle.</p>

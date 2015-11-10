@@ -1,16 +1,18 @@
 ---
 layout: archive
-title2: "Personal Blog"
-excerpt2: "You've met me at a strange time in my life."
-date: 2014-11-04T04:04:04-04:00
-modified:
-image:
-  feature: about-bg3.jpg
-  teaser:
+title: "Blog Articles"
+date: 2014-06-02T12:26:34-04:00
+modified: 2014-08-18T14:21:32-04:00
+excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia I’ve written."
+share: false
+image: 
+  feature: blog-feature.jpg
+feature:
+  visible: true
+  headline: "Recent blogs"
+  category: blog
 ---
 
-<div class="tiles">
-{% for post in site.categories.blog %}
-  {% include post-grid.html %}
+{% for post in site.categories.blogs %}
+  {% include archive__item.html %}
 {% endfor %}
-</div><!-- /.tiles -->

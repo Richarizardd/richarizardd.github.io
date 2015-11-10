@@ -1,0 +1,22 @@
+/* ==========================================================================
+   BREADCRUMB NAVIGATION
+   ========================================================================== */
+
+.breadcrumbs {
+  margin-top: 2em;
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+}
+
+.breadcrumb__item {
+    display: inline-block;
+    color: $text-color;
+    text-decoration: none;
+}
+
+/* separator */
+.breadcrumb__sep {
+  padding-left: 3px;
+  padding-right: 3px;
+}

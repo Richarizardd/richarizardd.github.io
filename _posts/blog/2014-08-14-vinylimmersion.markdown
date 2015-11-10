@@ -1,19 +1,15 @@
 ---
 layout: article
 title: "An Immersion into Vinyl in | July"
-title2:  "An Immersion into Vinyl in | July"
 excerpt: "The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry"
-excerpt2: "The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry"
-author1: richard_chen
 categories: blog
-modified: 2014-08-14 12:00:00
-tags: []
-toc: false
-image:
- feature: recordplayer.jpg
- teaser: recordplayer.jpg
-share: false
+tags: [personal, vinyl]
+toc: true
 comments: true
+featured: true
+image:
+ feature: vinylimmersion-feature.jpg
+ teaser: vinylimmersion-teaser.jpg
 ---
 
 <h2 class="section-heading">Stepping In</h2>
@@ -23,8 +19,8 @@ comments: true
 <p>	The shop wasn’t dirty, but obviously ancient. A finger through any surface of the shop would amount to a lonely pile of debris. The objects for sale were records, large discs coated with polyvinyl chloride and precisely etched with the vibrations of music such that when a needle moves along the spiral grooves, it echoes the music back perfectly. These records were stored in crates neatly arranged in a government warehouse-esque operation, all lost in transcription as the only way to rummage these records was to manually pull one out. Muddled in an ocean of grey-white labeling, I decide to pull a record out of one of the crates, unbeknownst that it was an impressive-looking cover of Earth, Wind, & Fire’s album, “I Am.” The record’s dust jacket lived up to its name as when brushed, dust particles scattered in the air in a colloidal suspension, revealing  the full hand-drawn artwork on the album cover. 
 
 <figure class="half">
-	<img src="{{ site.url }}/images/ewf.jpg">
-	<img src="{{ site.url }}/images/record.jpg">
+	<img src="{{ site.url }}/images/vinylimmersion-ewf.jpg">
+	<img src="{{ site.url }}/images/vinylimmersion-record.jpg">
 </figure>
 
 To no surprise to even the microscopic dust mites that might have found cozy living spaces in the shop, the record itself was also dusty; however, one quick wipe gleamed two iridescent conic sections at an angle of 30° that shined bright red, green blue, and white on opposite sides of the record. Against the light of an old incandescent light bulb, as I moved the record in a gentle lemniscate rotation, these bright conic sections moved with my hands around the record, revealing the full, intricate grooves of the laser etching. $15. That is how much the cashier departed with my money, as I picked up 3 Earth, Wind and Fire Albums, Gershwin’s Rhapsody in Blue, and Chuck Mangione’s “Feel So Good.” </p>	

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+
+
+  <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
+  <link href="/mastering-paper-feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2015-11-10T02:31:34-05:00</updated>
+  <id>/</id>
+
+  <title>Mastering Paper by FiftyThree - Richarizardd</title>
+
+  
+    <subtitle>Junior undergraduate at Johns Hopkins University.</subtitle>
+  
+
+  <icon>/apple-touch-icon-precomposed.png</icon>
+
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+    <entry>
+  <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
+  <link href="/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
+  <published>2015-09-11T00:00:00-04:00</published>
+
+  
+    <updated>2015-10-19T14:47:05-04:00</updated>
+  
+
+  <id>/mastering-paper/paper-3-features</id>
+  <content type="html" xml:base="/mastering-paper/paper-3-features/">
+    &lt;img src=&quot;/images/paper-3-feature.jpg&quot; alt=&quot;New Paper by FiftyThree 3.0 Features I Can’t Live Without feature&quot;&gt;&lt;br/&gt;
+    &lt;p&gt;The hashtag &lt;a href=&quot;https://twitter.com/hashtag/createanywhere&quot;&gt;#CreateAnywhere&lt;/a&gt; takes on greater meaning now that &lt;a href=&quot;http://www.fiftythree.com/paper&quot;&gt;&lt;strong&gt;Paper by FiftyThree&lt;/strong&gt;&lt;/a&gt; is available for iPhone — a device I &lt;em&gt;always have with me&lt;/em&gt;. Not only that but with a new set of tricks up its sleeve, Paper is quickly becoming a productivity powerhouse.&lt;/p&gt;
+
+&lt;p&gt;Here’s some of my favorites additions found in the 3.0 update…&lt;/p&gt;
+
+&lt;nav class=&quot;js-toc toc&quot;&gt;
+  &lt;h4 class=&quot;toc__title&quot;&gt;&lt;span&gt;Table of Contents&lt;/span&gt;&lt;/h4&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#universal-paper-app&quot; id=&quot;markdown-toc-universal-paper-app&quot;&gt;Universal Paper App&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#importing-images&quot; id=&quot;markdown-toc-importing-images&quot;&gt;Importing Images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#rotating-ideas&quot; id=&quot;markdown-toc-rotating-ideas&quot;&gt;Rotating Ideas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#journals-replaced-with-spaces&quot; id=&quot;markdown-toc-journals-replaced-with-spaces&quot;&gt;Journals Replaced with “Spaces”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#other-new-additions&quot; id=&quot;markdown-toc-other-new-additions&quot;&gt;Other New Additions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/nav&gt;
+
+&lt;h2 id=&quot;universal-paper-app&quot;&gt;Universal Paper App&lt;/h2&gt;
+
+&lt;p&gt;Yes, you’ve read correctly — Paper is now a universal iOS app that works on both iPad and iPhone. Every time I open Paper on my iPhone 5s I’m amazed all of the features found on the iPad version made the journey over. Much like the complete UI overhaul in &lt;a href=&quot;http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher&quot;&gt;version 1.6.1&lt;/a&gt;, I got the sense that the team at FiftyThree re-evaluated every bit of the app for 3.0. Even if that meant modifying a few of Paper’s defining characteristics&lt;sup id=&quot;fnref:changes&quot;&gt;&lt;a href=&quot;#fn:changes&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in order to make the overall experience more intuitive and fluid.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-store.jpg&quot; alt=&quot;Paper 3.0 App Store screenshot&quot; /&gt;
+  &lt;figcaption&gt;Paper 3.0 for iPad/iPhone/iPod available in the App Store for free. &lt;a href=&quot;https://itunes.apple.com/us/app/id506003812&quot;&gt;Get it now!&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;importing-images&quot;&gt;Importing Images&lt;/h2&gt;
+
+&lt;p&gt;Love it or hate it (stick me in the love it camp), you can finally import images into Paper by FiftyThree! Tap the camera icon and you can either snap a picture or choose one from your photo library to place on the canvas.&lt;/p&gt;
+
+&lt;p&gt;Currently you are limited to one photo per idea — but you can scale it, rotate it, and even call-out an area of interest with a new &lt;a href=&quot;http://blog.fiftythree.com/posts/annotate-spotlight-photos&quot;&gt;&lt;em&gt;Spotlight option&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-photo-import.jpg&quot; alt=&quot;Importing photos into Paper 3.0&quot; /&gt;
+  &lt;figcaption&gt;Importing photos in Paper for iPad and iPhone.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’m excited to use this feature as a sketching aid — drawing directly on reference images I’ve imported into Paper. There’s no way to toggle this layer off yet (&lt;em&gt;psst… FiftyThree engineers if you’re reading&lt;/em&gt;), but it’s easy enough to remove if you want to leave behind just what you’ve drawn or painted.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-clear-photo.gif&quot; alt=&quot;Clear Photo layer animation&quot; /&gt;
+  &lt;figcaption&gt;Tap and hold on the Eraser tool, tap &lt;strong&gt;Clear Photo&lt;/strong&gt;, and poof!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;rotating-ideas&quot;&gt;Rotating Ideas&lt;/h2&gt;
+
+&lt;p&gt;What a time saver this one is. If you wanted to share ideas “right side up” you had to export to the camera roll to make the rotation edit. This worked OK for sharing on social media but not so much with drawings shared on Mix — you just had to live with them displaying horizontally.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-rotate-button.jpg&quot; alt=&quot;new rotate button&quot; /&gt;
+  &lt;figcaption&gt;Tap the button on the far right to rotate ideas.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In 3.0 there’s a new button conveniently located below each idea for rotating the canvas in 90 degree intervals. Horizontal and vertical ideas live in harmony together because of the new grid view. Which leads me to my next favorite thing in Paper 3.0…&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;img src=&quot;/images/paper-3-rotate-horizontal.jpg&quot; alt=&quot;Idea that hasn&#39;t been rotated yet&quot; /&gt;
+  &lt;img src=&quot;/images/paper-3-rotate-vertically.jpg&quot; alt=&quot;Idea rotated 90 degrees&quot; /&gt;
+  &lt;img src=&quot;/images/paper-3-rotate-spaces.jpg&quot; alt=&quot;How rotated images appear in Paper&#39;s spaces&quot; /&gt;
+  &lt;figcaption&gt;View ideas horizontally or vertically with the tap of the new &lt;strong&gt;rotate button&lt;/strong&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;journals-replaced-with-spaces&quot;&gt;Journals Replaced with “Spaces”&lt;/h2&gt;
+
+&lt;p&gt;Paging through Paper’s digital journals might have been a good idea years ago, but with page counts in the hundreds it quickly becomes unusable. Journals transitioning into “Spaces” is one of the best things to happen to Paper since the introduction of &lt;a href=&quot;https://www.fiftythree.com/think&quot;&gt;&lt;strong&gt;Think Kit&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Instead of ideas bound together as books, they’re presented with a different UI metaphor — stacks of paper. These stacks expand into a neatly aligned grid of cards you can interact with when tapped on. I’ll tell you this much, scrolling through ideas in this way sure beats flipping back 500 plus pages to find a drawing I worked on a year ago.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/VBMt_sjEXF4?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;figcaption&gt;Scrolling through a large stack of ideas is way more usable now.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These new “Spaces” are more accommodating of the new content types found in Paper 3.0 as well. Ideas in portrait or landscape orientation fit in perfectly with text notes and images. There’s no way any of this would be usable or look half as good as it does now if FiftyThree stuck with the book motif.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-new-additions&quot;&gt;Other New Additions&lt;/h2&gt;
+
+&lt;p&gt;In my short time with the new iPad and iPhone versions I’ve come across a couple of other refinements that should make the app more pleasant to use. Feel free to add any you’ve discovered in the comment section below.&lt;/p&gt;
+
+&lt;h3 id=&quot;popular-gestures-have-dedicated-buttons-now&quot;&gt;Popular Gestures Have Dedicated Buttons Now&lt;/h3&gt;
+
+&lt;p&gt;Undoing mistakes and page management are some of the most common Paper actions I get questions about. In my experience most people had no clue you could do either — so I’m happy to see they’re more discoverable now.&lt;/p&gt;
+
+&lt;p&gt;Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping the new &lt;strong&gt;«&lt;/strong&gt; button found in the tool tray. Tap the button to step back an edit at a time or hold down to speed it up.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-rewind-button.jpg&quot; alt=&quot;Rewind button in tool tray&quot; /&gt;
+  &lt;figcaption&gt;Undo mistakes by pressing the &lt;strong&gt;&amp;lt;&amp;lt;&lt;/strong&gt; button in the upper left corner of the tool tray.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&quot;notice--info&quot;&gt;
+  &lt;h4 id=&quot;protip-quick-undo-gesture&quot;&gt;ProTip: Quick Undo Gesture&lt;/h4&gt;
+  &lt;p&gt;To quickly undo a mistake double tap the screen with two fingers.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;• • •&lt;/strong&gt; button below each idea allows you to delete, duplicate, and move pages now. You no longer have to tap and hold an idea with one hand and do finger gymnastics with the other to move things around.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-more-button.jpg&quot; alt=&quot;more button&quot; /&gt;
+  &lt;figcaption&gt;Delete, Duplicate, and Move to Space... by tapping the &lt;strong&gt;• • •&lt;/strong&gt; button.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;ability-to-annotate-ideas-and-create-text-notes&quot;&gt;Ability to Annotate Ideas and Create Text Notes&lt;/h3&gt;
+
+&lt;p&gt;Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I could see this coming in handy for providing context around an idea you’ve shared or to solicit feedback from followers.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-text-ideas.jpg&quot; alt=&quot;text notes in Paper&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Basic formatting of text can be achieved by &lt;a href=&quot;http://blog.fiftythree.com/posts/swipe-to-style&quot;&gt;swiping across text&lt;/a&gt; to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italize&lt;/em&gt;, and &lt;s&gt;strikethrough&lt;/s&gt; text by selecting it and tapping the right arrow followed by &lt;strong&gt;Style&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-text-styles.jpg&quot; alt=&quot;styling text in Paper&quot; /&gt;
+  &lt;figcaption&gt;Styling text in Paper 3.0.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;changing-the-default-idea-type&quot;&gt;Changing the Default Idea Type&lt;/h4&gt;
+
+&lt;p&gt;You can easily switch between idea types (Canvas/Photo/Text) by tapping their corresponding icons in the tool tray. But you can also change which type is used as the default when creating a new idea.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/paper-3-idea-type-button.jpg&quot; alt=&quot;change default idea type&quot; /&gt;
+  &lt;figcaption&gt;Tap and hold on the new idea button (in this example it&#39;s a squiggle) at the bottom of the screen and select which type (Canvas, Photo, Text) you want to use as the default.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;formerly-known-as-mix&quot;&gt;Formerly Known As Mix&lt;/h3&gt;
+
+&lt;p&gt;Mix is no longer something you “pull down” to access from within Paper. The stream of ideas from the &lt;strong&gt;People You Follow&lt;/strong&gt; on Mix (or should I say PAPER now?) now appear alongside your private spaces for quicker access.&lt;/p&gt;
+
+&lt;div class=&quot;notice--info&quot;&gt;
+  &lt;h4 id=&quot;protip-see-all-your-shared-ideas&quot;&gt;ProTip: See All Your Shared Ideas&lt;/h4&gt;
+  &lt;p&gt;The &lt;em&gt;shared journal&lt;/em&gt; has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap &lt;strong&gt;Ideas&lt;/strong&gt; to see everything you’ve shared.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;OK, back to lusting over the new &lt;strong&gt;Apple Pencil&lt;/strong&gt; and waiting for the day Apple brings that technology to the smaller and cheaper iPads &lt;svg class=&quot;icon&quot;&gt;&lt;use xlink:href=&quot;#icon-wink&quot;&gt;&lt;/use&gt;&lt;/svg&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:changes&quot;&gt;
+      &lt;p&gt;Yes the journal book view and zoom loupe have gone away. Change is good, deal with it &lt;svg class=&quot;icon&quot;&gt;&lt;use xlink:href=&quot;#icon-deal-with-it&quot;&gt;&lt;/use&gt;&lt;/svg&gt;. &lt;a href=&quot;#fnref:changes&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="paper by 53" />
+  
+    <category term="ipad" />
+  
+
+  
+    <summary type="text">Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more.</summary>
+  
+</entry>
+
+  
+
+</feed>

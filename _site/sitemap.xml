@@ -1,66 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://richarizardd.github.io/research/icm4/</loc>
+    <loc>/blog/denovo/</loc>
+    <lastmod>2015-11-01T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/stormtrooper-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/ponda-baba-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/myah-graham-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/michael-rose-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/greedo-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/grand-moff-tarkin-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/gamorrean-guard-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/tiny-paintings/bith-painting/</loc>
+    <lastmod>2015-10-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/projects/icm4/</loc>
     <lastmod>2015-10-14T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/icm4/</loc>
-    <lastmod>2015-09-22T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://richarizardd.github.io/coding/hophacks2015/</loc>
+    <loc>/mastering-paper/paper-3-features/</loc>
     <lastmod>2015-09-11T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/Parallel-Processing/</loc>
-    <lastmod>2015-08-01T00:00:00-04:00</lastmod>
+    <loc>/projects/hophacks2015/</loc>
+    <lastmod>2015-09-11T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/coding/hophacks2014/</loc>
+    <loc>/academic/faux-layer/</loc>
+    <lastmod>2015-04-15T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/projects/hophacks2014/</loc>
     <lastmod>2014-09-23T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/vinylimmersion/</loc>
+    <loc>/blog/vinylimmersion/</loc>
     <lastmod>2014-08-14T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/ratatouille/</loc>
+    <loc>/blog/ratatouille/</loc>
     <lastmod>2014-07-20T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/research/squeez/</loc>
+    <loc>/projects/squeez/</loc>
     <lastmod>2014-01-04T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/2015-06-15-oae.html</loc>
+    <loc>/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/2015-07-22-staticnoyze.html</loc>
+    <loc>/academic-musings/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/2015-08-23-sophomore.html</loc>
+    <loc>/blog/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/2015-09-22-icm12.html</loc>
+    <loc>/contact/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/about/</loc>
+    <loc>/about/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/coding/</loc>
+    <loc>/portraits/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/</loc>
+    <loc>/projects/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/research/</loc>
+    <loc>/tag/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/</loc>
+    <loc>/terms/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/timeline.html</loc>
-    <lastmod>2015-09-30T15:19:30-04:00</lastmod>
+    <loc>/faqs/</loc>
+  </url>
+  <url>
+    <loc>/style-guide/</loc>
+  </url>
+  <url>
+    <loc>/sitemap/</loc>
+  </url>
+  <url>
+    <loc>/support/</loc>
+  </url>
+  <url>
+    <loc>/subscribe/</loc>
   </url>
 </urlset>

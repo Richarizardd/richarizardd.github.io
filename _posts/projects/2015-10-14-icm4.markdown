@@ -1,0 +1,54 @@
+---
+layout: article
+title:  "Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks"
+excerpt: "Introduction to Computational Medicine I"
+categories: projects
+tags: [neuronal networks, modeling, computational medicine]
+toc: true
+work: "Research"
+comments: true
+featured: true
+image:
+ feature: icm4-feature.jpg
+ teaser: icm4-teaser.jpg
+---
+
+<h2 class="section-heading">Introduction</h2>
+Epilepsy is an important neurological disease characterized by episodes of uncontrollable, vigorous, neuroelectrical activity called seizures, and affects 60 million people worldwide. To better understand the mechanisms and cause of this disease, scientists have long been trying to develop models for this disease. The seminal paper by Segal et al in 1990 was one of the first to characterize the epileptiform activity of cell cultures in vitro. By allowing neurons to form small networks (some of them as small as two neurons) in vitro, scientists can study epileptiform activity and analyze synaptic actions in a simplified, reduced system. In this report, we develop a computational two-neuron network based on the work of Av-ron et al and Rinzel. Through this computational model, we seek to replicate and analyze the results obtained by Segal et al. 
+
+<h2 class="section-heading">Background</h2>
+<h4 class="section-heading">Original Hodgkin Huxley Model</h4>
+Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:
+
+$$ I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l}) $$ <br/>
+
+$$ \frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n $$<br>
+
+$$ \frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m $$<br>
+
+$$ \frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l $$
+
+
+where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential: 
+
+{% raw %}
+<div class="equation" data-expr="\displaystyle \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}}"></div>
+
+<div class="equation" data-expr="\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}"></div>
+
+Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)
+
+<!-- The Normal Distribution -->
+<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}"></div>
+
+<script type="text/javascript">
+
+    // grab all elements in DOM with the class 'equation'
+    var tex = document.getElementsByClassName("equation");
+
+    // for each element, render the expression attribute
+    Array.prototype.forEach.call(tex, function(el) {
+        katex.render(el.getAttribute("data-expr"), el);
+    });
+
+</script>

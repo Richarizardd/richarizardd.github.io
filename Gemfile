@@ -1,9 +1,12 @@
-# Skinny Bones Gemfile
-source "https://rubygems.org"
+# Made Mistakes Gemfile
+source 'https://rubygems.org'
 
-gem "github-pages"
-gem "jekyll-sitemap"
-gem "sass"
-gem "bourbon"
-gem "neat"
-gem 'octopress', '~> 3.0.0.rc.12'
+gem 'jekyll', '2.5.3'
+gem 'jekyll-sitemap'
+gem 'sass'
+gem 'breakpoint'
+gem 'jekyll-assets'
+gem 'uglifier'
+gem 'autoprefixer-rails'
+gem 'jekyll-archives'
+gem 'rouge'
