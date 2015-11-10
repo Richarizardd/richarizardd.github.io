@@ -8,7 +8,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="https://richarizardd.github.io/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://richarizardd.github.io/" rel="alternate" type="text/html" />
-  <updated>2015-11-10T11:18:27-05:00</updated>
+  <updated>2015-11-10T18:30:02-05:00</updated>
   <id>https://richarizardd.github.io/</id>
 
   <title>Richarizardd</title>
@@ -1004,6 +1004,55 @@
 
   
     <entry>
+  <title>1: Faster algorithms for string matching problems: matching the convolution bound</title>
+  <link href="https://richarizardd.github.io/academic-musings/dontcares/" rel="alternate" type="text/html" title="#1: Faster algorithms for string matching problems: matching the convolution bound" />
+  <published>2015-10-10T00:00:00-04:00</published>
+
+  
+    <updated>2015-10-10T00:00:00-04:00</updated>
+  
+
+  <id>https://richarizardd.github.io/academic-musings/dontcares</id>
+  <content type="html" xml:base="https://richarizardd.github.io/academic-musings/dontcares/">
+    
+    &lt;p&gt;This is the first post in a series of many, where I’m going to read a paper everyday, and share my thoughts really quick on it. Because I want to develop this habit, not every post will be polished (certainly not the first few), but hopefully as I post more often, I’ll learn how to post more!&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This paper gives a O(nlogn)-time Monte Carlo algorithm for the “string matching with don’t cares” problem (&lt;em&gt;-matching), which searches for degenerate patterns of P in degenerate patterns of T. The “&lt;/em&gt;” character is a placeholder that can represent any character in an alphabet. This problem is very similar to approximate matching using hamming distance. The novelty of the paper is that they are using a randomized boolean convolution, which allows their algorithm to matche the Fast Fourier Transform bound.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;This paper is definitely interesting, and while this field is incredibly new to me, you can bet this isn’t the last time I’ll be looking at this problem. I’ll keep this post short, but perhaps in the future I’ll summarize this paper/field better in a blog, and give it the attention it deserves.&lt;/p&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>https://richarizardd.github.io/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="sequencing" />
+  
+    <category term="genomics" />
+  
+
+  
+    <summary type="text">Piotr Indyk</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
   <link href="https://richarizardd.github.io/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
   <published>2015-09-11T00:00:00-04:00</published>
@@ -1266,169 +1315,6 @@
 
   
     <summary type="text">HopHacks Fall 2015</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Mastering Paper by FiftyThree: Faux Layer Technique</title>
-  <link href="https://richarizardd.github.io/academic/faux-layer/" rel="alternate" type="text/html" title="Mastering Paper by FiftyThree: Faux Layer Technique" />
-  <published>2015-04-15T00:00:00-04:00</published>
-
-  
-    <updated>2015-04-15T00:00:00-04:00</updated>
-  
-
-  <id>https://richarizardd.github.io/academic/faux-layer</id>
-  <content type="html" xml:base="https://richarizardd.github.io/academic/faux-layer/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-faux-layers-feature.jpg&quot; alt=&quot;Mastering Paper by FiftyThree: Faux Layer Technique feature&quot;&gt;&lt;br/&gt;
-    &lt;p&gt;Up until recently I would painstakingly erase and Blend away lines until I got them just right when drawing with Paper by FiftyThree.&lt;/p&gt;
-
-&lt;p&gt;When &lt;a href=&quot;http://news.fiftythree.com/post/104844221313/paper-update-2-2-holiday-bonus-edition-happy&quot;&gt;version 2.2&lt;/a&gt; was released this past December, along with it came a Color Picker and a way to swap page colors whenever you wanted. Using these new features and a carefully mixed color, I’m going to show you how a “faux” layer can help with sketching and tracing.&lt;/p&gt;
-
-&lt;nav class=&quot;js-toc toc&quot;&gt;
-  &lt;h4 class=&quot;toc__title&quot;&gt;&lt;span&gt;Table of Contents&lt;/span&gt;&lt;/h4&gt;
-&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#replicating-the-background-color&quot; id=&quot;markdown-toc-replicating-the-background-color&quot;&gt;Replicating the Background Color&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#setting-the-background&quot; id=&quot;markdown-toc-setting-the-background&quot;&gt;Setting the Background&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#sketching-with-white&quot; id=&quot;markdown-toc-sketching-with-white&quot;&gt;Sketching with White&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tracing-your-drawing&quot; id=&quot;markdown-toc-tracing-your-drawing&quot;&gt;Tracing Your Drawing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#erasing-the-faux-layer&quot; id=&quot;markdown-toc-erasing-the-faux-layer&quot;&gt;Erasing the Faux Layer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#other-uses&quot; id=&quot;markdown-toc-other-uses&quot;&gt;Other Uses&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/nav&gt;
-
-&lt;h2 id=&quot;replicating-the-background-color&quot;&gt;Replicating the Background Color&lt;/h2&gt;
-
-&lt;p&gt;Have you noticed that the default page color in &lt;strong&gt;Paper by FiftyThree&lt;/strong&gt; isn’t a pure white? If you haven’t here’s a quick comparison between the two that makes the difference obvious.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-default-white.png&quot; alt=&quot;white comparison&quot; style=&quot;border: 8px solid #dfdddf;&quot; /&gt;
-  &lt;figcaption&gt;Default background color compared against pure white.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The key to the “faux” layer trick is matching the color you sketch with exactly to the default background color.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-default-background-mix.jpg&quot; alt=&quot;default background color&quot; /&gt;
-  &lt;figcaption&gt;Default background color mix: &lt;strong&gt;48&lt;/strong&gt;/&lt;strong&gt;2&lt;/strong&gt;/&lt;strong&gt;96&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There’s two ways of getting this color into your Paper palette:&lt;/p&gt;
-
-&lt;p&gt;Whichever way you end up choosing I suggest you drag this newly mixed off-white color to an open slot in one of your palettes — for safe keeping of course.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-drag-color-swatch.jpg&quot; alt=&quot;dragging color swatches&quot; /&gt;
-  &lt;figcaption&gt;Drag a color to an open palette slot and release to save it.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;setting-the-background&quot;&gt;Setting the Background&lt;/h2&gt;
-
-&lt;p&gt;If you were to start sketching now it would look like you weren’t drawing anything at all. To make these off-white lines more visible, we need to fill in the background with a contrasting color. In this example I went with a gray, but you can choose whatever color you want (we’ll delete it later so don’t agonize over the perfect color selection).&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-filled-gray-background.jpg&quot; alt=&quot;dragging a color to the background&quot; /&gt;
-  &lt;figcaption&gt;Quickly fill in the background by dragging a color onto the canvas and releasing.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;sketching-with-white&quot;&gt;Sketching with White&lt;/h2&gt;
-
-&lt;p&gt;Now the fun begins! Select the off-white color you sampled/mixed earlier and begin sketching.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-white-sketch-layer.jpg&quot; alt=&quot;white sketch layer&quot; /&gt;
-  &lt;figcaption&gt;Sketching in off-white with the expectation of tracing over it with a darker color.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;As you sketch don’t worry about whether your strokes are perfect, they won’t be part of the finished drawing so be loose and free with them.&lt;/p&gt;
-
-&lt;div class=&quot;notice--info&quot;&gt;
-  &lt;h4 id=&quot;protip-sketch-with-the-pencil-tool&quot;&gt;ProTip: Sketch with the pencil tool&lt;/h4&gt;
-  &lt;p&gt;To yield the best results with the “faux” layer technique I suggest using the pencil tool. It blends into the default page color better than the harsh edges produced by the ink tools.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;tracing-your-drawing&quot;&gt;Tracing Your Drawing&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-tracing-layer-dark.jpg&quot; alt=&quot;selecting a darker color&quot; /&gt;
-  &lt;figcaption&gt;Select a darker color to trace over the white sketch with.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Once you get the general composition of your drawing locked down you’ll want to change the color to something darker. Depending on the background color you initially filled the canvas with you may need to adjust it so these new strokes show up.&lt;/p&gt;
-
-&lt;p&gt;Using the rough sketch as a guide trace over the white lines with a tool and color of your choice. I used a single color for my tracing but if you happen to change your color as you work it may be necessary to alter the background. You’ll know this is the case when your tracing blends into the background making it difficult to tell if you’re laying down a mark.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-tracing-shading.jpg&quot; alt=&quot;tracing and shading over white&quot; /&gt;
-  &lt;figcaption&gt;Continue tracing your white sketch and add shadows and other details as you desire.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;erasing-the-faux-layer&quot;&gt;Erasing the Faux Layer&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-clear-page.jpg&quot; alt=&quot;clear page color option&quot; /&gt;
-  &lt;figcaption&gt;Tap and hold on the Eraser tool and then select &lt;strong&gt;Clear Page Color&lt;/strong&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Once you’re happy with things the next step is to remove all of the white lines. If you tap and hold on the Eraser tool for 2 seconds you’ll be given the option to &lt;strong&gt;Clear Ink&lt;/strong&gt; or &lt;strong&gt;Clear Page Color&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tap &lt;strong&gt;Clear Page Color&lt;/strong&gt; and watch as the background and rough sketch disappear, leaving behind a pristinely traced image.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;https://mix.fiftythree.com/11098-Michael-Rose/2808345&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/paper-53-removed-faux-layer.jpg&quot; alt=&quot;finished contour drawing&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;All that remains now is the traced drawing.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-53-faux-layers-process.gif&quot; alt=&quot;faux layer trick process animation&quot; /&gt;
-  &lt;figcaption&gt;And here is how the faux layer trick for Paper by FiftyThree looks in sequence.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;other-uses&quot;&gt;Other Uses&lt;/h2&gt;
-
-&lt;p&gt;Because I mostly do portrait work it never crossed my mind that this technique could have other applications.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/mmistakes&quot;&gt;@mmistakes&lt;/a&gt; your dark background trick is sweet. now i&amp;#39;m trying to make a grid based on that idea: even sweeter.&lt;/p&gt;&amp;mdash; Ron Jeffries (@RonJeffries) &lt;a href=&quot;https://twitter.com/RonJeffries/status/587650836018438144&quot;&gt;April 13, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;https://mix.fiftythree.com/11098-Michael-Rose/2854744&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/paper-53-mix-grid-template.jpg&quot; alt=&quot;grid template&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Grid template available for free on FiftyThree&#39;s Mix service.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So with that in mind here’s a &lt;a href=&quot;https://mix.fiftythree.com/11098-Michael-Rose/2854744&quot;&gt;grid template&lt;/a&gt; I shared on Mix. Save it to your Paper journal, remix your own variations for others to build off of, or share what you created with it on Mix or in the comments below.&lt;/p&gt;
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>https://richarizardd.github.io/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="paper by 53" />
-  
-    <category term="tutorial" />
-  
-    <category term="layers" />
-  
-    <category term="erase" />
-  
-
-  
-    <summary type="text">Discover the faux layer technique and how it can aid in sketching and tracing with Paper by FiftyThree.</summary>
   
 </entry>
 
