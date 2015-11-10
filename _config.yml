@@ -29,7 +29,7 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
-  baseurl:
+  baseurl: https://richarizardd.github.io
   js_compressor: uglifier
   css_compressor: sass
   cachebust: hard
