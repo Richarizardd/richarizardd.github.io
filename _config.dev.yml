@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: "Made Mistakes"
-description: "Personal website of designer slash illustrator Michael Rose."
+title: "Richarizardd"
+description: "Junior undergraduate at Johns Hopkins University."
 logo: site-logo.png
 teaser: default-teaser.png
 locale: en_US
-url: http://localhost:4000
+url: https://richarizardd.github.io
 
 
 # Jekyll configuration
@@ -15,7 +15,7 @@ lsi: true
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-highlighter: rouge
+highlighter: pygments
 gems:
   - jekyll-sitemap
   - jekyll-archives
@@ -29,7 +29,11 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
-  baseurl: http://localhost:4000/assets/
+  baseurl: https://richarizardd.github.io/assets/
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: true
   debug: false
   version: 1
 
@@ -51,29 +55,20 @@ jekyll-archives:
 # Site owner
 
 owner:
-  name: "Michael Rose"
-  email: michael@mademistakes.com
-  twitter: mmistakes
-  facebook: michaelrose
-  instagram: mmistakes
-  tumblr: mademistakes
-  github: mmistakes
-  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
-  google:
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 3049671934
-    analytics:
-    plus: https://plus.google.com/+MichaelRoseDesign/posts
-    verify:
+  name: "Richard Chen"
+  email: rchen40@jhu.edu 
+  facebook: RichardChen.95
+  instagram: RichardChen95
+  github: richarizardd
   bing:
-    verify:
+    verify: D81F4C18A6CB3018F64D7C827D953DFD
   alexa:
-    verify:
+    verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
   yandex:
-    verify:
-  bio: "Just another boring, tattooed, time traveling designer from Buffalo, New York. I enjoy eating chicken wings and sketching on an iPad."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: mmistakes-dev
+    verify: 55a5419baf76a498
+  bio: "No such thing as a free lunch."
+  avatar: bio-photo-richard.jpg # 160x160 px image for author byline
+disqus-shortname: Richarizardd
 
 
 # Collections
