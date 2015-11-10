@@ -8,7 +8,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="https://richarizardd.github.io/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://richarizardd.github.io/" rel="alternate" type="text/html" />
-  <updated>2015-11-10T18:40:29-05:00</updated>
+  <updated>2015-11-10T18:53:28-05:00</updated>
   <id>https://richarizardd.github.io/</id>
 
   <title>Richarizardd</title>
@@ -35,8 +35,8 @@
 
   
     <entry>
-  <title>            De novo assembly in      November      </title>
-  <link href="https://richarizardd.github.io/blog/denovo/" rel="alternate" type="text/html" title="De novo assembly in | November" />
+  <title>            De novo shotgun assembly in      November      </title>
+  <link href="https://richarizardd.github.io/blog/denovo/" rel="alternate" type="text/html" title="De novo shotgun assembly in | November" />
   <published>2015-11-01T00:00:00-04:00</published>
 
   
@@ -338,7 +338,7 @@
   
 
   
-    <summary type="text">3rd Law of Aseembly: Repeats are bad - Ben Langmead</summary>
+    <summary type="text">3rd law of assembly - Repeats are bad</summary>
   
 </entry>
 
@@ -1555,8 +1555,8 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   
     <entry>
-  <title>Quantitive Assessment of Regional Cardiac Function By SQUEEZ…</title>
-  <link href="https://richarizardd.github.io/projects/squeez/" rel="alternate" type="text/html" title="Quantitive Assessment of Regional Cardiac Function By SQUEEZ..." />
+  <title>Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
+  <link href="https://richarizardd.github.io/projects/squeez/" rel="alternate" type="text/html" title="Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
   <published>2014-01-04T00:00:00-05:00</published>
 
   
@@ -1565,7 +1565,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   <id>https://richarizardd.github.io/projects/squeez</id>
   <content type="html" xml:base="https://richarizardd.github.io/projects/squeez/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/squeez-feature.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ... feature&quot;&gt;&lt;br/&gt;
+    &lt;img src=&quot;https://richarizardd.github.io/images/squeez-feature.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Accurate identification of the extent of regional myocardial dysfunction is important in the diagnosis and management of patients with myocardial infarction. Tissue tagging MRI (tMRI) is currently the reference standard for noninvasive local cardiac function  analysis; however, it has practical drawbacks: lengthy and complicated image acquisition and analysis, long breath-holds and implanted devices are contraindicated. We have developed an algorithm for estimating regional cardiac function by tracking the LV endocardial surface called Stretch Quantification of Endocardial Engraved Zones (SQUEEZ). It produces high-resolution local function maps by tracking endocardial features such as papillary muscles and trabecular 
 structures. The objective was to investigate the correlation between SQUEEZ and myocardial strain from tMRI in acute myocardial infarction.&lt;/p&gt;
