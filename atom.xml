@@ -2,14 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 
-  
-
 
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
-  <link href="https://richarizardd.github.io/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://richarizardd.github.io/" rel="alternate" type="text/html" />
-  <updated>2015-11-10T18:53:28-05:00</updated>
-  <id>https://richarizardd.github.io/</id>
+  <link href="/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2015-11-15T21:53:46-05:00</updated>
+  <id>/</id>
 
   <title>Richarizardd</title>
 
@@ -17,7 +15,7 @@
     <subtitle>Junior undergraduate at Johns Hopkins University.</subtitle>
   
 
-  <icon>https://richarizardd.github.io/apple-touch-icon-precomposed.png</icon>
+  <icon>/apple-touch-icon-precomposed.png</icon>
 
 
   
@@ -28,26 +26,316 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
 
   
     <entry>
+  <title>Variations in Glycogen Synthesis…</title>
+  <link href="/projects/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis..." />
+  <published>2015-11-13T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-13T00:00:00-05:00</updated>
+  
+
+  <id>/projects/stemcell</id>
+  <content type="html" xml:base="/projects/stemcell/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+
+  
+    <summary type="text">PLOS ONE</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>4: Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences</title>
+  <link href="/academic-musings/cdhit/" rel="alternate" type="text/html" title="#4: Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences" />
+  <published>2015-11-13T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-13T00:00:00-05:00</updated>
+  
+
+  <id>/academic-musings/cdhit</id>
+  <content type="html" xml:base="/academic-musings/cdhit/">
+    
+    &lt;h4 class=&quot;section-heading&quot;&gt;Introduction&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cd-hit is a protein sequence clustering algorithm that uses short word filtering to determine the similarity between two sequences without performing an actual sequence alignment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 class=&quot;section-heading&quot;&gt;Algorithms&lt;/h4&gt;
+&lt;h5 class=&quot;section-heading&quot;&gt;Short word filtering&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single-cell assays vs. bulk assays&lt;/li&gt;
+  &lt;li&gt;1) Bulk assays destroy crucial information by averaging the signal across the cell population. Simpson’s Paradox - Consider an experiment aiming to assess whether two genes show correlated expression levels across a population of cells. This problem is important, as some cell fate decisions are governed by a single pair of mutually exclusive regulators. For example, the myeloid/erythroid fate decision in common myeloid progenitor cells is made via the mutually antagonistic transcription factors Pu.1 and GATA1. If the population consisted of a only one group of cells, one would say these two genes are mutually exclusive. If the population consisted of a mixture of two separate group of cells, one would  say these genes are positively correlated. Grouping by cells/properly compartmentalizing the data by cell type leads to a qualitatively correct interpretation&lt;/li&gt;
+  &lt;li&gt;2)&lt;/li&gt;
+&lt;/ul&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="sequencing" />
+  
+    <category term="genomics" />
+  
+
+  
+    <summary type="text">Akiyama</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>3: Design and Analysis and Single-Cell Sequencing Experiments</title>
+  <link href="/academic-musings/SCgenomics/" rel="alternate" type="text/html" title="#3: Design and Analysis and Single-Cell Sequencing Experiments" />
+  <published>2015-11-12T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-12T00:00:00-05:00</updated>
+  
+
+  <id>/academic-musings/SCgenomics</id>
+  <content type="html" xml:base="/academic-musings/SCgenomics/">
+    
+    &lt;h3 class=&quot;section-heading&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are 210 different types of cells in the human body. Cataloging the cells of the human body is a maddeningly difficult problem.&lt;/li&gt;
+  &lt;li&gt;A single cell from this taxonomy is still diverse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;     • muscle cells can be divided by functional differences such as contraction speed and subcategorized by unique gene expression programs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A taxonomy that separates cell types and subtypes with genes is still not good enough. Many cell types/subtypes have few (if any) reliable markers that can be used to purify a desired cell type/subtype.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;     • “CD14+” monocytes actually consist of multiple subpopulations that share CD14 expression in common.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single-cell genomics is the turning point in cell biology. For the first time, we can assay the expression level of every gene in the genome across thousands of individual cells in a single experiment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&quot;section-heading&quot;&gt;Defining cell types and states requires single-cell assays&lt;/h3&gt;
+
+&lt;h5 class=&quot;section-heading&quot;&gt;Single-cell assays vs. bulk assays&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bulk assays destroy crucial information by averaging the signal across the cell population&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;     • Simpson’s Paradox - Consider an experiment aiming to assess whether two genes show correlated expression levels across a population of cells. This problem is important, as some cell fate decisions are governed by a single pair of mutually exclusive regulators.&lt;/p&gt;
+
+&lt;p&gt;     • The myeloid/erythroid fate decision in common myeloid progenitor cells is made via the mutually antagonistic transcription factors Pu.1 and GATA1. If the population consisted of a only one group of cells, one would say these two genes are mutually exclusive. If the population consisted of a mixture of two separate group of cells, one would say these genes are positively correlated. Grouping by cells/properly compartmentalizing the data by cell type leads to a qualitatively correct interpretation&lt;/p&gt;
+
+&lt;p&gt;2) TBD&lt;/p&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="sequencing" />
+  
+    <category term="genomics" />
+  
+
+  
+    <summary type="text">Cole Trapnell</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>2: Design and Analysis and Single-Cell Sequencing Experiments</title>
+  <link href="/academic-musings/SCseqreview/" rel="alternate" type="text/html" title="#2: Design and Analysis and Single-Cell Sequencing Experiments" />
+  <published>2015-11-11T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-11T00:00:00-05:00</updated>
+  
+
+  <id>/academic-musings/SCseqreview</id>
+  <content type="html" xml:base="/academic-musings/SCseqreview/">
+    
+    &lt;h2 class=&quot;section-heading&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;h4 class=&quot;section-heading&quot;&gt;Introduction&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is still common practice to distinguish cell types based on a small set of marker genes i.e., fluorescence-activated cell sorting (FACS)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;this method is inherently constrained, as a pre-selection of marker genes limits the resolution and variability of understanding a population of cells&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Even cells of the same type can show substaintial gene expression variability leading to phenotypic variation&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A better approach is to analyze cells randomly drawn from a sample&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Single cell analysis of a small number of genes
+        &lt;ul&gt;
+          &lt;li&gt;Single-molecule fluorescence in situ hybridization&lt;/li&gt;
+          &lt;li&gt;Flow Cytometry using cell surface markers or fluorescent reporter proteins&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 class=&quot;section-heading&quot;&gt;Isolating Single Cells for Sequencing&lt;/h4&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="sequencing" />
+  
+    <category term="genomics" />
+  
+
+  
+    <summary type="text">Piotr Indyk</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>1: Faster algorithms for string matching problems: matching the convolution bound</title>
+  <link href="/academic-musings/dontcares/" rel="alternate" type="text/html" title="#1: Faster algorithms for string matching problems: matching the convolution bound" />
+  <published>2015-11-10T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-10T00:00:00-05:00</updated>
+  
+
+  <id>/academic-musings/dontcares</id>
+  <content type="html" xml:base="/academic-musings/dontcares/">
+    
+    &lt;h2 class=&quot;section-heading&quot;&gt;First Post Introduction&lt;/h2&gt;
+&lt;p&gt;This is the first post in a series of many, where I’m going to read a paper everyday, and share my thoughts really quick on it. Because I want to develop this habit, not every post will be polished (certainly not the first few), but hopefully as I post more often, I’ll learn how to post more!&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This paper gives a O(nlogn)-time Monte Carlo algorithm for the “string matching with don’t cares” problem (*-matching), which searches for degenerate patterns of P in degenerate patterns of T. The “*” character is a placeholder that can represent any character in an alphabet. This problem is very similar to approximate matching using hamming distance. The novelty of the paper is that they are using a randomized boolean convolution, which allows their algorithm to matche the Fast Fourier Transform bound.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;This paper is definitely interesting, and while this field is incredibly new to me, you can bet this isn’t the last time I’ll be looking at this problem. I’ll keep this post short, but perhaps in the future I’ll summarize this paper/field better in a blog, and give it the attention it deserves.&lt;/p&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="sequencing" />
+  
+    <category term="genomics" />
+  
+
+  
+    <summary type="text">Piotr Indyk</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>            De novo shotgun assembly in      November      </title>
-  <link href="https://richarizardd.github.io/blog/denovo/" rel="alternate" type="text/html" title="De novo shotgun assembly in | November" />
+  <link href="/blog/denovo/" rel="alternate" type="text/html" title="De novo shotgun assembly in | November" />
   <published>2015-11-01T00:00:00-04:00</published>
 
   
     <updated>2015-11-01T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/blog/denovo</id>
-  <content type="html" xml:base="https://richarizardd.github.io/blog/denovo/">
+  <id>/blog/denovo</id>
+  <content type="html" xml:base="/blog/denovo/">
     
     &lt;h2 class=&quot;section-heading&quot;&gt;EN.600.439 Introduction&lt;/h2&gt;
-&lt;p&gt;Computational Genomics (EN.600.439) has been one of the most fun and rewarding courses I&#39;ve taken at Johns Hopkins so far. It&#39;s a class that teaches you the theory behind string matching and string assembly algorthims, while also demonstrating how these algorthims have paved the way form Next Generation Sequencing. The instructor of this course is Ben Langmead, who wrote Bowtie and HISAT with Steven Salzberg at the University of Maryland and the JHU Center for Computational Biology respectively. This course is taught by the best in the field, so naturally, this course is one of the best classes Johns Hopkins has to offer. I would recommend this course to all students - from the veteraned computer science major that wants to apply the same thinking in Data Structures/Algorithms to a field like genomics, to the curious biology major that desires different perspective on genomics.&lt;/p&gt;
+&lt;p&gt;Computational Genomics (EN.600.439) has been one of the most fun and rewarding courses I&#39;ve taken at Johns Hopkins so far. It&#39;s a class that teaches you the theory behind string matching and string assembly algorithms, while also demonstrating how these algorithms have paved the way form Next Generation Sequencing. The instructor of this course is Ben Langmead, who wrote Bowtie and HISAT with Steven Salzberg at the University of Maryland and the JHU Center for Computational Biology respectively. This course is taught by the best in the field, so naturally, this course is one of the best classes Johns Hopkins has to offer. I would recommend this course to all students - from the veteraned computer science major that wants to apply the same thinking in Data Structures/Algorithms to a field like genomics, to the curious biology major that desires different perspective on genomics.&lt;/p&gt;
 
 &lt;p&gt;So far in Computational Genomics, we&#39;ve learned a lot about the exact and approximate matching problem using algorithms/data structures such as Boyer-Moore, k-mer indexing, q-grams, suffix arrays (Ukkonen&#39;s), FM-indexing, and dynamic programming. Right now, we&#39;re learning how to solve the shortest substring problem using overlap graphs and De Brujin&#39;s graph to assemble reads together. In one of our projects, we assembled a genome from synthetic reads De novo. This project was incredibly rewarding, as it culiminated everything we&#39;ve learned so far into solving one of the biggest problems of the 21st century. Professor Langmead is a type of professor that believes in open source, and has made all of his course material public on his Github. You can obtain the same synthetic reads I assembled my genome here. In this blog, I&#39;ll be walking through my thought process in Python in solving this problem.&lt;/p&gt;
 
@@ -324,7 +612,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -345,75 +633,75 @@
   
     <entry>
   <title>Tiny Paintings</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/" rel="alternate" type="text/html" title="Tiny Paintings" />
+  <link href="/tiny-paintings/" rel="alternate" type="text/html" title="Tiny Paintings" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/">
+  <id>/tiny-paintings</id>
+  <content type="html" xml:base="/tiny-paintings/">
     
-    &lt;p&gt;Trying to emulate the look and feel of &lt;a href=&quot;https://richarizardd.github.io/paperfaces/&quot;&gt;watercolor on the iPad&lt;/a&gt; has inspired me to revisit painting traditionally. I’ve gone mini in an effort to fit some painting in amongst family and work obligations.&lt;/p&gt;
+    &lt;p&gt;Trying to emulate the look and feel of &lt;a href=&quot;/paperfaces/&quot;&gt;watercolor on the iPad&lt;/a&gt; has inspired me to revisit painting traditionally. I’ve gone mini in an effort to fit some painting in amongst family and work obligations.&lt;/p&gt;
 
 &lt;p&gt;My plan was to complete a miniature 1.5&quot; painting a day, but the challenge of painting so small is eating up way too much time. Instead I’m going to keep things casual and let images happen as they happen.&lt;/p&gt;
 
 &lt;ul class=&quot;th-grid&quot;&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/stormtrooper-painting/&quot; title=&quot;&amp;#147;Close the Blast Doors&amp;#148;&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-stormtrooper-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-stormtrooper-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/stormtrooper-painting/&quot; title=&quot;&amp;#147;Close the Blast Doors&amp;#148;&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-stormtrooper-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-stormtrooper-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/ponda-baba-painting/&quot; title=&quot;&amp;#147;He doesn&#39;t like you&amp;#148;&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-ponda-baba-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-ponda-baba-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/ponda-baba-painting/&quot; title=&quot;&amp;#147;He doesn&#39;t like you&amp;#148;&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-ponda-baba-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-ponda-baba-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/myah-graham-painting/&quot; title=&quot;Hey Blue&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-myah-graham-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-myah-graham-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/myah-graham-painting/&quot; title=&quot;Hey Blue&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-myah-graham-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-myah-graham-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/michael-rose-painting/&quot; title=&quot;Cut My Face in Half&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-michael-rose-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-michael-rose-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/michael-rose-painting/&quot; title=&quot;Cut My Face in Half&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-michael-rose-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-michael-rose-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/greedo-painting/&quot; title=&quot;&amp;#147;Going somewhere, Solo?&amp;#148;&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-greedo-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-greedo-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/greedo-painting/&quot; title=&quot;&amp;#147;Going somewhere, Solo?&amp;#148;&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-greedo-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-greedo-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/grand-moff-tarkin-painting/&quot; title=&quot;&amp;#147;Charming to the last&amp;#148;&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-grand-moff-tarkin-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-grand-moff-tarkin-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/grand-moff-tarkin-painting/&quot; title=&quot;&amp;#147;Charming to the last&amp;#148;&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-grand-moff-tarkin-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-grand-moff-tarkin-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/gamorrean-guard-painting/&quot; title=&quot;Pig Lizard&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-gamorrean-guard-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-gamorrean-guard-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/gamorrean-guard-painting/&quot; title=&quot;Pig Lizard&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-gamorrean-guard-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-gamorrean-guard-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
   &lt;li style=&quot;width: 200px;&quot;&gt;
-    &lt;a href=&quot;https://richarizardd.github.io/tiny-paintings/bith-painting/&quot; title=&quot;Sexy Saxophone&quot;&gt;
-      &lt;img class=&quot;load&quot; src=&quot;https://richarizardd.github.io/images/preload-150.png&quot; data-original=&quot;https://richarizardd.github.io/images/painting-bith-250.jpg&quot; alt=&quot;&quot; /&gt;
-      &lt;noscript&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-bith-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
+    &lt;a href=&quot;/tiny-paintings/bith-painting/&quot; title=&quot;Sexy Saxophone&quot;&gt;
+      &lt;img class=&quot;load&quot; src=&quot;/images/preload-150.png&quot; data-original=&quot;/images/painting-bith-250.jpg&quot; alt=&quot;&quot; /&gt;
+      &lt;noscript&gt;&lt;img src=&quot;/images/painting-bith-250.jpg&quot; alt=&quot;&quot; /&gt;&lt;/noscript&gt;
     &lt;/a&gt;
   &lt;/li&gt;
 
@@ -429,7 +717,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -458,23 +746,23 @@
   
     <entry>
   <title>“Close the Blast Doors”</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/stormtrooper-painting/" rel="alternate" type="text/html" title="&amp;#147;Close the Blast Doors&amp;#148;" />
+  <link href="/tiny-paintings/stormtrooper-painting/" rel="alternate" type="text/html" title="&amp;#147;Close the Blast Doors&amp;#148;" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/stormtrooper-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/stormtrooper-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-stormtrooper-lg.jpg&quot; alt=&quot;&#147;Close the Blast Doors&#148; feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/stormtrooper-painting</id>
+  <content type="html" xml:base="/tiny-paintings/stormtrooper-painting/">
+    &lt;img src=&quot;/images/painting-stormtrooper-lg.jpg&quot; alt=&quot;&#147;Close the Blast Doors&#148; feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of a Stormtrooper from &lt;strong&gt;Star Wars&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot; and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won’t make that mistake again…&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-stormtrooper-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-stormtrooper-process-1-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-stormtrooper-process-2-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-stormtrooper-process-2-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-stormtrooper-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-stormtrooper-process-1-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-stormtrooper-process-2-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-stormtrooper-process-2-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Various work in progress snapshots from the initial drawing up to its completion.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -488,7 +776,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -519,16 +807,16 @@
   
     <entry>
   <title>“He doesn’t like you”</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/ponda-baba-painting/" rel="alternate" type="text/html" title="&amp;#147;He doesn&#39;t like you&amp;#148;" />
+  <link href="/tiny-paintings/ponda-baba-painting/" rel="alternate" type="text/html" title="&amp;#147;He doesn&#39;t like you&amp;#148;" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/ponda-baba-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/ponda-baba-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-ponda-baba-lg.jpg&quot; alt=&quot;&#147;He doesn't like you&#148; feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/ponda-baba-painting</id>
+  <content type="html" xml:base="/tiny-paintings/ponda-baba-painting/">
+    &lt;img src=&quot;/images/painting-ponda-baba-lg.jpg&quot; alt=&quot;&#147;He doesn't like you&#148; feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of Ponda Baba from &lt;strong&gt;Star Wars&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot;. Really happy with the colors on this one, even if I lost some of the furry details in the face.&lt;/p&gt;
@@ -543,7 +831,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -574,16 +862,16 @@
   
     <entry>
   <title>Hey Blue</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/myah-graham-painting/" rel="alternate" type="text/html" title="Hey Blue" />
+  <link href="/tiny-paintings/myah-graham-painting/" rel="alternate" type="text/html" title="Hey Blue" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/myah-graham-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/myah-graham-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-myah-graham-lg.jpg&quot; alt=&quot;Hey Blue feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/myah-graham-painting</id>
+  <content type="html" xml:base="/tiny-paintings/myah-graham-painting/">
+    &lt;img src=&quot;/images/painting-myah-graham-lg.jpg&quot; alt=&quot;Hey Blue feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of Myah Graham inspired by a &lt;a href=&quot;&amp;quot;http://sktchy.com/gAj7DH&quot;&gt;photograph on Sktchy&lt;/a&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 2.5&quot; x 1.5&quot;. Facial features at this size sure are difficult to pull off accurately. I constantly found myself getting the proportions wrong and painting them too large.&lt;/p&gt;
@@ -598,7 +886,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -629,23 +917,23 @@
   
     <entry>
   <title>Cut My Face in Half</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/michael-rose-painting/" rel="alternate" type="text/html" title="Cut My Face in Half" />
+  <link href="/tiny-paintings/michael-rose-painting/" rel="alternate" type="text/html" title="Cut My Face in Half" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/michael-rose-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/michael-rose-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-michael-rose-lg.jpg&quot; alt=&quot;Cut My Face in Half feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/michael-rose-painting</id>
+  <content type="html" xml:base="/tiny-paintings/michael-rose-painting/">
+    &lt;img src=&quot;/images/painting-michael-rose-lg.jpg&quot; alt=&quot;Cut My Face in Half feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny self portrait painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot; and was completed in just under one hour. I find its always easier to work with foreign media when starting with a familiar subject. In this case it was my own face… well part of it at least.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-michael-rose-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-michael-rose-process-1-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-michael-rose-process-2-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-michael-rose-process-2-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-michael-rose-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-michael-rose-process-1-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-michael-rose-process-2-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-michael-rose-process-2-600.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Various work in progress snapshots from the initial drawing up to its completion.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -659,7 +947,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -688,22 +976,22 @@
   
     <entry>
   <title>“Going somewhere, Solo?”</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/greedo-painting/" rel="alternate" type="text/html" title="&amp;#147;Going somewhere, Solo?&amp;#148;" />
+  <link href="/tiny-paintings/greedo-painting/" rel="alternate" type="text/html" title="&amp;#147;Going somewhere, Solo?&amp;#148;" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/greedo-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/greedo-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-greedo-lg.jpg&quot; alt=&quot;&#147;Going somewhere, Solo?&#148; feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/greedo-painting</id>
+  <content type="html" xml:base="/tiny-paintings/greedo-painting/">
+    &lt;img src=&quot;/images/painting-greedo-lg.jpg&quot; alt=&quot;&#147;Going somewhere, Solo?&#148; feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of Greedo from &lt;strong&gt;Star Wars&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot;. Patience is one thing I struggle with when painting so small. Trying to rush things along really screwed me in a few places. That and leaving too much water on my brush…&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-greedo-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-greedo-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-greedo-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-greedo-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Sketching everything out before painting.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -717,7 +1005,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -748,22 +1036,22 @@
   
     <entry>
   <title>“Charming to the last”</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/grand-moff-tarkin-painting/" rel="alternate" type="text/html" title="&amp;#147;Charming to the last&amp;#148;" />
+  <link href="/tiny-paintings/grand-moff-tarkin-painting/" rel="alternate" type="text/html" title="&amp;#147;Charming to the last&amp;#148;" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/grand-moff-tarkin-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/grand-moff-tarkin-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-grand-moff-tarkin-lg.jpg&quot; alt=&quot;&#147;Charming to the last&#148; feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/grand-moff-tarkin-painting</id>
+  <content type="html" xml:base="/tiny-paintings/grand-moff-tarkin-painting/">
+    &lt;img src=&quot;/images/painting-grand-moff-tarkin-lg.jpg&quot; alt=&quot;&#147;Charming to the last&#148; feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of Grand Moff Tarkin from &lt;strong&gt;Star Wars&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot; and was completed about 3 hours. Was convinced he was going to resemble Magneto by the end of it, but was able to pull it together once the color started to flow.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-grand-moff-tarkin-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-grand-moff-tarkin-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-grand-moff-tarkin-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-grand-moff-tarkin-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Starting with a pencil sketch.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -777,7 +1065,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -808,16 +1096,16 @@
   
     <entry>
   <title>Pig Lizard</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/gamorrean-guard-painting/" rel="alternate" type="text/html" title="Pig Lizard" />
+  <link href="/tiny-paintings/gamorrean-guard-painting/" rel="alternate" type="text/html" title="Pig Lizard" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/gamorrean-guard-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/gamorrean-guard-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-gamorrean-guard-lg.jpg&quot; alt=&quot;Pig Lizard feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/gamorrean-guard-painting</id>
+  <content type="html" xml:base="/tiny-paintings/gamorrean-guard-painting/">
+    &lt;img src=&quot;/images/painting-gamorrean-guard-lg.jpg&quot; alt=&quot;Pig Lizard feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of a Gamorrean Guard from &lt;strong&gt;Return of the Jedi&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot;. Ended up a little more illustrative than realistic, but I’ll take it.&lt;/p&gt;
@@ -832,7 +1120,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -863,22 +1151,22 @@
   
     <entry>
   <title>Sexy Saxophone</title>
-  <link href="https://richarizardd.github.io/tiny-paintings/bith-painting/" rel="alternate" type="text/html" title="Sexy Saxophone" />
+  <link href="/tiny-paintings/bith-painting/" rel="alternate" type="text/html" title="Sexy Saxophone" />
   <published>2015-10-16T00:00:00-04:00</published>
 
   
     <updated>2015-10-16T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/tiny-paintings/bith-painting</id>
-  <content type="html" xml:base="https://richarizardd.github.io/tiny-paintings/bith-painting/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/painting-bith-lg.jpg&quot; alt=&quot;Sexy Saxophone feature&quot;&gt;&lt;br/&gt;
+  <id>/tiny-paintings/bith-painting</id>
+  <content type="html" xml:base="/tiny-paintings/bith-painting/">
+    &lt;img src=&quot;/images/painting-bith-lg.jpg&quot; alt=&quot;Sexy Saxophone feature&quot;&gt;&lt;br/&gt;
     &lt;p&gt;Tiny portrait of a Bith from &lt;strong&gt;Star Wars&lt;/strong&gt;. Painted with watercolor on hot press paper.&lt;/p&gt;
 
 &lt;p&gt;Final painting measures 1.5&quot; x 1.5&quot;. There sure are a lot of fun freaks from the Mos Eisley Cantina scene to choose from. Could have greatly benefited from a clear reference photograph…&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://richarizardd.github.io/images/painting-bith-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;https://richarizardd.github.io/images/painting-bith-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/painting-bith-process-1-lg.jpg&quot;&gt;&lt;img src=&quot;/images/painting-bith-process-1-900.jpg&quot; alt=&quot;Work in process&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;In progress...&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -892,7 +1180,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -922,353 +1210,37 @@
 
   
     <entry>
-  <title>Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks</title>
-  <link href="https://richarizardd.github.io/projects/icm4/" rel="alternate" type="text/html" title="Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks" />
-  <published>2015-10-14T00:00:00-04:00</published>
-
-  
-    <updated>2015-10-14T00:00:00-04:00</updated>
-  
-
-  <id>https://richarizardd.github.io/projects/icm4</id>
-  <content type="html" xml:base="https://richarizardd.github.io/projects/icm4/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/icm4-feature.jpg&quot; alt=&quot;Resememblance of Epileptiform Activity in Small Neuronal Networks with Large Neuronal Networks feature&quot;&gt;&lt;br/&gt;
-    &lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Epilepsy is an important neurological disease characterized by episodes of uncontrollable, vigorous, neuroelectrical activity called seizures, and affects 60 million people worldwide. To better understand the mechanisms and cause of this disease, scientists have long been trying to develop models for this disease. The seminal paper by Segal et al in 1990 was one of the first to characterize the epileptiform activity of cell cultures in vitro. By allowing neurons to form small networks (some of them as small as two neurons) in vitro, scientists can study epileptiform activity and analyze synaptic actions in a simplified, reduced system. In this report, we develop a computational two-neuron network based on the work of Av-ron et al and Rinzel. Through this computational model, we seek to replicate and analyze the results obtained by Segal et al.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Background&lt;/h2&gt;
-&lt;h4 class=&quot;section-heading&quot;&gt;Original Hodgkin Huxley Model&lt;/h4&gt;
-&lt;p&gt;Hodgkin and Huxley were the first scientists to develop a mathematical model to describe the initiation and propagation of action potentials in neurons. The model is a set of differential equations with parameters depending on the dynamics of the gating and activation of ion channels, the conductance of the ion channels, the reversal potential of each type of ions, the membrane potential etc. A brief summary of the model is as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;I = \frac{C_{m}dV_{m}}{dt} + g_{K}n^{4}(V_{m} - V_{K}) + g_{Na}m^{3}h(V_{m} - V_{Na}) + g_{l}(V_{m} - V_{l})&lt;/script&gt; &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{dn}{dt} = \alpha_{n}(V_{m})(1 - n) + \beta_{n}(V_{m})n&lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{dm}{dt} = \alpha_{m}(V_{m})(1 - m) + \beta_{m}(V_{m})m&lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{dl}{dt} = \alpha_{l}(V_{m})(1 - l) + \beta_{l}(V_{m})l&lt;/script&gt;
-
-&lt;p&gt;where n, m and h concerns the activation of potassium channels, the activation of Na Channels, the inactivation of Na Channels respectively. The rate constants alpha and beta are given by the following functions of membrane potential:&lt;/p&gt;
-
-&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \alpha_{p}(V_{m}) = \dfrac{p_{\infty}(V_{m})}{\tau_{p}}&quot;&gt;&lt;/div&gt;
-
-&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle \beta_{p}(V_{m}) = \dfrac{1-p_{\infty}(V_{m})}{\tau_{p}}&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Please come back soon! This page is still in development. Mainly wrote this page to figure out Katex. :)&lt;/p&gt;
-
-&lt;!-- The Normal Distribution --&gt;
-&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&gt;&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-
-    // grab all elements in DOM with the class &#39;equation&#39;
-    var tex = document.getElementsByClassName(&quot;equation&quot;);
-
-    // for each element, render the expression attribute
-    Array.prototype.forEach.call(tex, function(el) {
-        katex.render(el.getAttribute(&quot;data-expr&quot;), el);
-    });
-
-&lt;/script&gt;
-
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>https://richarizardd.github.io/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="neuronal networks" />
-  
-    <category term="modeling" />
-  
-    <category term="computational medicine" />
-  
-
-  
-    <summary type="text">Introduction to Computational Medicine I</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>1: Faster algorithms for string matching problems: matching the convolution bound</title>
-  <link href="https://richarizardd.github.io/academic-musings/dontcares/" rel="alternate" type="text/html" title="#1: Faster algorithms for string matching problems: matching the convolution bound" />
-  <published>2015-10-10T00:00:00-04:00</published>
-
-  
-    <updated>2015-10-10T00:00:00-04:00</updated>
-  
-
-  <id>https://richarizardd.github.io/academic-musings/dontcares</id>
-  <content type="html" xml:base="https://richarizardd.github.io/academic-musings/dontcares/">
-    
-    &lt;p&gt;This is the first post in a series of many, where I’m going to read a paper everyday, and share my thoughts really quick on it. Because I want to develop this habit, not every post will be polished (certainly not the first few), but hopefully as I post more often, I’ll learn how to post more!&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;This paper gives a O(nlogn)-time Monte Carlo algorithm for the “string matching with don’t cares” problem (&lt;em&gt;-matching), which searches for degenerate patterns of P in degenerate patterns of T. The “&lt;/em&gt;” character is a placeholder that can represent any character in an alphabet. This problem is very similar to approximate matching using hamming distance. The novelty of the paper is that they are using a randomized boolean convolution, which allows their algorithm to matche the Fast Fourier Transform bound.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;This paper is definitely interesting, and while this field is incredibly new to me, you can bet this isn’t the last time I’ll be looking at this problem. I’ll keep this post short, but perhaps in the future I’ll summarize this paper/field better in a blog, and give it the attention it deserves.&lt;/p&gt;
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>https://richarizardd.github.io/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="sequencing" />
-  
-    <category term="genomics" />
-  
-
-  
-    <summary type="text">Piotr Indyk</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
-  <link href="https://richarizardd.github.io/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
-  <published>2015-09-11T00:00:00-04:00</published>
-
-  
-    <updated>2015-10-19T14:47:05-04:00</updated>
-  
-
-  <id>https://richarizardd.github.io/mastering-paper/paper-3-features</id>
-  <content type="html" xml:base="https://richarizardd.github.io/mastering-paper/paper-3-features/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-feature.jpg&quot; alt=&quot;New Paper by FiftyThree 3.0 Features I Can’t Live Without feature&quot;&gt;&lt;br/&gt;
-    &lt;p&gt;The hashtag &lt;a href=&quot;https://twitter.com/hashtag/createanywhere&quot;&gt;#CreateAnywhere&lt;/a&gt; takes on greater meaning now that &lt;a href=&quot;http://www.fiftythree.com/paper&quot;&gt;&lt;strong&gt;Paper by FiftyThree&lt;/strong&gt;&lt;/a&gt; is available for iPhone — a device I &lt;em&gt;always have with me&lt;/em&gt;. Not only that but with a new set of tricks up its sleeve, Paper is quickly becoming a productivity powerhouse.&lt;/p&gt;
-
-&lt;p&gt;Here’s some of my favorites additions found in the 3.0 update…&lt;/p&gt;
-
-&lt;nav class=&quot;js-toc toc&quot;&gt;
-  &lt;h4 class=&quot;toc__title&quot;&gt;&lt;span&gt;Table of Contents&lt;/span&gt;&lt;/h4&gt;
-&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#universal-paper-app&quot; id=&quot;markdown-toc-universal-paper-app&quot;&gt;Universal Paper App&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#importing-images&quot; id=&quot;markdown-toc-importing-images&quot;&gt;Importing Images&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#rotating-ideas&quot; id=&quot;markdown-toc-rotating-ideas&quot;&gt;Rotating Ideas&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#journals-replaced-with-spaces&quot; id=&quot;markdown-toc-journals-replaced-with-spaces&quot;&gt;Journals Replaced with “Spaces”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#other-new-additions&quot; id=&quot;markdown-toc-other-new-additions&quot;&gt;Other New Additions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/nav&gt;
-
-&lt;h2 id=&quot;universal-paper-app&quot;&gt;Universal Paper App&lt;/h2&gt;
-
-&lt;p&gt;Yes, you’ve read correctly — Paper is now a universal iOS app that works on both iPad and iPhone. Every time I open Paper on my iPhone 5s I’m amazed all of the features found on the iPad version made the journey over. Much like the complete UI overhaul in &lt;a href=&quot;http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher&quot;&gt;version 1.6.1&lt;/a&gt;, I got the sense that the team at FiftyThree re-evaluated every bit of the app for 3.0. Even if that meant modifying a few of Paper’s defining characteristics&lt;sup id=&quot;fnref:changes&quot;&gt;&lt;a href=&quot;#fn:changes&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in order to make the overall experience more intuitive and fluid.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-store.jpg&quot; alt=&quot;Paper 3.0 App Store screenshot&quot; /&gt;
-  &lt;figcaption&gt;Paper 3.0 for iPad/iPhone/iPod available in the App Store for free. &lt;a href=&quot;https://itunes.apple.com/us/app/id506003812&quot;&gt;Get it now!&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;importing-images&quot;&gt;Importing Images&lt;/h2&gt;
-
-&lt;p&gt;Love it or hate it (stick me in the love it camp), you can finally import images into Paper by FiftyThree! Tap the camera icon and you can either snap a picture or choose one from your photo library to place on the canvas.&lt;/p&gt;
-
-&lt;p&gt;Currently you are limited to one photo per idea — but you can scale it, rotate it, and even call-out an area of interest with a new &lt;a href=&quot;http://blog.fiftythree.com/posts/annotate-spotlight-photos&quot;&gt;&lt;em&gt;Spotlight option&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-photo-import.jpg&quot; alt=&quot;Importing photos into Paper 3.0&quot; /&gt;
-  &lt;figcaption&gt;Importing photos in Paper for iPad and iPhone.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’m excited to use this feature as a sketching aid — drawing directly on reference images I’ve imported into Paper. There’s no way to toggle this layer off yet (&lt;em&gt;psst… FiftyThree engineers if you’re reading&lt;/em&gt;), but it’s easy enough to remove if you want to leave behind just what you’ve drawn or painted.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-clear-photo.gif&quot; alt=&quot;Clear Photo layer animation&quot; /&gt;
-  &lt;figcaption&gt;Tap and hold on the Eraser tool, tap &lt;strong&gt;Clear Photo&lt;/strong&gt;, and poof!&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;rotating-ideas&quot;&gt;Rotating Ideas&lt;/h2&gt;
-
-&lt;p&gt;What a time saver this one is. If you wanted to share ideas “right side up” you had to export to the camera roll to make the rotation edit. This worked OK for sharing on social media but not so much with drawings shared on Mix — you just had to live with them displaying horizontally.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-rotate-button.jpg&quot; alt=&quot;new rotate button&quot; /&gt;
-  &lt;figcaption&gt;Tap the button on the far right to rotate ideas.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In 3.0 there’s a new button conveniently located below each idea for rotating the canvas in 90 degree intervals. Horizontal and vertical ideas live in harmony together because of the new grid view. Which leads me to my next favorite thing in Paper 3.0…&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-rotate-horizontal.jpg&quot; alt=&quot;Idea that hasn&#39;t been rotated yet&quot; /&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-rotate-vertically.jpg&quot; alt=&quot;Idea rotated 90 degrees&quot; /&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-rotate-spaces.jpg&quot; alt=&quot;How rotated images appear in Paper&#39;s spaces&quot; /&gt;
-  &lt;figcaption&gt;View ideas horizontally or vertically with the tap of the new &lt;strong&gt;rotate button&lt;/strong&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;journals-replaced-with-spaces&quot;&gt;Journals Replaced with “Spaces”&lt;/h2&gt;
-
-&lt;p&gt;Paging through Paper’s digital journals might have been a good idea years ago, but with page counts in the hundreds it quickly becomes unusable. Journals transitioning into “Spaces” is one of the best things to happen to Paper since the introduction of &lt;a href=&quot;https://www.fiftythree.com/think&quot;&gt;&lt;strong&gt;Think Kit&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Instead of ideas bound together as books, they’re presented with a different UI metaphor — stacks of paper. These stacks expand into a neatly aligned grid of cards you can interact with when tapped on. I’ll tell you this much, scrolling through ideas in this way sure beats flipping back 500 plus pages to find a drawing I worked on a year ago.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/VBMt_sjEXF4?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-  &lt;figcaption&gt;Scrolling through a large stack of ideas is way more usable now.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These new “Spaces” are more accommodating of the new content types found in Paper 3.0 as well. Ideas in portrait or landscape orientation fit in perfectly with text notes and images. There’s no way any of this would be usable or look half as good as it does now if FiftyThree stuck with the book motif.&lt;/p&gt;
-
-&lt;h2 id=&quot;other-new-additions&quot;&gt;Other New Additions&lt;/h2&gt;
-
-&lt;p&gt;In my short time with the new iPad and iPhone versions I’ve come across a couple of other refinements that should make the app more pleasant to use. Feel free to add any you’ve discovered in the comment section below.&lt;/p&gt;
-
-&lt;h3 id=&quot;popular-gestures-have-dedicated-buttons-now&quot;&gt;Popular Gestures Have Dedicated Buttons Now&lt;/h3&gt;
-
-&lt;p&gt;Undoing mistakes and page management are some of the most common Paper actions I get questions about. In my experience most people had no clue you could do either — so I’m happy to see they’re more discoverable now.&lt;/p&gt;
-
-&lt;p&gt;Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping the new &lt;strong&gt;«&lt;/strong&gt; button found in the tool tray. Tap the button to step back an edit at a time or hold down to speed it up.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-rewind-button.jpg&quot; alt=&quot;Rewind button in tool tray&quot; /&gt;
-  &lt;figcaption&gt;Undo mistakes by pressing the &lt;strong&gt;&amp;lt;&amp;lt;&lt;/strong&gt; button in the upper left corner of the tool tray.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div class=&quot;notice--info&quot;&gt;
-  &lt;h4 id=&quot;protip-quick-undo-gesture&quot;&gt;ProTip: Quick Undo Gesture&lt;/h4&gt;
-  &lt;p&gt;To quickly undo a mistake double tap the screen with two fingers.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The &lt;strong&gt;• • •&lt;/strong&gt; button below each idea allows you to delete, duplicate, and move pages now. You no longer have to tap and hold an idea with one hand and do finger gymnastics with the other to move things around.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-more-button.jpg&quot; alt=&quot;more button&quot; /&gt;
-  &lt;figcaption&gt;Delete, Duplicate, and Move to Space... by tapping the &lt;strong&gt;• • •&lt;/strong&gt; button.
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;ability-to-annotate-ideas-and-create-text-notes&quot;&gt;Ability to Annotate Ideas and Create Text Notes&lt;/h3&gt;
-
-&lt;p&gt;Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I could see this coming in handy for providing context around an idea you’ve shared or to solicit feedback from followers.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-text-ideas.jpg&quot; alt=&quot;text notes in Paper&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Basic formatting of text can be achieved by &lt;a href=&quot;http://blog.fiftythree.com/posts/swipe-to-style&quot;&gt;swiping across text&lt;/a&gt; to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italize&lt;/em&gt;, and &lt;s&gt;strikethrough&lt;/s&gt; text by selecting it and tapping the right arrow followed by &lt;strong&gt;Style&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-text-styles.jpg&quot; alt=&quot;styling text in Paper&quot; /&gt;
-  &lt;figcaption&gt;Styling text in Paper 3.0.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&quot;changing-the-default-idea-type&quot;&gt;Changing the Default Idea Type&lt;/h4&gt;
-
-&lt;p&gt;You can easily switch between idea types (Canvas/Photo/Text) by tapping their corresponding icons in the tool tray. But you can also change which type is used as the default when creating a new idea.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://richarizardd.github.io/images/paper-3-idea-type-button.jpg&quot; alt=&quot;change default idea type&quot; /&gt;
-  &lt;figcaption&gt;Tap and hold on the new idea button (in this example it&#39;s a squiggle) at the bottom of the screen and select which type (Canvas, Photo, Text) you want to use as the default.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;formerly-known-as-mix&quot;&gt;Formerly Known As Mix&lt;/h3&gt;
-
-&lt;p&gt;Mix is no longer something you “pull down” to access from within Paper. The stream of ideas from the &lt;strong&gt;People You Follow&lt;/strong&gt; on Mix (or should I say PAPER now?) now appear alongside your private spaces for quicker access.&lt;/p&gt;
-
-&lt;div class=&quot;notice--info&quot;&gt;
-  &lt;h4 id=&quot;protip-see-all-your-shared-ideas&quot;&gt;ProTip: See All Your Shared Ideas&lt;/h4&gt;
-  &lt;p&gt;The &lt;em&gt;shared journal&lt;/em&gt; has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap &lt;strong&gt;Ideas&lt;/strong&gt; to see everything you’ve shared.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;OK, back to lusting over the new &lt;strong&gt;Apple Pencil&lt;/strong&gt; and waiting for the day Apple brings that technology to the smaller and cheaper iPads &lt;svg class=&quot;icon&quot;&gt;&lt;use xlink:href=&quot;#icon-wink&quot;&gt;&lt;/use&gt;&lt;/svg&gt;.&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:changes&quot;&gt;
-      &lt;p&gt;Yes the journal book view and zoom loupe have gone away. Change is good, deal with it &lt;svg class=&quot;icon&quot;&gt;&lt;use xlink:href=&quot;#icon-deal-with-it&quot;&gt;&lt;/use&gt;&lt;/svg&gt;. &lt;a href=&quot;#fnref:changes&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>https://richarizardd.github.io/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="paper by 53" />
-  
-    <category term="ipad" />
-  
-
-  
-    <summary type="text">Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more.</summary>
-  
-</entry>
-
-  
-    <entry>
   <title>Galvanic Stress Response</title>
-  <link href="https://richarizardd.github.io/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
+  <link href="/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
   <published>2015-09-11T00:00:00-04:00</published>
 
   
     <updated>2015-09-11T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/projects/hophacks2015</id>
-  <content type="html" xml:base="https://richarizardd.github.io/projects/hophacks2015/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/hophacks2015-feature.jpg&quot; alt=&quot;Galvanic Stress Response feature&quot;&gt;&lt;br/&gt;
+  <id>/projects/hophacks2015</id>
+  <content type="html" xml:base="/projects/hophacks2015/">
+    &lt;img src=&quot;/images/hophacks2015-feature.jpg&quot; alt=&quot;Galvanic Stress Response feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Autism is a spectrum disorder that affects the families of over 3.5 million people in the United States. Disabilities in Autism range from speech and language impairments to emotional outbreaks and violent breakdowns. These outbreaks manifest from being unable to communicate and address stress, which can make it hard for people suffering from this disease to live normal lives. For Autism parents, being able to monitor stress level of their children can prevent emotional outbreaks, and minimize the damaging effects of compounding stress. In the Autism community, raising a child with autism can be challenging, so we want to put an open sourced tool in the hands of guardians to better understand and help their child.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2015-chillin.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2015-chillin.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;What It Does&lt;/h2&gt;
 &lt;p&gt;The device is based on a home-brew galvanic skin response (GSR) sensor. Measuring GSR gives an easy, indirect method of gauging relative stress levels by peeking at the sympathetic nervous system. When stressed, the GSR naturally increases, and vice versa. The sensor reports data to a Raspberry Pi, which is uploaded to a hosted database. An easy to use web-app allows someone to monitor the person from anywhere, and to watch for any irregularities. If abnormal stress levels are observed, the guardian can respond appropriately.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2015-rasp.jpg&quot; /&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2015-process.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2015-rasp.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2015-process.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;How We Built It&lt;/h2&gt;
 &lt;p&gt;The GSR sensor consists of 2 electrodes integrated into an elastic wrist-band. The wrist-band, when worn, contacts the forearm on the top and bottom, providing a comfortable location to measure GSR. A unique Super-Mario “M” allows the positioning to be fun and easy. The electrodes are connected to a simple circuit to measure the GSR, and a 16-bit ADC reads the value. The digitized information is read in by the Raspberry Pi and uploaded to a hosted Mongo database.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2015-mario.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2015-mario.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Challenges We Ran Into&lt;/h2&gt;
@@ -1290,7 +1262,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -1321,16 +1293,16 @@
   
     <entry>
   <title>Mole Sniffer</title>
-  <link href="https://richarizardd.github.io/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
+  <link href="/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
   <published>2014-09-23T00:00:00-04:00</published>
 
   
     <updated>2014-09-23T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/projects/hophacks2014</id>
-  <content type="html" xml:base="https://richarizardd.github.io/projects/hophacks2014/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014-feature.jpg&quot; alt=&quot;Mole Sniffer feature&quot;&gt;&lt;br/&gt;
+  <id>/projects/hophacks2014</id>
+  <content type="html" xml:base="/projects/hophacks2014/">
+    &lt;img src=&quot;/images/hophacks2014-feature.jpg&quot; alt=&quot;Mole Sniffer feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Vision&lt;/h2&gt;
 &lt;p&gt;As a team of four biomedical engineers from Hopkins, we wanted a powerful med-tech app that would have an immediate impact in the world around us. Our vision was to benefit the largest user base in a lightweight, scale-able manner. As skin cancer is the most common cancer in the United States, there is an obvious need for a low-cost early detection system.&lt;/p&gt;
 
@@ -1340,9 +1312,9 @@
 &lt;p&gt;Mole Sniffer allows the user to quickly capture a photo of a mole. Different properties are analyzed via computer vision to detect known indicators of skin cancer. If desired, the patient can anonymously upload the photo to the cloud, where a qualified healthcare professional can provide advice.&lt;/p&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014-select.jpg&quot; /&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014-molesnif.jpg&quot; /&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014-rolymoley.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-select.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-molesnif.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-rolymoley.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Holy Moley is the application in which a health care worker can receive images and provide comments to the user, without compromising privacy.&lt;/p&gt;
@@ -1353,7 +1325,7 @@
 &lt;p&gt;We are most proud of the user experience, from the patient to the doctor. In addition, we are excited about the potential applications to other ailments and expanding to underdeveloped nations.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/hophacks2014-3rdplace.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-3rdplace.jpg&quot; /&gt;
 &lt;/figure&gt;
 
   </content>
@@ -1366,7 +1338,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -1393,16 +1365,16 @@
   
     <entry>
   <title>            An Immersion into Vinyl in      July      </title>
-  <link href="https://richarizardd.github.io/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl in | July" />
+  <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl in | July" />
   <published>2014-08-14T00:00:00-04:00</published>
 
   
     <updated>2014-08-14T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/blog/vinylimmersion</id>
-  <content type="html" xml:base="https://richarizardd.github.io/blog/vinylimmersion/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/vinylimmersion-feature.jpg&quot; alt=&quot;An Immersion into Vinyl in | July feature&quot;&gt;&lt;br/&gt;
+  <id>/blog/vinylimmersion</id>
+  <content type="html" xml:base="/blog/vinylimmersion/">
+    &lt;img src=&quot;/images/vinylimmersion-feature.jpg&quot; alt=&quot;An Immersion into Vinyl in | July feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Stepping In&lt;/h2&gt;
 &lt;p&gt;	Lured by my curiosity, I stepped into my first record shop, Dimensions Music, on August 11th, and a smell hit me – a combination of musty odors and dust that relayed to me this place has not been disturbed in a very long time. I found this shop sealed in a perfect time capsule on the corner of West Lexington Street and Park Avenue, shielded away in a bubble of anachronism from the streets of Baltimore that have withered away into phosphorescent landing strips for crime and destitution.&lt;/p&gt;
 
@@ -1410,8 +1382,8 @@
 &lt;p&gt;	The shop wasn’t dirty, but obviously ancient. A finger through any surface of the shop would amount to a lonely pile of debris. The objects for sale were records, large discs coated with polyvinyl chloride and precisely etched with the vibrations of music such that when a needle moves along the spiral grooves, it echoes the music back perfectly. These records were stored in crates neatly arranged in a government warehouse-esque operation, all lost in transcription as the only way to rummage these records was to manually pull one out. Muddled in an ocean of grey-white labeling, I decide to pull a record out of one of the crates, unbeknownst that it was an impressive-looking cover of Earth, Wind, &amp;amp; Fire’s album, “I Am.” The record’s dust jacket lived up to its name as when brushed, dust particles scattered in the air in a colloidal suspension, revealing  the full hand-drawn artwork on the album cover. 
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/vinylimmersion-ewf.jpg&quot; /&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/vinylimmersion-record.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/vinylimmersion-ewf.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/vinylimmersion-record.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 To no surprise to even the microscopic dust mites that might have found cozy living spaces in the shop, the record itself was also dusty; however, one quick wipe gleamed two iridescent conic sections at an angle of 30° that shined bright red, green blue, and white on opposite sides of the record. Against the light of an old incandescent light bulb, as I moved the record in a gentle lemniscate rotation, these bright conic sections moved with my hands around the record, revealing the full, intricate grooves of the laser etching. $15. That is how much the cashier departed with my money, as I picked up 3 Earth, Wind and Fire Albums, Gershwin’s Rhapsody in Blue, and Chuck Mangione’s “Feel So Good.” &lt;/p&gt;
@@ -1429,7 +1401,7 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -1450,16 +1422,16 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
   
     <entry>
   <title>            Making Ratatouille in      July      </title>
-  <link href="https://richarizardd.github.io/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille in | July" />
+  <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille in | July" />
   <published>2014-07-20T00:00:00-04:00</published>
 
   
     <updated>2014-07-20T00:00:00-04:00</updated>
   
 
-  <id>https://richarizardd.github.io/blog/ratatouille</id>
-  <content type="html" xml:base="https://richarizardd.github.io/blog/ratatouille/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/ratatouille-feature.jpg&quot; alt=&quot;Making Ratatouille in | July feature&quot;&gt;&lt;br/&gt;
+  <id>/blog/ratatouille</id>
+  <content type="html" xml:base="/blog/ratatouille/">
+    &lt;img src=&quot;/images/ratatouille-feature.jpg&quot; alt=&quot;Making Ratatouille in | July feature&quot;&gt;&lt;br/&gt;
     
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;iris&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; iris&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;Sepal.Width&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1518,7 +1490,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 &lt;h2 class=&quot;section-heading&quot;&gt;Finished Product!&lt;/h2&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/ratatouille-finish.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/ratatouille-finish.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I had a lot of fun making Ratatouille, and its colorful pattern and vibrant taste makes pretty great to bring to a party. I think what made this dish really stand out was the Piperade Mixture; It had a strong, spicy taste on its own, while also packed with flavor from the tomatoes. When roasted underneath the sliced vegetables, everything caramelized altogether, and it made eating these vegetables a treat. I&#39;ve never been a fan of eggplant or zuccihini, but after making this, I&#39;m going to be rethinking my old diet of chicken, curry, steamed bok choy, and Chipotle.&lt;/p&gt;
@@ -1535,7 +1507,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 
@@ -1555,17 +1527,17 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   
     <entry>
-  <title>Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
-  <link href="https://richarizardd.github.io/projects/squeez/" rel="alternate" type="text/html" title="Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
+  <title>Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction</title>
+  <link href="/projects/squeez/" rel="alternate" type="text/html" title="Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction" />
   <published>2014-01-04T00:00:00-05:00</published>
 
   
     <updated>2014-01-04T00:00:00-05:00</updated>
   
 
-  <id>https://richarizardd.github.io/projects/squeez</id>
-  <content type="html" xml:base="https://richarizardd.github.io/projects/squeez/">
-    &lt;img src=&quot;https://richarizardd.github.io/images/squeez-feature.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI feature&quot;&gt;&lt;br/&gt;
+  <id>/projects/squeez</id>
+  <content type="html" xml:base="/projects/squeez/">
+    &lt;img src=&quot;/images/squeez-feature.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Accurate identification of the extent of regional myocardial dysfunction is important in the diagnosis and management of patients with myocardial infarction. Tissue tagging MRI (tMRI) is currently the reference standard for noninvasive local cardiac function  analysis; however, it has practical drawbacks: lengthy and complicated image acquisition and analysis, long breath-holds and implanted devices are contraindicated. We have developed an algorithm for estimating regional cardiac function by tracking the LV endocardial surface called Stretch Quantification of Endocardial Engraved Zones (SQUEEZ). It produces high-resolution local function maps by tracking endocardial features such as papillary muscles and trabecular 
 structures. The objective was to investigate the correlation between SQUEEZ and myocardial strain from tMRI in acute myocardial infarction.&lt;/p&gt;
@@ -1574,8 +1546,8 @@ structures. The objective was to investigate the correlation between SQUEEZ and 
 &lt;p&gt;Myocardial infarction was created by ligation of the left anterior descending (LAD) coronary artery for 2 hours followed by reperfusion in five canines. Tagged and cine MRI scans were performed during the reperfusion phase. First-pass contrast enhanced CT scans were acquired (80 kVp, 600mA, 5-beat retrospectively gated occluded. The average delay between the CT and MRI scans was &amp;lt;1 hour. Circumferential myocardial strain (Ecc) was estimated by manual segmentation, and analysis of the tagged images using FindTags and Tagged Tissue Tracking software (Johns Hopkins University). The systolic CT images were analyzed by SQUEEZ. Since the baseline values for an akinetic segment measured by SQUEEZ=1 and Ecc=0, Ecc is compared against SQUEEZ-1.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/squeez-geometry.png&quot; /&gt;
-	&lt;img src=&quot;https://richarizardd.github.io/images/squeez-amir.png&quot; /&gt;
+	&lt;img src=&quot;/images/squeez-geometry.png&quot; /&gt;
+	&lt;img src=&quot;/images/squeez-amir.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Results&lt;/h2&gt;
@@ -1594,7 +1566,7 @@ structures. The objective was to investigate the correlation between SQUEEZ and 
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 

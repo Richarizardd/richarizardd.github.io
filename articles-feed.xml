@@ -2,14 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 
-  
-
 
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
-  <link href="https://richarizardd.github.io/articles-feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://richarizardd.github.io/" rel="alternate" type="text/html" />
-  <updated>2015-11-10T18:53:28-05:00</updated>
-  <id>https://richarizardd.github.io/</id>
+  <link href="/articles-feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2015-11-15T21:53:46-05:00</updated>
+  <id>/</id>
 
   <title>Articles - Richarizardd</title>
 
@@ -17,7 +15,7 @@
     <subtitle>Junior undergraduate at Johns Hopkins University.</subtitle>
   
 
-  <icon>https://richarizardd.github.io/apple-touch-icon-precomposed.png</icon>
+  <icon>/apple-touch-icon-precomposed.png</icon>
 
 
   
@@ -28,7 +26,7 @@
     
       <email>rchen40@jhu.edu</email>
     
-    <uri>https://richarizardd.github.io/</uri>
+    <uri>/</uri>
   </author>
 
 

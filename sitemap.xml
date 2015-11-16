@@ -1,117 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://richarizardd.github.io/blog/denovo/</loc>
+    <loc>/projects/stemcell/</loc>
+    <lastmod>2015-11-13T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/academic-musings/cdhit/</loc>
+    <lastmod>2015-11-13T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/academic-musings/SCgenomics/</loc>
+    <lastmod>2015-11-12T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/academic-musings/SCseqreview/</loc>
+    <lastmod>2015-11-11T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/academic-musings/dontcares/</loc>
+    <lastmod>2015-11-10T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/blog/denovo/</loc>
     <lastmod>2015-11-01T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/</loc>
+    <loc>/tiny-paintings/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/stormtrooper-painting/</loc>
+    <loc>/tiny-paintings/stormtrooper-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/ponda-baba-painting/</loc>
+    <loc>/tiny-paintings/ponda-baba-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/myah-graham-painting/</loc>
+    <loc>/tiny-paintings/myah-graham-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/michael-rose-painting/</loc>
+    <loc>/tiny-paintings/michael-rose-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/greedo-painting/</loc>
+    <loc>/tiny-paintings/greedo-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/grand-moff-tarkin-painting/</loc>
+    <loc>/tiny-paintings/grand-moff-tarkin-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/gamorrean-guard-painting/</loc>
+    <loc>/tiny-paintings/gamorrean-guard-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tiny-paintings/bith-painting/</loc>
+    <loc>/tiny-paintings/bith-painting/</loc>
     <lastmod>2015-10-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/projects/icm4/</loc>
-    <lastmod>2015-10-14T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://richarizardd.github.io/academic-musings/dontcares/</loc>
-    <lastmod>2015-10-10T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://richarizardd.github.io/mastering-paper/paper-3-features/</loc>
+    <loc>/projects/hophacks2015/</loc>
     <lastmod>2015-09-11T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/projects/hophacks2015/</loc>
-    <lastmod>2015-09-11T00:00:00-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://richarizardd.github.io/projects/hophacks2014/</loc>
+    <loc>/projects/hophacks2014/</loc>
     <lastmod>2014-09-23T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/vinylimmersion/</loc>
+    <loc>/blog/vinylimmersion/</loc>
     <lastmod>2014-08-14T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/ratatouille/</loc>
+    <loc>/blog/ratatouille/</loc>
     <lastmod>2014-07-20T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/projects/squeez/</loc>
+    <loc>/projects/squeez/</loc>
     <lastmod>2014-01-04T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/</loc>
+    <loc>/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/academic-musings/</loc>
+    <loc>/academic-musings/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/blog/</loc>
+    <loc>/blog/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/about/</loc>
+    <loc>/about/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/portraits/</loc>
+    <loc>/portraits/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/projects/</loc>
+    <loc>/projects/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/tag/</loc>
+    <loc>/tag/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/terms/</loc>
+    <loc>/terms/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/faqs/</loc>
+    <loc>/faqs/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/style-guide/</loc>
+    <loc>/style-guide/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/sitemap/</loc>
+    <loc>/sitemap/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/support/</loc>
+    <loc>/support/</loc>
   </url>
   <url>
-    <loc>https://richarizardd.github.io/subscribe/</loc>
+    <loc>/subscribe/</loc>
   </url>
 </urlset>
