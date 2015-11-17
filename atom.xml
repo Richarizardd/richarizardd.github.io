@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2015-11-16T19:36:50-05:00</updated>
+  <updated>2015-11-16T19:39:27-05:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -334,9 +334,7 @@
   <id>/projects/oae</id>
   <content type="html" xml:base="/projects/oae/">
     
-    &lt;p&gt;To improve medical decision-making in the emergency department (ED) of hospitals, we developed a novel respiratory device called “Respirage” for emergency triage that will accurately measure respiratory rate to within ±2 breaths per minute.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
+    &lt;figure class=&quot;half&quot;&gt;
 	&lt;img src=&quot;/images/oae-cad.png&quot; /&gt;
 	&lt;img src=&quot;/images/oae-current.jpg&quot; /&gt;
 &lt;/figure&gt;
