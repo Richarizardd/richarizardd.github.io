@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/academic-musings/stochasticblockmodeling/</loc>
-    <lastmod>2015-11-20T00:00:00-05:00</lastmod>
-  </url>
-  <url>
     <loc>/projects/stemcell/</loc>
     <lastmod>2015-11-13T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/academic-musings/cdhit%20copy/</loc>
-    <lastmod>2015-11-13T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/academic-musings/cdhit/</loc>
-    <lastmod>2015-11-13T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/academic-musings/SCgenomics/</loc>
-    <lastmod>2015-11-12T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/academic-musings/SCseqreview/</loc>
-    <lastmod>2015-11-11T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/academic-musings/dontcares/</loc>
-    <lastmod>2015-11-10T00:00:00-05:00</lastmod>
   </url>
   <url>
     <loc>/projects/oae/</loc>
