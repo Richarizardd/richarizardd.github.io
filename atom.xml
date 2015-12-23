@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2015-12-21T07:09:51-05:00</updated>
+  <updated>2015-12-23T01:27:17-05:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -30,6 +30,50 @@
   </author>
 
 
+
+  
+    <entry>
+  <title>DVD-HIT</title>
+  <link href="/projects/dvd/" rel="alternate" type="text/html" title="DVD-HIT" />
+  <published>2015-12-15T00:00:00-05:00</published>
+
+  
+    <updated>2015-12-15T00:00:00-05:00</updated>
+  
+
+  <id>/projects/dvd</id>
+  <content type="html" xml:base="/projects/dvd/">
+    
+    &lt;iframe src=&quot;https://drive.google.com/file/d/0BzHbmPo6BJOsdXl4TDh4a0l6VVU/preview&quot; width=&quot;150%&quot; height=&quot;1000x&quot;&gt;&lt;/iframe&gt;
+
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="genomics" />
+  
+    <category term="clustering" />
+  
+
+  
+    <summary type="text">Computational Genomics</summary>
+  
+</entry>
 
   
     <entry>
@@ -601,24 +645,24 @@
   <content type="html" xml:base="/projects/icm_cardiac/">
     &lt;img src=&quot;/images/icm_cardiac-feature.png&quot; alt=&quot;Cardiac Output Prediction from Arterial Blood Pressure Waveforms feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Cardiac ouput (CO) is a global blood flow parameter of interest in hemodynamics, as it indicates how efficiently the heart can meet the demands of the body. CO also serves as an important metric in diagnosing circulatory system diseases such as ischemia, hypertension, and heart failure. Unfortunately, CO cannot be measured directly in a noninvasive manner. Measurement of CO by thermodilution (TCO) involves inserting a catheter into the pulmonary artery, which is only done for critically ill patients in the intensive care unit (ICU). Algorithms in the past have sought to estimate CO from peripheral arterial blood pressure (ABP) waveforms, but no single method has emerged as a leading candidate for clinical use. In this project, we reproduced results from Sun et. al. 2009, Parlikar et al 2007, and investigated how Co-from-ABP algorithms can perform differently in evalulating ABP waveforms. Using a large number of radial ABP waveform segments from the i2b2/MIMIC2 Waveform Database, we constructed two patient cohorts: patients with chronic ischemic heart disease, and patients without chronic ischemic heart disease. Our results indicate that algorithms that measure intra-beat variations (Liljestrand &amp;amp; Zander) can accurately estimate CO in healthy patients, while algorithms that measure intra-beat variations (Parlikar) can accurately estimate CO in ischemic patients. Moreover, our analysis gives broad insight into how different Co-from-ABP algorithms can be tailored for different clinical data subtypes of patients in the ICU.&lt;/p&gt;
+&lt;p&gt;Cardiac output (CO) is a global blood flow parameter of interest in hemodynamics, as it indicates how efficiently the heart is meeting the demands of the body. CO also serves as an important metric in diagnosing circulatory system diseases such as ischemia, hypertension, and heart failure. Unfortunately, CO cannot be measured directly in a noninvasive manner. Measurement of CO by thermodilution (TCO) involves inserting a catheter into the pulmonary artery, which is only done for critically ill patients in the intensive care unit (ICU). Algorithms in the past have sought to estimate CO from peripheral arterial blood pressure (ABP) waveforms, but no single method has emerged as a leading candidate for clinical use. In this project, we reproduced results from Sun et al. 2009, Parlikar et al. 2007, and investigated how Co-from-ABP algorithms can perform differently in evaluating ABP waveforms. Using a large number of radial ABP waveform segments from the i2b2/MIMIC2 Waveform Database, we constructed two patient cohorts: patients with chronic ischemic heart disease, and patients without chronic ischemic heart disease. Our results indicate that algorithms that measure intra-beat variations (Liljestrand \&amp;amp; Zander) can accurately estimate CO in healthy patients, while algorithms that measure intra-beat variations (Parlikar) can accurately estimate CO in ischemic patients. Moreover, our analysis gives broad insight into how different Co-from-ABP algorithms can be tailored for different clinical data subtypes of patients in the ICU.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Background&lt;/h2&gt;
 &lt;h3 class=&quot;section-heading&quot;&gt;Circulatory System&lt;/h3&gt;
-&lt;p&gt;The circulatory system forms a closed loop in which blood flows to carry oxygen from the lungs to the tissues throughout the body and to carry carbon dioxide back to the lungs. Specifically, the left side of the heart pumps oxygen-rich blood into the systemic arteries and nutrients diffuse to tissue in the capillaries. The oxygen-depleted blood would then return to the heart via the systemic veins and the right side of the heart would pump this blood into the pulmonary arteries to be distributed in the lungs. The oxygen-rich blood then returns to the left side of the heart via the pulmonary veins. Blood cells transit the full circuit in about one minute.&lt;/p&gt;
+&lt;p&gt;The circulatory system forms a closed loop in which blood flows to carry oxygen from the lungs to the tissues throughout the body and to carry carbon dioxide back to the lungs. Specifically, the left side of the heart pumps oxygen-rich blood into the systemic arteries, and nutrients diffuse to tissue in the capillaries. The oxygen-depleted blood would then return to the heart via the systemic veins and the right side of the heart would pump this blood into the pulmonary arteries to be distributed in the lungs. The oxygen-rich blood then returns to the left side of the heart via the pulmonary veins. Blood cells transit the full circuit in about one minute.&lt;/p&gt;
 
 &lt;h3 class=&quot;section-heading&quot;&gt;Windkessel Model&lt;/h3&gt;
 &lt;p&gt;In the late 1800s, German physiologist Otto Frank formulated one of the earliest models of the heart and systemic arterial system, known as the Windkessel model. The Windkessel model describes the load against the heart pumping blood throughout the systemic arterial system and the relationship between blood pressure and stroke volume in the aorta, as a closed hydraulic circuit.&lt;/p&gt;
 
-&lt;p&gt;A simple model of a blood vessel assumes it has a resistance R, and that a blood flow Q is linearly proportional to the pressure drop P along the vessel. This relationship is similar to Ohm’s Law, where a drop in electric potential across the resistor is linear proportional to the voltage. In Frank’s 2-Element Windkessel model, as water is pumped into the chamber, the water both compresses the air in the pocket and pushes water out of the chamber, back to the pump. The compressibility of the air in the pocket simulates arterial compliance, the elasticity and extensibility of the major artery, as blood is pumped into it by the heart ventricle. The resistance that water encounters while leaving the Windkessel and flowing back to the pump, simulates the total peripheral resistance (TPR), the resistance to flow encountered by the blood as it flows through the arterial tree from the major arteries to capillaries, due to decreasing vessel diameter.&lt;/p&gt;
+&lt;p&gt;A simple model of a blood vessel assumes it has a resistance R, and that a blood flow Q is linearly proportional to the pressure drop P along the vessel. This relationship is similar to Ohm’s Law, where a drop in electric potential across the resistor is linear proportional to the voltage. In Frank’s 2-Element Windkessel model, as water is pumped into the chamber, the water both compresses the air in the pocket and pushes water out of the chamber, back to the pump. The compressibility of the air in the pocket simulates arterial compliance, the elasticity and extensibility of the major artery, as blood is pumped into it by the heart ventricle. The resistance that water encounters while leaving the Windkessel and flowing back to the pump, simulates the total peripheral resistance (TPR), the resistance to flow encountered by the blood as it flows through the arterial tree.&lt;/p&gt;
 
-&lt;p&gt;The basic 2-element Windkessel model calculates the exponential pressure curve determined by the systolic and diastolic phases of the cardiac cycle. The model assumes that the cardiac cycle starts at systole, and that the flow of blood in the blood vessel follows Pouseuille’s Law. As the number of elements in the model increases, the model accounts for new physiological factors. The 2-element WindKessel takes into account the effect of arterial compliance and TPR, where in the electrical analog, the arterial compliance is represented as a capacitor, and TPR is represented as an energy dissipating resistor. The flow of blood Q from the heart is analogous to current flowing in the circuit, and the blood pressure P in the aorta is mdeled as a time-varying electric potential. The following differential equation can be used to model blood flow and pressure:&lt;/p&gt;
+&lt;p&gt;The basic 2-element Windkessel model calculates the exponential pressure curve determined by the systolic and diastolic phases of the cardiac cycle. The model assumes that the cardiac cycle starts at systole, and that the flow of blood in the blood vessel follows Pouseuille’s Law. As the number of elements in the model increases, the model accounts for new physiological factors. The 2-element WindKessel takes into account the effect of arterial compliance and TPR, where in the electrical analog, the arterial compliance is represented as a capacitor, and TPR is represented as an energy dissipating resistor. The flow of blood Q from the heart is analogous to current flowing in the circuit, and the blood pressure P in the aorta is modeled as a time-varying electric potential. The following differential equation can be used to model blood flow and pressure:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;Q(t) = \frac{P(t)}{R} + C\frac{dP(t)}{dt}&lt;/script&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Materials and Methods&lt;/h2&gt;
 
-&lt;p&gt;Sun et. al. 2009 and Parlikar et. al. 2007 were used as the basis of our mathematical derivations for the intra/inter-beat averaged model.&lt;/p&gt;
+&lt;p&gt;Sun et al. 2009 and Parlikar et al. 2007 were used as the basis of our mathematical derivations for the intra/inter-beat averaged model.&lt;/p&gt;
 
 &lt;h3 class=&quot;section-heading&quot;&gt;Intra-beat Averaged Models&lt;/h3&gt;
 &lt;p&gt;The differential equation representing the Windkessel model is given by:&lt;/p&gt;
@@ -648,7 +692,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\Delta P_{n} = P(t_{n+1}) - P(t_{n})&lt;/script&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{P}_{n} = \frac{1}{T_{n}}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{P}_{n} = \frac{1}{T_{n}} \int_{t_{n}}^{t_{n+1}} P(t) dt&lt;/script&gt;
 
 &lt;p&gt;Using the CO estimation from the intra-beat average model, we can rewrite our relation over the &lt;script type=&quot;math/tex&quot;&gt;n^{th}&lt;/script&gt; cycle.&lt;/p&gt;
 
@@ -673,10 +717,10 @@
 &lt;p&gt;The only inter-beat averaged model used was the Parlikar estimator.&lt;/p&gt;
 
 &lt;h3 class=&quot;section-heading&quot;&gt;Clinical and Waveform Data Preprocessing&lt;/h3&gt;
-&lt;p&gt;In Sun et. al 2009, we reproduced Figure 1, which plots 20 pulses of ABP waveforms. This figure also plots features such as the onset of each beat, end of systole (estimated from beat period), and end of systole (estimated from the lowest non-negative slope method). In addition, we reproduced Figure 4, which plots a time series of CO from ABP measurements over a 50-hour interval. CO was estimated using the Liljestrand &amp;amp; Zander algorithm and the Parlikar algorithm in MATLAB, and then calibrated with episodic TCO measurements. Time series data for Pulse Pressure (PP), Mean Arterial Pressure (MAP), and Heart Rate (HR) were also plotted. Each subplot is annotated with a stem plot of values taken from TPR.&lt;/p&gt;
+&lt;p&gt;In Sun et al. 2009, we reproduced “Figure 1,” which plots 20 pulses of ABP waveforms. This figure also plots features such as the onset of each beat, end of systole (estimated from beat period), and end of systole (estimated from the lowest non-negative slope method). In addition, we reproduced “Figure 4,” which plots a time series of CO from ABP measurements over a 50-hour interval. CO was estimated using the Liljestrand &amp;amp; Zander algorithm and the Parlikar algorithm in MATLAB, and then calibrated with episodic TCO measurements. Time series data for Pulse Pressure (PP), Mean Arterial Pressure (MAP), and Heart Rate (HR) were also plotted. Each subplot is annotated with a stem plot of values taken from TPR.&lt;/p&gt;
 
 &lt;h4 class=&quot;section-heading&quot;&gt;Figure 1 Sun et al 2009&lt;/h4&gt;
-&lt;p&gt;To replicate Figure 1 in Sun et al 2009, in MATLAB, we  extracted ABP waveform data of Patient 20 (s200) from the MIMIC2 Waveform Database. In the text file, the first column represents the time (in seconds) at which ABP is sampled, and the second column represents ABP values in mmHG. Each row represents a sample taken in a sphygmomanometer, and Sun et. al. 2009 estimates that the waveform data has a sample rate of 125. To obtain the first 20 pulses starting at the 10th hour, we noted that there are 4500000 samples in 10 hours, and that about 1250 samples were needed to capture the first 20 pulses of ABP waveforms. These calculations (samples to hours, hours to samples) were used to index and subset through the waveform text file in MATlab. The function wabpresults obtains the onset sample time of the pulse in MATlab. From the onset of the pulse (trough), we used the function abpfeature to calculate an ABP Feature Matrix, which contains end of systole times from both systole estimators.&lt;/p&gt;
+&lt;p&gt;To replicate Figure 1 in Sun et al. 2009, in MATLAB, we extracted ABP waveform data of Patient 20 (s200) from the MIMIC2 Waveform Database. In the text file, the first column represents the time (in seconds) at which ABP is sampled, and the second column represents ABP values in mmHG. Each row represents a sample taken in a sphygmomanometer, and Sun et al. 2009 estimates that the waveform data has a sample rate of 125. To obtain the first 20 pulses starting at the 10th hour, we noted that there are 4500000 samples in 10 hours, and that about 1250 samples were needed to capture the first 20 pulses of ABP waveforms. These calculations (samples to hours, hours to samples) were used to index and subset through the waveform text file in MATLAB. The function wabpresults obtains the onset sample time of the pulse in MATlab. From the onset of the pulse (trough), we used the function abpfeature to calculate an ABP Feature Matrix, which contains end of systole times from both systole estimators.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
 	&lt;img src=&quot;/images/icm_cardiac-0.png&quot; /&gt;
@@ -685,11 +729,11 @@
 &lt;p&gt;From these calculations, we plotted a time series of ABP waveforms with markers for the onset and end of systole times. Empirically, when we graphed the time series with 1250 samples, we only captured a fraction of the 20 pulses. The trough in a ABP waveform models the heart muscle resting between each pulse; as a result, we used a for loop was used to iteratively increase the sample rate until wabpresults returned a vector of 20 onset sample times. This procedure was repeated for Patient 20 starting at 11 hours, Patient 138, Patient 214, and Patient 217.&lt;/p&gt;
 
 &lt;h4 class=&quot;section-heading&quot;&gt;Figure 4 Sun et al 2009&lt;/h4&gt;
-&lt;p&gt;For the first 12 hours, similar to Figure 1, we found onset sample times for pulse using wadpresults, and calculated the ABP Feature Matrix using abpfeature. The function jSQI returns a binary signal quality assessment of each beat from the ABP Feature Matrix and onset sample times, with “0” being good and “1” being bad. The function estimateCO_v3 estimates CO from the ABP Feature Matrix, jSQI binary values, onset sample times for pulse, and a switch statement for different CO estimators.&lt;/p&gt;
+&lt;p&gt;For the first 12 hours, similar to Figure 1, we found onset sample times for pulse using wadpresults, and calculated the ABP Feature Matrix using abpfeature. The function jSQI returns a binary signal quality assessment of each beat from the ABP Feature Matrix and onset sample times, with “0” being good and “1” being bad. The function estimateCOv3 estimates CO from the ABP Feature Matrix, jSQI binary values, onset sample times for pulse, and a switch statement for different CO estimators.&lt;/p&gt;
 
 &lt;p&gt;In addition to extracting ABP waveform data from the MIMIC2 Waveform Database, we also extracted clinical data from the MIMIC2 Clinical Database, which contains episodic TCO measurements. Within the clinical data text file, we extracted the time (in minutes) at which the first CO measurement occurred, and the CO measurement itself. Unlike the waveform data, where ABP measurements were not uniformly sampled, clinical data measurements were sampled every 30 seconds. By dividing the first CO measurement in the clinical data with its corresponding CO measurement in waveform data, we created a calibration factor to scale our estimated CO. For loops were used to index the samples in the ABP waveform data by time in seconds.&lt;/p&gt;
 
-&lt;p&gt;We plotted the time series of the calculated CO, PP, MAP, and HR from estimateCO_v3, in addition to stem plots of the corresponding measurements from episodic TCO. In the clinical data, most measurements of CO were 0. When the sphygmomanometer recorded a value for CO, the clinical data was subsetted to also obtain PP, MAP, and Heart Rate at that time. This procedure was reproduced with patients 20 &amp;amp; 214.&lt;/p&gt;
+&lt;p&gt;We plotted the time series of the calculated CO, PP, MAP, and HR from estimateCOv3, in addition to stem plots of the corresponding measurements from episodic TCO. In the clinical data, most measurements of CO were 0. When the sphygmomanometer recorded a value for CO, the clinical data was subsetted to also obtain PP, MAP, and Heart Rate at that time. This procedure was reproduced with patients 20 &amp;amp; 214.&lt;/p&gt;
 
 &lt;h4 class=&quot;section-heading&quot;&gt;Inter vs. Intra beat comparison&lt;/h4&gt;
 &lt;p&gt;Within i2b2, we selected 5 patients with chronic ischemic heart disease and 5 patients without chronic ischemic heart disease within our cohort. Patients were selected within i2b2 by searching for patients with the ICD9 code corresponding to chronic ischemic heart disease, and cross-checked with a patients that had CO TCO measurements.&lt;/p&gt;
@@ -700,26 +744,27 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Results &amp;amp; Discussion&lt;/h2&gt;
 &lt;h3 class=&quot;section-heading&quot;&gt;ABP Waveform Visualization &amp;amp; Measuring End of Systolic &lt;/h3&gt;
-&lt;p&gt;A goal of our project was to visually mark these key features, such as onset point times and the end of systole, as done in Figure 1 of Sun et. al. 2009. Onset point, labeled by an asterisk, was determined by our algorithm as the lowest arterial blood pressure point in each beat. This was clearly indicated in each patient waveform. The end of systole was identified in two manners: 1) 0.3 * √beat-period, and 2) the point after systolic peak with the lowest non-negative slope. These methods were indicated in the waveform plot with X’s and O’s respectively. Interestingly enough, the accuracy of both methods in identifying the end of systole among different patients vary. In patients 20, 138, 214, and 217 of our Figure 4, estimating the end of systole with the lowest non-negative slope proved to be a superior method than estimating by beat-period. Visually, the “O” in each waveform plot was typically placed at the trough of each beat, a good estimator of the end of systole. However, X’s were placed in a much less precise manner, as most clearly shown in patient 138 and 214. These X’s were placed in the rapid decrease in ABP prior to the trough.&lt;/p&gt;
+&lt;p&gt;A goal of our project was to visually mark these key features, such as onset point times and the end of systole, as done in Figure 1 of Sun et al. 2009. Onset point, labeled by an asterisk, was determined by our algorithm as the lowest arterial blood pressure point in each beat. This was clearly indicated in each patient waveform. The end of systole was identified in two manners: 1) &lt;script type=&quot;math/tex&quot;&gt;0.3 \cdot \sqrt{\text{beat-period}}&lt;/script&gt;, and 2) the point after systolic peak with the lowest non-negative slope. These methods were indicated in the waveform plot with X’s and O’s respectively. Interestingly enough, the accuracy of both methods in identifying the end of systole among different patients vary. In patients 20, 138, 214, and 217 of figure 4, estimating the end of systole with the lowest non-negative slope proved to be a superior method than estimating by beat-period. Visually, the O’s in each waveform plot was typically placed at the trough of each beat, a good estimator of the end of systole. However, X’s were placed in a much less precise manner, as most clearly shown in patient 138 and 214. These X’s were placed in the rapid decrease in ABP prior to the trough.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
 	&lt;img src=&quot;/images/icm_cardiac-1.png&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Interestingly enough, the accuracy of both methods in identifying the end of systole among different patients vary. In patients 20, 138, 214, and 217 of our Figure 4, estimating the end of systole with the lowest non-negative slope proved to be a superior method than estimating by beat-period. Visually, the “O” in each waveform plot was typically placed at the trough of each beat, a good estimator of the end of systole. However, X’s were placed in a much less precise manner, as most clearly shown in patient 138 and 214. These X’s were placed in the rapid decrease in ABP prior to the trough.&lt;/p&gt;
+&lt;p&gt;Interestingly, the accuracy of both methods in identifying the end of systole among different patients vary. In patients 20, 138, 214, and 217 of our Figure 1, estimating the end of systole with the lowest non-negative slope proved to be a superior method than estimating by beat-period. Visually, the O’s in each waveform plot was typically placed at the trough of each beat, a good estimator of the end of systole. However, X’s were placed in a much less precise manner, as most clearly shown in patient 138 and 214. These X’s were placed in the rapid decrease in ABP prior to the trough.&lt;/p&gt;
 
 &lt;p&gt;The issue with estimating the end of systole due to beat period is that this methodology is heavily parameter dependent. Every patient will vary in CO, ABP, HR etc, causing great variability in the beat period. This method faced difficulty with waveform data in patients 138 and 214 and would mark the end of systole too early due to a longer cardiac cycle. Waveform data for patient 20 and 217 was more accurately marked. Estimating the end of systole by measuring the lowest non-negative slope is the best method since troughs will have this property.&lt;/p&gt;
 
 &lt;h3 class=&quot;section-heading&quot;&gt;Comparison of Intra-beat averaged models&lt;/h3&gt;
-&lt;p&gt;Figures 1 and 3 show four plots, the continuous CO from ABP estimated by the Liljestrand algorithm, PP, MAP, and HR. Stem plots were also placed throughout the plots to represent discrete episodic thermodilution CO measurements as controls.&lt;/p&gt;
+&lt;p&gt;Figures 2 show four plots, the continuous CO from ABP estimated by the Liljestrand algorithm, PP, MAP, and HR. Stem plots were also placed throughout the plots to represent discrete episodic thermodilution CO measurements as controls.&lt;/p&gt;
+
+&lt;p&gt;Comparison between cardiac output by the Liljestrand estimator and mean arterial pressure demonstrates the superiority of the former. Compared to mean arterial pressure, the Liljestrand estimator cardiac output is more sensitive to major changes in CO and enhances the display vital signs. This estimator also unfortunately is much more sensitive to spikes, as noted throughout the plots in figure 3 of patient 20 and 214. There seems to be little correlation between heart rate and cardiac output.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
 	&lt;img src=&quot;/images/icm_cardiac-2.png&quot; /&gt;
 	&lt;img src=&quot;/images/icm_cardiac-3.png&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;These figures demonstrate a strong correlation between CO and PP. Pulse pressure and stroke volume are theoretically proportional, the amount of blood ejected from the ventricles during systole. Thus, since stroke volume times HR is CO, PP can be utilized as a predictor of CO.
-Comparison between cardiac output by the Liljestrand estimator and mean arterial pressure demonstrates the superiority of the former. Compared to mean arterial pressure, the Liljestrand estimator cardiac output is more sensitive to major changes in CO and enhances the display vital signs. This estimator also unfortunately is much more sensitive to spikes, as noted throughout the plots of patient 20 and 214. There seems to be little correlation between heart rate and cardiac output.&lt;/p&gt;
+&lt;p&gt;This figure demonstrates a strong correlation between CO and PP. Pulse pressure and stroke volume are theoretically proportional, the amount of blood ejected from the ventricles during systole. Thus, since stroke volume times HR is CO, PP can be utilized as a predictor of CO.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
 	&lt;img src=&quot;/images/icm_cardiac-4.png&quot; /&gt;
@@ -1205,24 +1250,8 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   <id>/projects/squeez</id>
   <content type="html" xml:base="/projects/squeez/">
-    &lt;img src=&quot;/images/squeez-feature.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction feature&quot;&gt;&lt;br/&gt;
-    &lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Accurate identification of the extent of regional myocardial dysfunction is important in the diagnosis and management of patients with myocardial infarction. Tissue tagging MRI (tMRI) is currently the reference standard for noninvasive local cardiac function  analysis; however, it has practical drawbacks: lengthy and complicated image acquisition and analysis, long breath-holds and implanted devices are contraindicated. We have developed an algorithm for estimating regional cardiac function by tracking the LV endocardial surface called Stretch Quantification of Endocardial Engraved Zones (SQUEEZ). It produces high-resolution local function maps by tracking endocardial features such as papillary muscles and trabecular 
-structures. The objective was to investigate the correlation between SQUEEZ and myocardial strain from tMRI in acute myocardial infarction.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Methods&lt;/h2&gt;
-&lt;p&gt;Myocardial infarction was created by ligation of the left anterior descending (LAD) coronary artery for 2 hours followed by reperfusion in five canines. Tagged and cine MRI scans were performed during the reperfusion phase. First-pass contrast enhanced CT scans were acquired (80 kVp, 600mA, 5-beat retrospectively gated occluded. The average delay between the CT and MRI scans was &amp;lt;1 hour. Circumferential myocardial strain (Ecc) was estimated by manual segmentation, and analysis of the tagged images using FindTags and Tagged Tissue Tracking software (Johns Hopkins University). The systolic CT images were analyzed by SQUEEZ. Since the baseline values for an akinetic segment measured by SQUEEZ=1 and Ecc=0, Ecc is compared against SQUEEZ-1.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;/images/squeez-geometry.png&quot; /&gt;
-	&lt;img src=&quot;/images/squeez-amir.png&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Results&lt;/h2&gt;
-&lt;p&gt;Global ejection fractions were calculated from both cine MRI and CT images for every animal (MRI: 28±4%, CT: 44±5%). For all systolic cardiac phases, Ecc and SQUEEZ values were mapped to the AHA 17-segment model and corrected for differences in global ejection fractions from CT and MRI (total of 85 segments at 5-10 time points). Analysis time was ~5 minutes for SQUEEZ and ~180 min for tMRI. Linear regression and Bland-Altman analysis was used to assess the correlation between the two metrics. The results show good agreement between (SQUEEZ-1) and Ecc: (r = 0.83, slope= 0.84, p&amp;lt;0.001). Furthermore, Bland-Altman showed a small bias of -0.003 with 95% confidence interval of 0.080.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;SQUEEZ is both accurate and precise for the estimation of regional cardiac function from CT compared to a reference standard of MRI myocardial strain.&lt;/p&gt;
+    
+    &lt;iframe src=&quot;https://drive.google.com/file/d/0BzHbmPo6BJOsQ0sxQ3g5S3A3ZXM/preview&quot; width=&quot;800x&quot; height=&quot;800x&quot;&gt;&lt;/iframe&gt;
 
   </content>
 
