@@ -1,0 +1,255 @@
+---
+layout: article
+title: "De novo shotgun assembly in | November"
+excerpt: "3rd law of assembly - Repeats are bad"
+categories: blog
+tags: [genomics, algorithms]
+toc: true
+comments: true
+featured: true
+image:
+ teaser: denovo-teaser.png
+---
+
+<h2 class="section-heading">EN.600.439 Introduction</h2>
+<p>Computational Genomics (EN.600.439) has been one of the most fun and rewarding courses I've taken at Johns Hopkins so far. It's a class that teaches you the theory behind string matching and string assembly algorithms, while also demonstrating how these algorithms have paved the way form Next Generation Sequencing. The instructor of this course is Ben Langmead, who wrote Bowtie and HISAT with Steven Salzberg at the University of Maryland and the JHU Center for Computational Biology respectively. This course is taught by the best in the field, so naturally, this course is one of the best classes Johns Hopkins has to offer. I would recommend this course to all students - from the veteraned computer science major that wants to apply the same thinking in Data Structures/Algorithms to a field like genomics, to the curious biology major that desires different perspective on genomics.</p>
+
+<p>So far in Computational Genomics, we've learned a lot about the exact and approximate matching problem using algorithms/data structures such as Boyer-Moore, k-mer indexing, q-grams, suffix arrays (Ukkonen's), FM-indexing, and dynamic programming. Right now, we're learning how to solve the shortest substring problem using overlap graphs and De Brujin's graph to assemble reads together. In one of our projects, we assembled a genome from synthetic reads De novo. This project was incredibly rewarding, as it culiminated everything we've learned so far into solving one of the biggest problems of the 21st century. Professor Langmead is a type of professor that believes in open source, and has made all of his course material public on his Github. You can obtain the same synthetic reads I assembled my genome here. In this blog, I'll be walking through my thought process in Python in solving this problem.</p>
+
+<h2 class="section-heading">0. Helper Functions</h2>
+Here are the some helper functions I wrote. The first function is a natural sort function that sorts strings with non-alphabetical characters. The second function is a "head" function that glances at the first couple of key-value pairs in a dictionary.
+{% highlight python %}
+from itertools import islice
+import re
+
+def natural_sort(l): 
+    convert = lambda text: int(text) if text.isdigit() else text.lower() 
+    alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
+    return sorted(l, key = alphanum_key)
+
+def glance(d, x):
+    return dict(islice(d.items(), 0, x))
+{% endhighlight %}
+
+
+<h2 class="section-heading">1. Parsing the reads</h2>
+We first in the reads file as a list of strings.
+{% highlight python %}
+reads_fa_file = open("f2014_hw4_reads.fa", "r")
+reads_fa = reads_fa_file.readlines()
+{% endhighlight %}
+
+There are a total of 5000 reads. Each read in the reads file is 100 nucleotides long, followed by the ID of the read in the list. We can create a dictionary that matches an ID to its corresponding read. For simplicity, these reads don't have quality values.
+{% highlight python %}
+def parse_fasta(fh):
+    fa = {}
+    name = None
+    # Part 1: compile list of lines for each sequence
+    for ln in fh:
+        if ln[0] == '>':  # new sequence
+            name = ln[1:].split()[0]
+            fa[name] = []
+        else:
+            # append nucleotides to current sequence
+            fa[name].append(ln.rstrip())
+    # Part 2: join lists into strings
+    for name, nuc_list in fa.items():
+        fa[name] = ''.join(nuc_list)  # join into one long string
+    return fa
+
+fa = parse_fasta(reads_fa)
+{% endhighlight %}
+
+Given a minimum overlap threshold, we can find reads that have an exact match between their suffix and prefix using the Z-algorithm. For this project, an arbitrary minimum overlap of 40 was given between all reads.
+{% highlight python %}
+def suffixPrefixMatch(str1, str2, min_overlap):
+    if len(str2) < min_overlap: return 0
+    str2_prefix = str2[:min_overlap]
+    str1_pos = -1
+    while True:
+        str1_pos = str1.find(str2_prefix, str1_pos + 1)
+        if str1_pos == -1: return 0
+        str1_suffix = str1[str1_pos:]
+        if str2.startswith(str1_suffix): return len(str1_suffix)
+{% endhighlight %}
+
+We were given an offline algorithm that maps each k-mer to the set of names of reads containing the k-mer. Because there is a minimum overlap of 40 nucleotides, each k-mer is at least 40 characters long. Thus, within each set, there possibly exists two reads that have suffix-prefix match of greater than 40 characters.
+{% highlight python %}
+def make_kmer_table(seqs, k):
+    table = {}  # maps k-mer to set of names of reads containing k-mer
+    for name, seq in seqs.items():
+        for i in range(0, len(seq) - k + 1):
+            kmer = seq[i:i+k]
+            if kmer not in table:
+                table[kmer] = set()
+            table[kmer].add(name)
+    return table
+
+k = 40
+table = make_kmer_table(fa, k)
+{% endhighlight %}
+
+
+<h2 class="section-heading">2. Building the overlap graph</h2>
+In this section, we build an overlap graph of each read's best buddy to the right. For each read A, we find the other read B that has the longest suffix-prefix match to the right. If there is a tie, or if the longest suffix-prefix match is < 40 nucleotides long, then A has no best buddy to the right. 
+
+First, we create a dictionary that uses all the names in the .fa file as keys, and we map these keys to an "empty" tuple. Within each set in the k-mer table, we compare each read with each other using the Z-algorithm. Though not terribly efficient, the purpose of generating the k-mer table was to reduce the total number of comparisons in finding each reads' best buddy to the right. Because overlaps are at least 40 nucleotides long, the k-mer table encompasses all possible overlaps between reads.
+
+Each read name is mapped to a tuple containing the name of the current best buddy to the right, the overlap distance, and a boolean to keep track of tie (1 = tie occured, 0 = no tie occured). In the For loop, for each set in the k-mer table, we iteratively find all best buddy to the rights. We then filter out all key-value pairs that have tied with other reads. In this case, there are only two ties, and thus, 4998 best buddy to the rights.
+{% highlight python %}
+def build_overlap_graph(fa, table, k):
+    BBR_dict = {}
+    for name in fa.keys():
+        BBR_dict[name] = (None, 0, 0) # (Name, Longest Name, Collisions)
+        
+    for neighborhoods in list(table.items()):
+        for A in list(neighborhoods[1]):
+            for B in list(neighborhoods[1]):
+                longest_match = suffixPrefixMatch(fa.get(A),fa.get(B), k)
+                if (A != B and longest_match > BBR_dict[A][1]):
+                    BBR_dict[A] = (B, longest_match, 0)
+                elif (A != B and longest_match == BBR_dict[A][1] and B != BBR_dict[A][0]):
+                    BBR_dict[A] = (B, longest_match, 1)                
+
+    ordered_keys = natural_sort(list(fa.keys())) # Obtains a list of names in order
+    BBR_triples = []
+    for name in ordered_keys:
+        if (BBR_dict[name][2] == 0):
+            BBR_triples.append((name, BBR_dict[name][0], BBR_dict[name][1]))
+
+    return BBR_triples
+{% endhighlight %}
+
+We can write our overlap graph to a file.
+{% highlight python %}
+BBR_triples = build_overlap_graph(fa, table, k)
+overlaps = open("overlaps.txt", "w")
+for triple in BBR_triples:
+    overlaps.write(str(triple[0]) + " " + str(triple[1]) + " " + str(triple[2]) + "\n")
+overlaps.close()
+{% endhighlight %}
+
+<h2 class="section-heading">3. Building unitigs</h2>
+From our overlap graph, we build unitigs (uniquely assemblable contigs), that link the IDs of our reads together using the best buddy system. We first filter our overlap graph for IDs that are also best buddy to the lefts of each other. For the IDs of two reads A and B, we ensure B is A's best buddy to the right, and A is B's best buddy to the left. Thus, within the text file, the ID for A should only show up once on the left column, and the ID for B should only show up once on the right column.
+
+We can now link our IDs of reads together to create our unitigs. We can pick ID randomly to start generating our unitigs. For illustrative purposes, we can think of the BBR and BBL dictonaries in the code as linked lists. If we pick any ID in the BBR dictioanry and iteratively find the next best buddy to the right, we're traversing forwards in the unitig. Eventually, we'll reach an ID that does not have a best buddy to the right, and that marks the end of the unitig. The BBL dictionary works the same, but traverses backwards in the unitig, and the end is marked by an ID with not best buddy to the left.
+
+We would generate these unitigs until we've looked at every read that has a best buddy. There are a total of 4 unitigs in the synthetic genome.
+{% highlight python %}
+def build_unitigs():
+    BBL = {}
+    overlaps = open("overlaps.txt", "r")
+    overlaps_txt = overlaps.readlines()
+    for line in overlaps_txt:
+        if (len(line.split()) == 3):
+            A = line.split()[0].rstrip()
+            B = line.split()[1].rstrip()
+            longest_match = int(line.split()[2].rstrip())
+            
+            if (BBL.get(B) == None or longest_match > BBL[B][1]):
+                BBL[B] = (A, longest_match, 0)
+            elif (longest_match == BBL[B][1]):
+                BBL[B] = (A, longest_match, 1)
+    
+    BBR = {}     
+    for pair in list(BBL.items()):
+        if (pair[1][2] == 0):
+            BBR[pair[1][0]] = (pair[0], pair[1][1])
+            BBL[pair[0]] = (pair[1][0], pair[1][1])
+        else:
+            BBL.pop(pair[0], None)
+    bb_keys = list(BBR.keys()) # Obtains a list of names in order
+    
+    unitigs = []
+    count = 0
+    while (bb_keys != []):
+
+        start = bb_keys.pop(0)
+        unitigs.append([start])
+        
+        next_buddy = start
+        prev_buddy = start
+        while(BBR.get(next_buddy) != None): # going forwards
+            next_buddy = BBR[next_buddy][0]   
+            unitigs[count].append(next_buddy)
+            
+            if (BBR.get(next_buddy) != None):
+                bb_keys.remove(next_buddy)
+        
+        while(BBL.get(prev_buddy) != None):
+            prev_buddy = BBL[prev_buddy][0]            
+            unitigs[count].insert(0, prev_buddy)
+            bb_keys.remove(prev_buddy)
+
+        count = count + 1
+        
+    return unitigs
+{% endhighlight %}
+
+We can write our unitigs to a file.
+{% highlight python %}
+unitigs = build_unitigs()
+unitigs_file = open("unitigs.txt", "w")
+for i in range(len(unitigs)):
+    unitigs_file.write("START UNITIG " + str(i+1) + " " + unitigs[i][0] + "\n")
+    for j in range(1,len(unitigs[i])):
+        unitigs_file.write(unitigs[i][j] + "\n")
+    unitigs_file.write("END UNITIG " + str(i+1) + "\n")
+
+unitigs_file.close()
+{% endhighlight %}
+
+<h2 class="section-heading">4. Finishing Assembly</h2>
+
+Since our unitigs are composed of IDs, we have to now translate the IDs to reads, counting the overlap between reads only once. This function returns a list of unitigs in their nucleotide form.
+{% highlight python %}
+def translate_unitigs(fa, unitigs):
+    unitig_genomes = []
+    for i in range(len(unitigs)):
+        unitig_genome = fa[unitigs[i][0]]
+        
+        for j in range(0,len(unitigs[i]) - 1):
+            curr_read = fa[unitigs[i][j]]
+            next_read = fa[unitigs[i][j+1]]
+            subset_index = suffixPrefixMatch(curr_read, next_read, 40)
+            unitig_genome = ''.join([unitig_genome, next_read[subset_index:]])
+            
+        unitig_genomes.append(unitig_genome)
+
+    return unitig_genomes
+
+unitig_genomes = translate_unitigs(fa, unitigs)
+{% endhighlight %}
+
+With out translated unitigs, we can now match the unitigs in an order that is most likely to be our synthetic genome. Because there are only four unitigs, we can use brute-force to construct an overlap matrix. The four unitigs are denoted as A, B, C, and D, in the order they are indexed in the unitig_genomes list.
+
+| |A|B|C|D|
+|:-:|:-:|:-:|:-:|:-:|
+|A|2109|0|0|99|
+|B|0|3127|1|0|
+|C|1|0|2613|99|
+|D|0|98|98|252|
+
+Aside from the unitigs that overlap with itself, there are a couple of intersting suffix-prefix matches in the matrix. 
+
+* For Unitig A, there is a suffix overlap of 99 characters with the prefix of Unitig D. It's likely the genome contains an overlap of reads "AD".
+* For Unitig B, there is no suffix-prefix overlap. There is an overlap of 1 with Unitig C, but its probably due to variance, and not an actual overlap in the genome. It's likely that B is at the end of the genome.
+* For Unitig C, there is another suffix overlap of 99 characters with the prefix of Unitig D. It's likely the genome contains an overlap of reads "CD".
+* For Unitig D, there are two suffix-prefix overlaps: Unitig B and Unitig C. It's likely the genome contains an overlap of reads "DB", "DC".
+
+Empirically, the genome is mot likely of the form "ADCDB", with Unitig D occuring twice. Success!
+{% highlight python %}
+unitig_overlaps = {}
+   
+for seq1 in unitig_genomes:
+    unitig_overlaps[seq1] = []
+    
+    for seq2 in unitig_genomes:
+        unitig_overlaps[seq1].append(suffixPrefixMatch(seq1, seq2, 0))
+
+A = unitig_genomes[0]
+AD = A + unitig_genomes[3][unitig_overlaps[unitig_genomes[0]][3]:]
+ADC = AD + unitig_genomes[2][unitig_overlaps[unitig_genomes[3]][2]:]
+ADCD = ADC + unitig_genomes[3][unitig_overlaps[unitig_genomes[2]][3]:]
+ADCDB = ADCD + unitig_genomes[1][unitig_overlaps[unitig_genomes[3]][1]:]
+{% endhighlight %}
