@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2016-04-02T23:01:48-04:00</updated>
+  <updated>2016-04-02T23:09:46-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -818,7 +818,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   <id>/projects/squeez</id>
   <content type="html" xml:base="/projects/squeez/">
-    
+    &lt;img src=&quot;/images/squeez-teaser-long.png&quot; alt=&quot;Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction feature&quot;&gt;&lt;br/&gt;
     &lt;div id=&quot;pdfWrapper&quot;&gt;
 &lt;iframe src=&quot;/images/squeez-poster.jpg&quot; width=&quot;1200px&quot; height=&quot;1145px&quot; style=&quot;border:0&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;

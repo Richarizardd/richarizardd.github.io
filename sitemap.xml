@@ -45,19 +45,19 @@
     <lastmod>2000-01-01T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>/contact/</loc>
   </url>
   <url>
     <loc>/academic-musings/</loc>
   </url>
   <url>
-    <loc>/blog/</loc>
-  </url>
-  <url>
-    <loc>/contact/</loc>
-  </url>
-  <url>
     <loc>/about/</loc>
+  </url>
+  <url>
+    <loc>/</loc>
+  </url>
+  <url>
+    <loc>/blog/</loc>
   </url>
   <url>
     <loc>/portraits/</loc>
@@ -89,5 +89,17 @@
   <url>
     <loc>/pdfjs/web/viewer.html</loc>
     <lastmod>2015-11-16T13:20:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/pdfjs-1.2.109-dist/web/viewer.html</loc>
+    <lastmod>2015-11-16T12:20:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/setuptools-18.5/setuptools/tests/indexes/test_links_priority/external.html</loc>
+    <lastmod>2015-06-18T08:36:06-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/setuptools-18.5/setuptools/tests/indexes/test_links_priority/simple/foobar/index.html</loc>
+    <lastmod>2015-06-18T08:36:06-04:00</lastmod>
   </url>
 </urlset>
