@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2016-04-02T23:09:46-04:00</updated>
+  <updated>2016-08-04T21:42:26-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -30,6 +30,45 @@
   </author>
 
 
+
+  
+    <entry>
+  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
+  <link href="/projects/camelyon/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
+  <published>2016-08-04T00:00:00-04:00</published>
+
+  
+    <updated>2016-08-04T00:00:00-04:00</updated>
+  
+
+  <id>/projects/camelyon</id>
+  <content type="html" xml:base="/projects/camelyon/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
 
   
     <entry>
@@ -848,45 +887,6 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;iris&lt;span class=&quot;o&quo
 
   
     <summary type="text">Journal of Cardiovascular Computerized Tomography</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Other Projects</title>
-  <link href="/projects/github/" rel="alternate" type="text/html" title="Other Projects" />
-  <published>2000-01-01T00:00:00-05:00</published>
-
-  
-    <updated>2000-01-01T00:00:00-05:00</updated>
-  
-
-  <id>/projects/github</id>
-  <content type="html" xml:base="/projects/github/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-
-  
-    <summary type="text">Other projects I’m working on</summary>
   
 </entry>
 

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/projects/camelyon/</loc>
+    <lastmod>2016-08-04T00:00:00-04:00</lastmod>
+  </url>
+  <url>
     <loc>/projects/hophacks2016/</loc>
     <lastmod>2016-02-09T00:00:00-05:00</lastmod>
   </url>
@@ -39,10 +43,6 @@
   <url>
     <loc>/projects/squeez/</loc>
     <lastmod>2014-01-04T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>/projects/github/</loc>
-    <lastmod>2000-01-01T00:00:00-05:00</lastmod>
   </url>
   <url>
     <loc>/contact/</loc>
