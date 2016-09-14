@@ -8,25 +8,25 @@
       
       
         
-        Making Ratatouille in | July • 
+        De novo shotgun assembly in | November • 
       
       Richarizardd
     </title>
-    <meta name="description" content="Anyone can cook! - Ratatouille">
+    <meta name="description" content="3rd law of assembly - Repeats are bad">
     
     
     	
 		<!-- Open Graph -->
 		<meta property="og:locale" content="en_US">
 		<meta property="og:type" content="article">
-		<meta property="og:title" content="Making Ratatouille in | July">
-		<meta property="og:description" content="Anyone can cook! - Ratatouille">
-		<meta property="og:url" content="/blog/ratatouille/">
-    <meta property="og:image" content="/images/ratatouille-feature.jpg">
-    <meta property="og:image" content="/images/ratatouille-teaser.jpg">
+		<meta property="og:title" content="De novo shotgun assembly in | November">
+		<meta property="og:description" content="3rd law of assembly - Repeats are bad">
+		<meta property="og:url" content="/blog/denovo/">
+    
+    <meta property="og:image" content="/images/denovo-teaser.png">
 		<meta property="og:site_name" content="Richarizardd">
 
-    <link rel="canonical" href="/blog/ratatouille/">
+    <link rel="canonical" href="/blog/denovo/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
     <link rel="stylesheet" href="/pygments.css">
@@ -125,10 +125,10 @@
 
   <article itemscope itemtype="http://schema.org/Article">
 
-    <meta itemprop="description" content="Anyone can cook! - Ratatouille">
+    <meta itemprop="description" content="3rd law of assembly - Repeats are bad">
 
     <header class="container post__header">
-      <h1 class="post__title" itemprop="name headline">Making Ratatouille in | July</h1>
+      <h1 class="post__title" itemprop="name headline">De novo shotgun assembly in | November</h1>
       
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
@@ -153,12 +153,6 @@
     </header>
 
     
-      <div class="page__hero">
-  <img class="page__hero-image" src="/images/ratatouille-feature.jpg" alt="Making Ratatouille in | July" itemprop="image">
-  
-</div>
-
-    
 
     
 
@@ -167,72 +161,282 @@
       <div class="post__inner-wrapper">
 
         <section class="post__body">
-          <h2 class="section-heading">Save me from this summer</h2>
-<p>For the better half of July, I've been stuck in a torpor - the weather here in Baltimore alternates between sunny skies to a maelstorm of  heavy rain, the summer course I'm taking, Discrete Mathematics, constantly stupefies me with proofs and theorems, and my injured hand has rendered me pretty much incapacitated. I haven't been able to properly lift and dance due to my injury, but at the same time, I haven't been able to let it heal either since I have to always write and take notes, which works the tendons and the wrist in my hand.</p>
+          <h2 class="section-heading">Preface</h2>
+<p> Wrote this to not only give my review of EN.600.439 (so far), but to also test how code highlighting would work in markdown.</p>
 
-<h2 class="section-heading">I just watched Ratatouille, okay?</h2>
-<p>However, I haven't allowed these debilitating circumstances to completely sap my motivation to try new things and be productive with what little free time I have. This weekend, I made Confit Byaldi, which is a stylized version of the french dish, Ratatouille, that was made for the movie, "Ratatouille" (Quite a mouthful to type out)! I made this dish for a friend's birthday, who was vegan, and being that I never cooked without meat before, I thought this would be really fun to try!</p>
+<h2 class="section-heading">EN.600.439 Introduction</h2>
+<p> Computational Genomics (EN.600.439) has been one of the most fun and rewarding courses I've taken at Johns Hopkins so far. It's a class that teaches you the theory behind string matching and string assembly algorithms, while also demonstrating how these algorithms have paved the way form Next Generation Sequencing. The instructor of this course is Ben Langmead, who wrote Bowtie and HISAT with Steven Salzberg at the University of Maryland and the JHU Center for Computational Biology respectively. This course is taught by the best in the field, so naturally, this course is one of the best classes Johns Hopkins has to offer. I would recommend this course to all students - from the veteraned computer science major that wants to apply the same thinking in Data Structures/Algorithms to a field like genomics, to the curious biology major that desires different perspective on genomics.</p>
 
-<p>The specific recipe I used was Bruno Albouze's Ratatouille Casserole Dish, which I liked very much. If someone like me, who has had very little cooking experience, can make it look good, you can probably too!</p>
+<p>So far in Computational Genomics, we've learned a lot about the exact and approximate matching problem using algorithms/data structures such as Boyer-Moore, k-mer indexing, q-grams, suffix arrays (Ukkonen's), FM-indexing, and dynamic programming. Right now, we're learning how to solve the shortest substring problem using overlap graphs and De Brujin's graph to assemble reads together. In one of our projects, we assembled a genome from synthetic reads De novo. This project was incredibly rewarding, as it culiminated everything we've learned so far into solving one of the biggest problems of the 21st century. Professor Langmead is a type of professor that believes in open source, and has made all of his course material public on his Github. You can obtain the same synthetic reads I assembled my genome here. In this blog, I'll be walking through my thought process in Python in solving this problem.</p>
 
-<p>A text version of his recipe if you want to copy/paste:</p>
+<h2 class="section-heading">0. Helper Functions</h2>
+<p>Here are the some helper functions I wrote. The first function is a natural sort function that sorts strings with non-alphabetical characters. The second function is a “head” function that glances at the first couple of key-value pairs in a dictionary.</p>
 
-<p><strong>Piperade Sauce</strong></p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">islice</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="k">def</span> <span class="nf">natural_sort</span><span class="p">(</span><span class="n">l</span><span class="p">):</span> 
+    <span class="n">convert</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">text</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="k">if</span> <span class="n">text</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span> <span class="k">else</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> 
+    <span class="n">alphanum_key</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">key</span><span class="p">:</span> <span class="p">[</span> <span class="n">convert</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;([0-9]+)&#39;</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span> <span class="p">]</span> 
+    <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="n">alphanum_key</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">glance</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">dict</span><span class="p">(</span><span class="n">islice</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="mi">0</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span></code></pre></div>
+
+<h2 class="section-heading">1. Parsing the reads</h2>
+<p>We first in the reads file as a list of strings.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">reads_fa_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;f2014_hw4_reads.fa&quot;</span><span class="p">,</span> <span class="s">&quot;r&quot;</span><span class="p">)</span>
+<span class="n">reads_fa</span> <span class="o">=</span> <span class="n">reads_fa_file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span></code></pre></div>
+
+<p>There are a total of 5000 reads. Each read in the reads file is 100 nucleotides long, followed by the ID of the read in the list. We can create a dictionary that matches an ID to its corresponding read. For simplicity, these reads don’t have quality values.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">parse_fasta</span><span class="p">(</span><span class="n">fh</span><span class="p">):</span>
+    <span class="n">fa</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="c"># Part 1: compile list of lines for each sequence</span>
+    <span class="k">for</span> <span class="n">ln</span> <span class="ow">in</span> <span class="n">fh</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">ln</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s">&#39;&gt;&#39;</span><span class="p">:</span>  <span class="c"># new sequence</span>
+            <span class="n">name</span> <span class="o">=</span> <span class="n">ln</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">fa</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c"># append nucleotides to current sequence</span>
+            <span class="n">fa</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ln</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+    <span class="c"># Part 2: join lists into strings</span>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">nuc_list</span> <span class="ow">in</span> <span class="n">fa</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">fa</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">nuc_list</span><span class="p">)</span>  <span class="c"># join into one long string</span>
+    <span class="k">return</span> <span class="n">fa</span>
+
+<span class="n">fa</span> <span class="o">=</span> <span class="n">parse_fasta</span><span class="p">(</span><span class="n">reads_fa</span><span class="p">)</span></code></pre></div>
+
+<p>Given a minimum overlap threshold, we can find reads that have an exact match between their suffix and prefix using the Z-algorithm. For this project, an arbitrary minimum overlap of 40 was given between all reads.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">suffixPrefixMatch</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span> <span class="n">str2</span><span class="p">,</span> <span class="n">min_overlap</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">str2</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">min_overlap</span><span class="p">:</span> <span class="k">return</span> <span class="mi">0</span>
+    <span class="n">str2_prefix</span> <span class="o">=</span> <span class="n">str2</span><span class="p">[:</span><span class="n">min_overlap</span><span class="p">]</span>
+    <span class="n">str1_pos</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">str1_pos</span> <span class="o">=</span> <span class="n">str1</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">str2_prefix</span><span class="p">,</span> <span class="n">str1_pos</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">str1_pos</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span> <span class="k">return</span> <span class="mi">0</span>
+        <span class="n">str1_suffix</span> <span class="o">=</span> <span class="n">str1</span><span class="p">[</span><span class="n">str1_pos</span><span class="p">:]</span>
+        <span class="k">if</span> <span class="n">str2</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">str1_suffix</span><span class="p">):</span> <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">str1_suffix</span><span class="p">)</span></code></pre></div>
+
+<p>We were given an offline algorithm that maps each k-mer to the set of names of reads containing the k-mer. Because there is a minimum overlap of 40 nucleotides, each k-mer is at least 40 characters long. Thus, within each set, there possibly exists two reads that have suffix-prefix match of greater than 40 characters.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">make_kmer_table</span><span class="p">(</span><span class="n">seqs</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+    <span class="n">table</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c"># maps k-mer to set of names of reads containing k-mer</span>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">seq</span> <span class="ow">in</span> <span class="n">seqs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span> <span class="o">-</span> <span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">kmer</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">k</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">kmer</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">table</span><span class="p">:</span>
+                <span class="n">table</span><span class="p">[</span><span class="n">kmer</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="n">table</span><span class="p">[</span><span class="n">kmer</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">table</span>
+
+<span class="n">k</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">table</span> <span class="o">=</span> <span class="n">make_kmer_table</span><span class="p">(</span><span class="n">fa</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span></code></pre></div>
+
+<h2 class="section-heading">2. Building the overlap graph</h2>
+<p>In this section, we build an overlap graph of each read’s best buddy to the right. For each read A, we find the other read B that has the longest suffix-prefix match to the right. If there is a tie, or if the longest suffix-prefix match is &lt; 40 nucleotides long, then A has no best buddy to the right.</p>
+
+<p>First, we create a dictionary that uses all the names in the .fa file as keys, and we map these keys to an “empty” tuple. Within each set in the k-mer table, we compare each read with each other using the Z-algorithm. Though not terribly efficient, the purpose of generating the k-mer table was to reduce the total number of comparisons in finding each reads’ best buddy to the right. Because overlaps are at least 40 nucleotides long, the k-mer table encompasses all possible overlaps between reads.</p>
+
+<p>Each read name is mapped to a tuple containing the name of the current best buddy to the right, the overlap distance, and a boolean to keep track of tie (1 = tie occured, 0 = no tie occured). In the For loop, for each set in the k-mer table, we iteratively find all best buddy to the rights. We then filter out all key-value pairs that have tied with other reads. In this case, there are only two ties, and thus, 4998 best buddy to the rights.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">build_overlap_graph</span><span class="p">(</span><span class="n">fa</span><span class="p">,</span> <span class="n">table</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+    <span class="n">BBR_dict</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">fa</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="n">BBR_dict</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="bp">None</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c"># (Name, Longest Name, Collisions)</span>
+        
+    <span class="k">for</span> <span class="n">neighborhoods</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">table</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="k">for</span> <span class="n">A</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">neighborhoods</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+            <span class="k">for</span> <span class="n">B</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">neighborhoods</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">longest_match</span> <span class="o">=</span> <span class="n">suffixPrefixMatch</span><span class="p">(</span><span class="n">fa</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">A</span><span class="p">),</span><span class="n">fa</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">B</span><span class="p">),</span> <span class="n">k</span><span class="p">)</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">A</span> <span class="o">!=</span> <span class="n">B</span> <span class="ow">and</span> <span class="n">longest_match</span> <span class="o">&gt;</span> <span class="n">BBR_dict</span><span class="p">[</span><span class="n">A</span><span class="p">][</span><span class="mi">1</span><span class="p">]):</span>
+                    <span class="n">BBR_dict</span><span class="p">[</span><span class="n">A</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">longest_match</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+                <span class="k">elif</span> <span class="p">(</span><span class="n">A</span> <span class="o">!=</span> <span class="n">B</span> <span class="ow">and</span> <span class="n">longest_match</span> <span class="o">==</span> <span class="n">BBR_dict</span><span class="p">[</span><span class="n">A</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">B</span> <span class="o">!=</span> <span class="n">BBR_dict</span><span class="p">[</span><span class="n">A</span><span class="p">][</span><span class="mi">0</span><span class="p">]):</span>
+                    <span class="n">BBR_dict</span><span class="p">[</span><span class="n">A</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">longest_match</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>                
+
+    <span class="n">ordered_keys</span> <span class="o">=</span> <span class="n">natural_sort</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">fa</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span> <span class="c"># Obtains a list of names in order</span>
+    <span class="n">BBR_triples</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">ordered_keys</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">BBR_dict</span><span class="p">[</span><span class="n">name</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">BBR_triples</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">name</span><span class="p">,</span> <span class="n">BBR_dict</span><span class="p">[</span><span class="n">name</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">BBR_dict</span><span class="p">[</span><span class="n">name</span><span class="p">][</span><span class="mi">1</span><span class="p">]))</span>
+
+    <span class="k">return</span> <span class="n">BBR_triples</span></code></pre></div>
+
+<p>We can write our overlap graph to a file.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">BBR_triples</span> <span class="o">=</span> <span class="n">build_overlap_graph</span><span class="p">(</span><span class="n">fa</span><span class="p">,</span> <span class="n">table</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="n">overlaps</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;overlaps.txt&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">triple</span> <span class="ow">in</span> <span class="n">BBR_triples</span><span class="p">:</span>
+    <span class="n">overlaps</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">triple</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">triple</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">triple</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+<span class="n">overlaps</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></div>
+
+<h2 class="section-heading">3. Building unitigs</h2>
+<p>From our overlap graph, we build unitigs (uniquely assemblable contigs), that link the IDs of our reads together using the best buddy system. We first filter our overlap graph for IDs that are also best buddy to the lefts of each other. For the IDs of two reads A and B, we ensure B is A’s best buddy to the right, and A is B’s best buddy to the left. Thus, within the text file, the ID for A should only show up once on the left column, and the ID for B should only show up once on the right column.</p>
+
+<p>We can now link our IDs of reads together to create our unitigs. We can pick ID randomly to start generating our unitigs. For illustrative purposes, we can think of the BBR and BBL dictonaries in the code as linked lists. If we pick any ID in the BBR dictioanry and iteratively find the next best buddy to the right, we’re traversing forwards in the unitig. Eventually, we’ll reach an ID that does not have a best buddy to the right, and that marks the end of the unitig. The BBL dictionary works the same, but traverses backwards in the unitig, and the end is marked by an ID with not best buddy to the left.</p>
+
+<p>We would generate these unitigs until we’ve looked at every read that has a best buddy. There are a total of 4 unitigs in the synthetic genome.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">build_unitigs</span><span class="p">():</span>
+    <span class="n">BBL</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">overlaps</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;overlaps.txt&quot;</span><span class="p">,</span> <span class="s">&quot;r&quot;</span><span class="p">)</span>
+    <span class="n">overlaps_txt</span> <span class="o">=</span> <span class="n">overlaps</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">overlaps_txt</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">())</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span>
+            <span class="n">A</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+            <span class="n">B</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+            <span class="n">longest_match</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+            
+            <span class="k">if</span> <span class="p">(</span><span class="n">BBL</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">B</span><span class="p">)</span> <span class="o">==</span> <span class="bp">None</span> <span class="ow">or</span> <span class="n">longest_match</span> <span class="o">&gt;</span> <span class="n">BBL</span><span class="p">[</span><span class="n">B</span><span class="p">][</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">BBL</span><span class="p">[</span><span class="n">B</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">longest_match</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">longest_match</span> <span class="o">==</span> <span class="n">BBL</span><span class="p">[</span><span class="n">B</span><span class="p">][</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">BBL</span><span class="p">[</span><span class="n">B</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">longest_match</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    
+    <span class="n">BBR</span> <span class="o">=</span> <span class="p">{}</span>     
+    <span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">BBL</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">BBR</span><span class="p">[</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">BBL</span><span class="p">[</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">BBL</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="n">bb_keys</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">BBR</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="c"># Obtains a list of names in order</span>
+    
+    <span class="n">unitigs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">bb_keys</span> <span class="o">!=</span> <span class="p">[]):</span>
+
+        <span class="n">start</span> <span class="o">=</span> <span class="n">bb_keys</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">unitigs</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">start</span><span class="p">])</span>
+        
+        <span class="n">next_buddy</span> <span class="o">=</span> <span class="n">start</span>
+        <span class="n">prev_buddy</span> <span class="o">=</span> <span class="n">start</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">BBR</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">next_buddy</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">):</span> <span class="c"># going forwards</span>
+            <span class="n">next_buddy</span> <span class="o">=</span> <span class="n">BBR</span><span class="p">[</span><span class="n">next_buddy</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>   
+            <span class="n">unitigs</span><span class="p">[</span><span class="n">count</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">next_buddy</span><span class="p">)</span>
+            
+            <span class="k">if</span> <span class="p">(</span><span class="n">BBR</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">next_buddy</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">):</span>
+                <span class="n">bb_keys</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">next_buddy</span><span class="p">)</span>
+        
+        <span class="k">while</span><span class="p">(</span><span class="n">BBL</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">prev_buddy</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">):</span>
+            <span class="n">prev_buddy</span> <span class="o">=</span> <span class="n">BBL</span><span class="p">[</span><span class="n">prev_buddy</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>            
+            <span class="n">unitigs</span><span class="p">[</span><span class="n">count</span><span class="p">]</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">prev_buddy</span><span class="p">)</span>
+            <span class="n">bb_keys</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">prev_buddy</span><span class="p">)</span>
+
+        <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
+        
+    <span class="k">return</span> <span class="n">unitigs</span></code></pre></div>
+
+<p>We can write our unitigs to a file.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">unitigs</span> <span class="o">=</span> <span class="n">build_unitigs</span><span class="p">()</span>
+<span class="n">unitigs_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;unitigs.txt&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">unitigs</span><span class="p">)):</span>
+    <span class="n">unitigs_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;START UNITIG &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">])):</span>
+        <span class="n">unitigs_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+    <span class="n">unitigs_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;END UNITIG &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+
+<span class="n">unitigs_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></code></pre></div>
+
+<h2 class="section-heading">4. Finishing Assembly</h2>
+
+<p>Since our unitigs are composed of IDs, we have to now translate the IDs to reads, counting the overlap between reads only once. This function returns a list of unitigs in their nucleotide form.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">translate_unitigs</span><span class="p">(</span><span class="n">fa</span><span class="p">,</span> <span class="n">unitigs</span><span class="p">):</span>
+    <span class="n">unitig_genomes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">unitigs</span><span class="p">)):</span>
+        <span class="n">unitig_genome</span> <span class="o">=</span> <span class="n">fa</span><span class="p">[</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]]</span>
+        
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">curr_read</span> <span class="o">=</span> <span class="n">fa</span><span class="p">[</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]]</span>
+            <span class="n">next_read</span> <span class="o">=</span> <span class="n">fa</span><span class="p">[</span><span class="n">unitigs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]]</span>
+            <span class="n">subset_index</span> <span class="o">=</span> <span class="n">suffixPrefixMatch</span><span class="p">(</span><span class="n">curr_read</span><span class="p">,</span> <span class="n">next_read</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+            <span class="n">unitig_genome</span> <span class="o">=</span> <span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">unitig_genome</span><span class="p">,</span> <span class="n">next_read</span><span class="p">[</span><span class="n">subset_index</span><span class="p">:]])</span>
+            
+        <span class="n">unitig_genomes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">unitig_genome</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">unitig_genomes</span>
+
+<span class="n">unitig_genomes</span> <span class="o">=</span> <span class="n">translate_unitigs</span><span class="p">(</span><span class="n">fa</span><span class="p">,</span> <span class="n">unitigs</span><span class="p">)</span></code></pre></div>
+
+<p>With out translated unitigs, we can now match the unitigs in an order that is most likely to be our synthetic genome. Because there are only four unitigs, we can use brute-force to construct an overlap matrix. The four unitigs are denoted as A, B, C, and D, in the order they are indexed in the unitig_genomes list.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">A</th>
+      <th style="text-align: center">B</th>
+      <th style="text-align: center">C</th>
+      <th style="text-align: center">D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">A</td>
+      <td style="text-align: center">2109</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">99</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">B</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">3127</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">C</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">2613</td>
+      <td style="text-align: center">99</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">D</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">98</td>
+      <td style="text-align: center">98</td>
+      <td style="text-align: center">252</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Aside from the unitigs that overlap with itself, there are a couple of intersting suffix-prefix matches in the matrix.</p>
 
 <ul>
-  <li>1 onion, peeled, and chopped</li>
-  <li>2 carrots, washed, unpeeled, and chopped</li>
-  <li>1 Tbsp butter and olive oil (if you’re making this for your vegan friend, don’t use butter!)</li>
-  <li>1 Tbsp garlic, minced</li>
-  <li>1 yellow and 1 red bell pepper, charred, peeled, seeds and ribs removed</li>
-  <li>1 poblano pepper and 2 chili peppers, charred, peeled, seeds and ribs removed</li>
-  <li>1 can crushed tomato</li>
-  <li>1 tsp herbes de Provence</li>
-  <li>salt, pepper to taste</li>
-  <li>6 fresh basil leaves, minced</li>
+  <li>For Unitig A, there is a suffix overlap of 99 characters with the prefix of Unitig D. It’s likely the genome contains an overlap of reads “AD”.</li>
+  <li>For Unitig B, there is no suffix-prefix overlap. There is an overlap of 1 with Unitig C, but its probably due to variance, and not an actual overlap in the genome. It’s likely that B is at the end of the genome.</li>
+  <li>For Unitig C, there is another suffix overlap of 99 characters with the prefix of Unitig D. It’s likely the genome contains an overlap of reads “CD”.</li>
+  <li>For Unitig D, there are two suffix-prefix overlaps: Unitig B and Unitig C. It’s likely the genome contains an overlap of reads “DB”, “DC”.</li>
 </ul>
 
-<p><strong>Sliced Vegetables</strong></p>
+<p>Empirically, the genome is mot likely of the form “ADCDB”, with Unitig D occuring twice. Success!</p>
 
-<ul>
-  <li>2 yellow squash, sliced in 1/16-in. rounds</li>
-  <li>2 zuccihinis (green sqaush), sliced in 1/16-in. rounds</li>
-  <li>2 Japanese or Chinese eggplants, sliced in 1/16-in. rounds</li>
-  <li>6 roma tomatoes, sliced into 1/16-in. rounds</li>
-</ul>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">unitig_overlaps</span> <span class="o">=</span> <span class="p">{}</span>
+   
+<span class="k">for</span> <span class="n">seq1</span> <span class="ow">in</span> <span class="n">unitig_genomes</span><span class="p">:</span>
+    <span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">seq1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    
+    <span class="k">for</span> <span class="n">seq2</span> <span class="ow">in</span> <span class="n">unitig_genomes</span><span class="p">:</span>
+        <span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">seq1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">suffixPrefixMatch</span><span class="p">(</span><span class="n">seq1</span><span class="p">,</span> <span class="n">seq2</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
 
-<p><strong>Seasoning</strong></p>
+<span class="n">A</span> <span class="o">=</span> <span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">AD</span> <span class="o">=</span> <span class="n">A</span> <span class="o">+</span> <span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">3</span><span class="p">]:]</span>
+<span class="n">ADC</span> <span class="o">=</span> <span class="n">AD</span> <span class="o">+</span> <span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">2</span><span class="p">]:]</span>
+<span class="n">ADCD</span> <span class="o">=</span> <span class="n">ADC</span> <span class="o">+</span> <span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="mi">3</span><span class="p">]:]</span>
+<span class="n">ADCDB</span> <span class="o">=</span> <span class="n">ADCD</span> <span class="o">+</span> <span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">unitig_overlaps</span><span class="p">[</span><span class="n">unitig_genomes</span><span class="p">[</span><span class="mi">3</span><span class="p">]][</span><span class="mi">1</span><span class="p">]:]</span></code></pre></div>
 
-<ul>
-  <li>2 Tbsp olive oil</li>
-  <li>1 Tsp minced garlic</li>
-  <li>1 Tsp thyme leaves, chopped</li>
-  <li>salt pepper to taste</li>
-</ul>
-
-<p>The video explains everything. Follow it, and you'll be golden. Here are just some tips that I would have found very helpful on my first attempt:</p>
-
-<ul>
-  <li>If you don’t have a gas stove, you can roast your peppers by putting it in the oven at 500 C for 40 minutes, which will also char your vegetables.</li>
-  <li>The size of the pan I used was only 9 inches in diameter, and I used 1 yellow squash, 1 zuccihini, 1 eggplant, and 3 roma tomatos, with lots of leftover slices to spare!</li>
-  <li>Make sure you get all of your vegetables to almost the exact same diameter! If your eggplant is just a little bit bigger, you won’t be able to make the beautiful fan.</li>
-</ul>
-
-<h2 class="section-heading">Finished Product!</h2>
-
-<figure class="second">
-	<img src="/images/ratatouille-finish.jpg" />
-</figure>
-
-<p>I had a lot of fun making Ratatouille, and its colorful pattern and vibrant taste makes pretty great to bring to a party. I think what made this dish really stand out was the Piperade Mixture; It had a strong, spicy taste on its own, while also packed with flavor from the tomatoes. When roasted underneath the sliced vegetables, everything caramelized altogether, and it made eating these vegetables a treat. I've never been a fan of eggplant or zuccihini, but after making this, I'm going to be rethinking my old diet of chicken, curry, steamed bok choy, and Chipotle.</p>
-
-<p>This dish was a great wake up call to an overall lethargic July. I would love to make this again if given the time, and I hope you can share this recipe as well!</p>
 
         </section>
 
         
         <div class="post__taxonomy">
-          A post about: <span class="post__taxonomy-wrapper" itemprop="keywords"> <a href="/tag/personal/" class="post__taxonomy-item" rel="tag">personal</a>,  and <a href="/tag/vinyl/" class="post__taxonomy-item" rel="tag">vinyl</a></span>
+          A post about: <span class="post__taxonomy-wrapper" itemprop="keywords"> <a href="/tag/genomics/" class="post__taxonomy-item" rel="tag">genomics</a>,  and <a href="/tag/algorithms/" class="post__taxonomy-item" rel="tag">algorithms</a></span>
 
         </div>
         
@@ -243,11 +447,11 @@
 <noscript><p>Please enable JavaScript to view the the comments.</p></noscript>
 
 <div id="disqus_loader">
-  <button onclick="load_disqus()" class="btn btn--block"><svg><use xlink:href="#icon-comments"></use></svg> <span class="disqus-comment-count comments-link" data-disqus-url="/blog/ratatouille/">Leave a Comment</span></button>
+  <button onclick="load_disqus()" class="btn btn--block"><svg><use xlink:href="#icon-comments"></use></svg> <span class="disqus-comment-count comments-link" data-disqus-url="/blog/denovo/">Leave a Comment</span></button>
   <script async>
     var disqus_shortname = 'Richarizardd';
-    var disqus_title = 'Making Ratatouille in | July';
-    var disqus_url = '/blog/ratatouille/';
+    var disqus_title = 'De novo shotgun assembly in | November';
+    var disqus_url = '/blog/denovo/';
 
     function load_disqus()
     {
@@ -282,7 +486,7 @@
   
   <span class="post__published">
     
-      <time datetime="2014-07-20T00:00:00Z" itemprop="datePublished">July 20, 2014</time>
+      <time datetime="2015-11-01T00:00:00Z" itemprop="datePublished">November 01, 2015</time>
       
     
   </span>
@@ -293,8 +497,8 @@
 
         
         <div class="post__social">
-          <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Making+Ratatouille+in+%7C+July&amp;url=/blog/ratatouille/&amp;via=" target="_blank" title="Share on Twitter"><svg><use xlink:href="#icon-twitter"></use></svg> Tweet</a>
-<a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=/blog/ratatouille/" target="_blank" title="Share on Facebook"><svg><use xlink:href="#icon-facebook"></use></svg> Share</a>
+          <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=De+novo+shotgun+assembly+in+%7C+November&amp;url=/blog/denovo/&amp;via=" target="_blank" title="Share on Twitter"><svg><use xlink:href="#icon-twitter"></use></svg> Tweet</a>
+<a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=/blog/denovo/" target="_blank" title="Share on Facebook"><svg><use xlink:href="#icon-facebook"></use></svg> Share</a>
 
         </div>
         
