@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2016-09-14T03:04:37-04:00</updated>
+  <updated>2017-12-28T14:07:08+02:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -33,17 +33,136 @@
 
   
     <entry>
-  <title>            Thoughts on Traveling in      September      </title>
-  <link href="/blog/nyc/" rel="alternate" type="text/html" title="Thoughts on Traveling in | September" />
-  <published>2016-09-06T00:00:00-04:00</published>
+  <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
+  <link href="/projects/cvpr17/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
+  <published>2017-11-15T00:00:00+02:00</published>
 
   
-    <updated>2016-09-06T00:00:00-04:00</updated>
+    <updated>2017-11-15T00:00:00+02:00</updated>
+  
+
+  <id>/projects/cvpr17</id>
+  <content type="html" xml:base="/projects/cvpr17/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+
+  
+    <summary type="text">CVPR17 Submission</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Automated pN-Stage Classification System for Breast Cancer Patients</title>
+  <link href="/projects/camelyon17/" rel="alternate" type="text/html" title="Automated pN-Stage Classification System for Breast Cancer Patients" />
+  <published>2017-04-17T00:00:00+03:00</published>
+
+  
+    <updated>2017-04-17T00:00:00+03:00</updated>
+  
+
+  <id>/projects/camelyon17</id>
+  <content type="html" xml:base="/projects/camelyon17/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+
+  
+    <summary type="text">Pathology Visions Conference 2017</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Kaleyedos</title>
+  <link href="/projects/kaleyedos/" rel="alternate" type="text/html" title="Kaleyedos" />
+  <published>2016-10-22T00:00:00+03:00</published>
+
+  
+    <updated>2016-10-22T00:00:00+03:00</updated>
+  
+
+  <id>/projects/kaleyedos</id>
+  <content type="html" xml:base="/projects/kaleyedos/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="hackathon" />
+  
+
+  
+    <summary type="text">JHU-CBID Accelerator</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Traveling in NYC #1</title>
+  <link href="/blog/nyc/" rel="alternate" type="text/html" title="Traveling in NYC #1" />
+  <published>2016-09-06T00:00:00+03:00</published>
+
+  
+    <updated>2016-09-06T00:00:00+03:00</updated>
   
 
   <id>/blog/nyc</id>
   <content type="html" xml:base="/blog/nyc/">
-    &lt;img src=&quot;/images/nyc-feature.jpg&quot; alt=&quot;Thoughts on Traveling in | September feature&quot;&gt;&lt;br/&gt;
+    &lt;img src=&quot;/images/nyc-feature.jpg&quot; alt=&quot;Traveling in NYC #1 feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;	A couple of months ago, Andy Tsai wrote a blog titled, &quot;Take Memories, Not Pictures.&quot;[1] To somewhat expound on that, here are some thoughts I have on my NYC trip and traveling in general, to serve as a possible antithesis against myself and others when posting photos on social media. &lt;/p&gt;
 
@@ -90,10 +209,10 @@
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/projects/camelyon/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-04:00</published>
+  <published>2016-08-04T00:00:00+03:00</published>
 
   
-    <updated>2016-08-04T00:00:00-04:00</updated>
+    <updated>2016-08-04T00:00:00+03:00</updated>
   
 
   <id>/projects/camelyon</id>
@@ -121,7 +240,7 @@
   
 
   
-    <summary type="text">arXiv</summary>
+    <summary type="text">3rd Annual Moffitt Anatomic Pathology Symposium</summary>
   
 </entry>
 
@@ -129,10 +248,10 @@
     <entry>
   <title>Clinical Search Index</title>
   <link href="/projects/hophacks2016/" rel="alternate" type="text/html" title="Clinical Search Index" />
-  <published>2016-02-09T00:00:00-05:00</published>
+  <published>2016-02-09T00:00:00+02:00</published>
 
   
-    <updated>2016-02-09T00:00:00-05:00</updated>
+    <updated>2016-02-09T00:00:00+02:00</updated>
   
 
   <id>/projects/hophacks2016</id>
@@ -210,10 +329,10 @@
     <entry>
   <title>DVD-HIT</title>
   <link href="/projects/dvd/" rel="alternate" type="text/html" title="DVD-HIT" />
-  <published>2015-12-15T00:00:00-05:00</published>
+  <published>2015-12-15T00:00:00+02:00</published>
 
   
-    <updated>2015-12-15T00:00:00-05:00</updated>
+    <updated>2015-12-15T00:00:00+02:00</updated>
   
 
   <id>/projects/dvd</id>
@@ -254,10 +373,10 @@
     <entry>
   <title>Variations in Glycogen Synthesis…</title>
   <link href="/projects/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis..." />
-  <published>2015-11-13T00:00:00-05:00</published>
+  <published>2015-11-13T00:00:00+02:00</published>
 
   
-    <updated>2015-11-13T00:00:00-05:00</updated>
+    <updated>2015-11-13T00:00:00+02:00</updated>
   
 
   <id>/projects/stemcell</id>
@@ -291,12 +410,12 @@
 
   
     <entry>
-  <title>            De novo shotgun assembly in      November      </title>
-  <link href="/blog/denovo/" rel="alternate" type="text/html" title="De novo shotgun assembly in | November" />
-  <published>2015-11-01T00:00:00-04:00</published>
+  <title>De novo Shotgun Assembly Tutorial</title>
+  <link href="/blog/denovo/" rel="alternate" type="text/html" title="De novo Shotgun Assembly Tutorial" />
+  <published>2015-11-01T00:00:00+02:00</published>
 
   
-    <updated>2015-11-01T00:00:00-04:00</updated>
+    <updated>2015-11-01T00:00:00+02:00</updated>
   
 
   <id>/blog/denovo</id>
@@ -605,10 +724,10 @@
     <entry>
   <title>Cardiac Output Prediction from Arterial Blood Pressure Waveforms</title>
   <link href="/projects/icm_cardiac/" rel="alternate" type="text/html" title="Cardiac Output Prediction from Arterial Blood Pressure Waveforms" />
-  <published>2015-10-14T00:00:00-04:00</published>
+  <published>2015-10-14T00:00:00+03:00</published>
 
   
-    <updated>2015-10-14T00:00:00-04:00</updated>
+    <updated>2015-10-14T00:00:00+03:00</updated>
   
 
   <id>/projects/icm_cardiac</id>
@@ -842,10 +961,10 @@
     <entry>
   <title>Galvanic Stress Response</title>
   <link href="/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
-  <published>2015-09-11T00:00:00-04:00</published>
+  <published>2015-09-11T00:00:00+03:00</published>
 
   
-    <updated>2015-09-11T00:00:00-04:00</updated>
+    <updated>2015-09-11T00:00:00+03:00</updated>
   
 
   <id>/projects/hophacks2015</id>
@@ -924,10 +1043,10 @@
     <entry>
   <title>Mole Sniffer</title>
   <link href="/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
-  <published>2014-09-23T00:00:00-04:00</published>
+  <published>2014-09-23T00:00:00+03:00</published>
 
   
-    <updated>2014-09-23T00:00:00-04:00</updated>
+    <updated>2014-09-23T00:00:00+03:00</updated>
   
 
   <id>/projects/hophacks2014</id>
@@ -994,17 +1113,17 @@
 
   
     <entry>
-  <title>            An Immersion into Vinyl in      July      </title>
-  <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl in | July" />
-  <published>2014-08-14T00:00:00-04:00</published>
+  <title>An Immersion into Vinyl</title>
+  <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl" />
+  <published>2014-08-14T00:00:00+03:00</published>
 
   
-    <updated>2014-08-14T00:00:00-04:00</updated>
+    <updated>2014-08-14T00:00:00+03:00</updated>
   
 
   <id>/blog/vinylimmersion</id>
   <content type="html" xml:base="/blog/vinylimmersion/">
-    &lt;img src=&quot;/images/vinylimmersion-feature.jpg&quot; alt=&quot;An Immersion into Vinyl in | July feature&quot;&gt;&lt;br/&gt;
+    &lt;img src=&quot;/images/vinylimmersion-feature.jpg&quot; alt=&quot;An Immersion into Vinyl feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Stepping In&lt;/h2&gt;
 &lt;p&gt;	Lured by my curiosity, I stepped into my first record shop, Dimensions Music, on August 11th, and a smell hit me – a combination of musty odors and dust that relayed to me this place has not been disturbed in a very long time. I found this shop sealed in a perfect time capsule on the corner of West Lexington Street and Park Avenue, shielded away in a bubble of anachronism from the streets of Baltimore that have withered away into phosphorescent landing strips for crime and destitution.&lt;/p&gt;
 
@@ -1051,17 +1170,17 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
 
   
     <entry>
-  <title>            Making Ratatouille in      July      </title>
-  <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille in | July" />
-  <published>2014-07-20T00:00:00-04:00</published>
+  <title>Making Ratatouille</title>
+  <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille" />
+  <published>2014-07-20T00:00:00+03:00</published>
 
   
-    <updated>2014-07-20T00:00:00-04:00</updated>
+    <updated>2014-07-20T00:00:00+03:00</updated>
   
 
   <id>/blog/ratatouille</id>
   <content type="html" xml:base="/blog/ratatouille/">
-    &lt;img src=&quot;/images/ratatouille-feature.jpg&quot; alt=&quot;Making Ratatouille in | July feature&quot;&gt;&lt;br/&gt;
+    &lt;img src=&quot;/images/ratatouille-feature.jpg&quot; alt=&quot;Making Ratatouille feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Save me from this summer&lt;/h2&gt;
 &lt;p&gt;For the better half of July, I&#39;ve been stuck in a torpor - the weather here in Baltimore alternates between sunny skies to a maelstorm of  heavy rain, the summer course I&#39;m taking, Discrete Mathematics, constantly stupefies me with proofs and theorems, and my injured hand has rendered me pretty much incapacitated. I haven&#39;t been able to properly lift and dance due to my injury, but at the same time, I haven&#39;t been able to let it heal either since I have to always write and take notes, which works the tendons and the wrist in my hand.&lt;/p&gt;
 
@@ -1143,7 +1262,7 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
   
     <category term="personal" />
   
-    <category term="vinyl" />
+    <category term="food" />
   
 
   
@@ -1155,10 +1274,10 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
     <entry>
   <title>Respirage</title>
   <link href="/projects/respirage/" rel="alternate" type="text/html" title="Respirage" />
-  <published>2014-06-15T00:00:00-04:00</published>
+  <published>2014-06-15T00:00:00+03:00</published>
 
   
-    <updated>2014-06-15T00:00:00-04:00</updated>
+    <updated>2014-06-15T00:00:00+03:00</updated>
   
 
   <id>/projects/respirage</id>
@@ -1212,10 +1331,10 @@ To no surprise to even the microscopic dust mites that might have found cozy liv
     <entry>
   <title>Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction</title>
   <link href="/projects/squeez/" rel="alternate" type="text/html" title="Quantitive Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction" />
-  <published>2014-01-04T00:00:00-05:00</published>
+  <published>2014-01-04T00:00:00+02:00</published>
 
   
-    <updated>2014-01-04T00:00:00-05:00</updated>
+    <updated>2014-01-04T00:00:00+02:00</updated>
   
 
   <id>/projects/squeez</id>
