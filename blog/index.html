@@ -22,7 +22,7 @@
 		<meta property="og:title" content="Blog Articles">
 		<meta property="og:description" content="A collection of thoughts, inspiration, mistakes, and other minutia I’ve written.">
 		<meta property="og:url" content="/blog/">
-    <meta property="og:image" content="/images/blog-feature.jpg">
+    
     
 		<meta property="og:site_name" content="Richarizardd">
 
@@ -36,6 +36,7 @@
     <link href="http://feeds.feedburner.com/MadeMistakesArticles" type="application/atom+xml" rel="alternate" title="Richarizardd &#8211; Articles">
     <link href="http://feeds.feedburner.com/MadeMistakesMasteringPaper" type="application/atom+xml" rel="alternate" title="Richarizardd &#8211; Mastering Paper">
     <link href="http://feeds.feedburner.com/MadeMistakesPaperFaces" type="application/atom+xml" rel="alternate" title="Richarizardd &#8211; PaperFaces Portraits">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -120,6 +121,8 @@
 </header>
 <!--[if lte IE 9]><div class="notice--danger center"><h4>Your browser is quite old!</h4><p>Why not <a href="http://whatbrowser.org/">upgrade to a more modern one</a> to better enjoy this site?</p></div><![endif]-->
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 <div id="main" role="main">
 
@@ -127,15 +130,59 @@
     <h1 class="post__title">Blog Articles</h1>
   </header>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<div class="w3-content w3-display-container" style="max-width:100%">
+  <img class="mySlides" src="/images/blog/feature1.jpg" style="width:100%">
+  <img class="mySlides" src="/images/blog/feature2.jpg" style="width:100%">
+  <img class="mySlides" src="/images/blog/feature3.jpg" style="width:100%">
+  <img class="mySlides" src="/images/blog/feature4.jpg" style="width:100%">
   
-    <div class="page__hero">
-  <img class="page__hero-image" src="/images/blog-feature.jpg" alt="Blog Articles" itemprop="image">
-  
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  </div>
 </div>
 
-  
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-  
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
 
   <div class="container post__content">
 
