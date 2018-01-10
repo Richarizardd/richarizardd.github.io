@@ -1,0 +1,42 @@
+---
+layout: article
+title:  "Mole Sniffer"
+excerpt: "HopHacks Fall 2014"
+categories: projects
+tags: [circuits, hackathon, android, medical devices, DIY]
+toc: true
+work: "Software Development"
+comments: true
+featured: true
+image:
+ feature: hophacks2014-feature.jpg
+ teaser: hophacks2014-teaser.png
+---
+
+<h2 class="section-heading">Vision</h2>
+As a team of four biomedical engineers from Hopkins, we wanted a powerful med-tech app that would have an immediate impact in the world around us. Our vision was to benefit the largest user base in a lightweight, scale-able manner. As skin cancer is the most common cancer in the United States, there is an obvious need for a low-cost early detection system.
+
+
+<h2 class="section-heading">How We Built It</h2>
+Our application is comprised of two parts: Mole Sniffer and Holy Moley.
+
+Mole Sniffer allows the user to quickly capture a photo of a mole. Different properties are analyzed via computer vision to detect known indicators of skin cancer. If desired, the patient can anonymously upload the photo to the cloud, where a qualified healthcare professional can provide advice.
+
+
+<figure class="third">
+	<img src="{{ site.url }}/images/hophacks2014-select.jpg">
+	<img src="{{ site.url }}/images/hophacks2014-molesnif.jpg">
+	<img src="{{ site.url }}/images/hophacks2014-rolymoley.jpg">
+</figure>
+
+Holy Moley is the application in which a health care worker can receive images and provide comments to the user, without compromising privacy.
+
+We applied the Google Android API so that our software could be utilized quickly and conveniently by millions of existing smartphones. We integrated Facebook's Parse to facilitate simple doctor-patient interaction without the hassle and costs of visits and paperwork.
+
+
+<h2 class="section-heading">Conclusion</h2>
+We are most proud of the user experience, from the patient to the doctor. In addition, we are excited about the potential applications to other ailments and expanding to underdeveloped nations.
+
+<figure class>
+	<img src="{{ site.url }}/images/hophacks2014-3rdplace.jpg">
+</figure>

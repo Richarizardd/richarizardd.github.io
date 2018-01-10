@@ -1,0 +1,10 @@
+---
+layout: external
+title:  "Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States"
+excerpt: "PLOS ONE"
+categories: research
+work: "Journal"
+external_url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142554
+image:
+ teaser: stemcell-teaser.png
+---

@@ -1,0 +1,21 @@
+<article>
+  <a class="archive__item" href="{{ site.url }}{{ post.url }}">
+
+    <div class="archive__item-body">
+      <div class="archive__item-meta">
+        {% if post.work %}
+          {{ post.work }}
+        {% else %}
+          <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% endif %}
+      </div>
+        <h1 class="archive__item-title">{{ post.title }}</h1>
+      <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+    </div>
+
+    <div class="archive__item-square">
+        <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="">
+    </div>
+
+  </a>
+</article>

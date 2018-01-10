@@ -1,0 +1,16 @@
+<footer class="colophon" role="contentinfo">
+  <nav class="container">
+    <ul class="colophon__menu">
+      <li class="colophon__menu-label">Main Menu</li>
+      <li class="colophon__menu-sep">→</li>
+      {% for link in site.data.navigation-menu %}
+        <li class="colophon__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="colophon__menu">
+      <li class="colophon__menu-item--social"><a href="https://github.com/richarizardd"><svg><use xlink:href="#icon-github"></use></svg> GitHub</a></li>
+      <li class="colophon__menu-item--social"><a href="https://www.linkedin.com/in/richardchen95"><svg><use xlink:href="#icon-linkedin"></use></svg> LinkedIn</a></li>
+    </ul>
+    <p class="colophon__copyright">&#169; 2014&#8211;{{ site.time | date: '%Y' }} Richard Chen. Used <a href="https://mademistakes.com/" title="MadeMistakes.com">Made Mistake Template</a> with Jekyll.</p>
+  </nav>
+</footer>

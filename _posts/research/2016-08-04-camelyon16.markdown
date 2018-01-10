@@ -1,0 +1,10 @@
+---
+layout: external
+title:  "Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks"
+excerpt: "3rd Annual Moffitt Anatomic Pathology Symposium"
+categories: research
+work: "Conference"
+external_url: http://arxiv.org/abs/1608.01658
+image:
+ teaser: camelyon16-teaser.png
+---
