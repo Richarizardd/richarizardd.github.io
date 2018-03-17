@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-03-13T23:06:39-04:00</updated>
+  <updated>2018-03-16T21:42:49-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -34,15 +34,15 @@
   
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
-  <link href="/research/squeez2/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
+  <link href="/research/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
   <published>2018-03-12T00:00:00-04:00</published>
 
   
     <updated>2018-03-12T00:00:00-04:00</updated>
   
 
-  <id>/research/squeez2</id>
-  <content type="html" xml:base="/research/squeez2/">
+  <id>/research/squeez_ijci</id>
+  <content type="html" xml:base="/research/squeez_ijci/">
     
     
 
@@ -63,8 +63,6 @@
 
   
 
-  
-    <category term="research" />
   
     <category term="CT" />
   
@@ -141,15 +139,15 @@
   
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
-  <link href="/research/rda/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
+  <link href="/research/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
   <published>2017-11-15T00:00:00-05:00</published>
 
   
     <updated>2017-11-15T00:00:00-05:00</updated>
   
 
-  <id>/research/rda</id>
-  <content type="html" xml:base="/research/rda/">
+  <id>/research/rda-tmi</id>
+  <content type="html" xml:base="/research/rda-tmi/">
     
     
 
@@ -171,9 +169,60 @@
   
 
   
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
 
   
-    <summary type="text">arXiv; IEEE-TMI Submission</summary>
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System</title>
+  <link href="/research/camelyon17_visions/" rel="alternate" type="text/html" title="Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System" />
+  <published>2017-10-02T00:00:00-04:00</published>
+
+  
+    <updated>2017-10-02T00:00:00-04:00</updated>
+  
+
+  <id>/research/camelyon17_visions</id>
+  <content type="html" xml:base="/research/camelyon17_visions/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">Pathology Visions Conference 2017; Abstract in Journal of Pathology Informatics</summary>
   
 </entry>
 
@@ -237,15 +286,15 @@
   
     <entry>
   <title>Automated pN-Stage Classification System for Breast Cancer Patients</title>
-  <link href="/research/camelyon17/" rel="alternate" type="text/html" title="Automated pN-Stage Classification System for Breast Cancer Patients" />
+  <link href="/research/camelyon17_isbi/" rel="alternate" type="text/html" title="Automated pN-Stage Classification System for Breast Cancer Patients" />
   <published>2017-04-17T00:00:00-04:00</published>
 
   
     <updated>2017-04-17T00:00:00-04:00</updated>
   
 
-  <id>/research/camelyon17</id>
-  <content type="html" xml:base="/research/camelyon17/">
+  <id>/research/camelyon17_isbi</id>
+  <content type="html" xml:base="/research/camelyon17_isbi/">
     
     
 
@@ -267,9 +316,60 @@
   
 
   
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
 
   
-    <summary type="text">Pathology Visions Conference 2017; 8th Place in ISBI Camelyon17 Grand Challenge</summary>
+    <summary type="text">8th Place in ISBI Camelyon17 Grand Challenge</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity</title>
+  <link href="/research/kaleyedos_dmd/" rel="alternate" type="text/html" title="Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity" />
+  <published>2017-04-11T00:00:00-04:00</published>
+
+  
+    <updated>2017-04-11T00:00:00-04:00</updated>
+  
+
+  <id>/research/kaleyedos_dmd</id>
+  <content type="html" xml:base="/research/kaleyedos_dmd/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="medical device" />
+  
+    <category term="imaging" />
+  
+    <category term="retina" />
+  
+
+  
+    <summary type="text">Grand Prize in 2017 Design of Medical Devices Conference</summary>
   
 </entry>
 
@@ -362,9 +462,15 @@
   
 
   
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
 
   
-    <summary type="text">3rd Annual Moffitt Anatomic Pathology Symposium</summary>
+    <summary type="text">arXiv</summary>
   
 </entry>
 
@@ -400,6 +506,10 @@
 
   
 
+  
+    <category term="microscopy" />
+  
+    <category term="stem cells" />
   
 
   
@@ -744,15 +854,15 @@
   
     <entry>
   <title>Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
-  <link href="/research/squeez/" rel="alternate" type="text/html" title="Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
+  <link href="/research/squeez_scct/" rel="alternate" type="text/html" title="Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
   <published>2014-01-04T00:00:00-05:00</published>
 
   
     <updated>2014-01-04T00:00:00-05:00</updated>
   
 
-  <id>/research/squeez</id>
-  <content type="html" xml:base="/research/squeez/">
+  <id>/research/squeez_scct</id>
+  <content type="html" xml:base="/research/squeez_scct/">
     
     
 
@@ -773,8 +883,6 @@
 
   
 
-  
-    <category term="research" />
   
     <category term="CT" />
   
