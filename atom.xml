@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-03-16T21:42:49-04:00</updated>
+  <updated>2018-04-11T01:01:50-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -30,6 +30,139 @@
   </author>
 
 
+
+  
+    <entry>
+  <title>Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images</title>
+  <link href="/research/rda-isbi2/" rel="alternate" type="text/html" title="Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images" />
+  <published>2018-04-06T00:00:00-04:00</published>
+
+  
+    <updated>2018-04-06T00:00:00-04:00</updated>
+  
+
+  <id>/research/rda-isbi2</id>
+  <content type="html" xml:base="/research/rda-isbi2/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">ISBI 2018</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data</title>
+  <link href="/research/rda-isbi1/" rel="alternate" type="text/html" title="Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data" />
+  <published>2018-04-06T00:00:00-04:00</published>
+
+  
+    <updated>2018-04-06T00:00:00-04:00</updated>
+  
+
+  <id>/research/rda-isbi1</id>
+  <content type="html" xml:base="/research/rda-isbi1/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">ISBI 2018</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
+  <link href="/research_select/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
+  <published>2018-03-12T00:00:00-04:00</published>
+
+  
+    <updated>2018-03-12T00:00:00-04:00</updated>
+  
+
+  <id>/research_select/squeez_ijci</id>
+  <content type="html" xml:base="/research_select/squeez_ijci/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="CT" />
+  
+    <category term="imaging" />
+  
+
+  
+    <summary type="text">International Journal of Cardiovascular Imaging</summary>
+  
+</entry>
 
   
     <entry>
@@ -148,6 +281,51 @@
 
   <id>/research/rda-tmi</id>
   <content type="html" xml:base="/research/rda-tmi/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
+  <link href="/research_select/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
+  <published>2017-11-15T00:00:00-05:00</published>
+
+  
+    <updated>2017-11-15T00:00:00-05:00</updated>
+  
+
+  <id>/research_select/rda-tmi</id>
+  <content type="html" xml:base="/research_select/rda-tmi/">
     
     
 
@@ -432,6 +610,51 @@
   
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
+  <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
+  <published>2016-08-04T00:00:00-04:00</published>
+
+  
+    <updated>2016-08-04T00:00:00-04:00</updated>
+  
+
+  <id>/research_select/camelyon16</id>
+  <content type="html" xml:base="/research_select/camelyon16/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
   <published>2016-08-04T00:00:00-04:00</published>
 
@@ -471,6 +694,49 @@
 
   
     <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
+  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <published>2015-11-13T00:00:00-05:00</published>
+
+  
+    <updated>2015-11-13T00:00:00-05:00</updated>
+  
+
+  <id>/research_select/stemcell</id>
+  <content type="html" xml:base="/research_select/stemcell/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="microscopy" />
+  
+    <category term="stem cells" />
+  
+
+  
+    <summary type="text">PLOS One</summary>
   
 </entry>
 

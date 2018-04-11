@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/research/rda-isbi2/</loc>
+<lastmod>2018-04-06T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/research/rda-isbi1/</loc>
+<lastmod>2018-04-06T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/research_select/squeez_ijci/</loc>
+<lastmod>2018-03-12T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/research/squeez_ijci/</loc>
 <lastmod>2018-03-12T00:00:00-04:00</lastmod>
 </url>
@@ -10,6 +22,10 @@
 </url>
 <url>
 <loc>/research/rda-tmi/</loc>
+<lastmod>2017-11-15T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/research_select/rda-tmi/</loc>
 <lastmod>2017-11-15T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -33,8 +49,16 @@
 <lastmod>2016-09-06T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>/research_select/camelyon16/</loc>
+<lastmod>2016-08-04T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/research/camelyon16/</loc>
 <lastmod>2016-08-04T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/research_select/stemcell/</loc>
+<lastmod>2015-11-13T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/research/stemcell/</loc>
