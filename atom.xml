@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-04-11T01:01:50-04:00</updated>
+  <updated>2018-06-20T22:45:11-07:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -33,12 +33,102 @@
 
   
     <entry>
-  <title>Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images</title>
-  <link href="/research/rda-isbi2/" rel="alternate" type="text/html" title="Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images" />
-  <published>2018-04-06T00:00:00-04:00</published>
+  <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
+  <link href="/research/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
+  <published>2018-06-01T00:00:00-07:00</published>
 
   
-    <updated>2018-04-06T00:00:00-04:00</updated>
+    <updated>2018-06-01T00:00:00-07:00</updated>
+  
+
+  <id>/research/rda-tmi</id>
+  <content type="html" xml:base="/research/rda-tmi/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">IEEE Transactions on Medical Imaging</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images</title>
+  <link href="/research/cr/" rel="alternate" type="text/html" title="Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images" />
+  <published>2018-05-22T00:00:00-07:00</published>
+
+  
+    <updated>2018-05-22T00:00:00-07:00</updated>
+  
+
+  <id>/research/cr</id>
+  <content type="html" xml:base="/research/cr/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images</title>
+  <link href="/research/rda-isbi2/" rel="alternate" type="text/html" title="Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images" />
+  <published>2018-04-06T00:00:00-07:00</published>
+
+  
+    <updated>2018-04-06T00:00:00-07:00</updated>
   
 
   <id>/research/rda-isbi2</id>
@@ -80,10 +170,10 @@
     <entry>
   <title>Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data</title>
   <link href="/research/rda-isbi1/" rel="alternate" type="text/html" title="Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data" />
-  <published>2018-04-06T00:00:00-04:00</published>
+  <published>2018-04-06T00:00:00-07:00</published>
 
   
-    <updated>2018-04-06T00:00:00-04:00</updated>
+    <updated>2018-04-06T00:00:00-07:00</updated>
   
 
   <id>/research/rda-isbi1</id>
@@ -125,10 +215,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research_select/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-04:00</published>
+  <published>2018-03-12T00:00:00-07:00</published>
 
   
-    <updated>2018-03-12T00:00:00-04:00</updated>
+    <updated>2018-03-12T00:00:00-07:00</updated>
   
 
   <id>/research_select/squeez_ijci</id>
@@ -168,10 +258,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-04:00</published>
+  <published>2018-03-12T00:00:00-07:00</published>
 
   
-    <updated>2018-03-12T00:00:00-04:00</updated>
+    <updated>2018-03-12T00:00:00-07:00</updated>
   
 
   <id>/research/squeez_ijci</id>
@@ -211,10 +301,10 @@
     <entry>
   <title>Spending Christmas in Jerusalem</title>
   <link href="/blog/shabbatchristmas/" rel="alternate" type="text/html" title="Spending Christmas in Jerusalem" />
-  <published>2017-12-27T00:00:00-05:00</published>
+  <published>2017-12-27T00:00:00-08:00</published>
 
   
-    <updated>2017-12-27T00:00:00-05:00</updated>
+    <updated>2017-12-27T00:00:00-08:00</updated>
   
 
   <id>/blog/shabbatchristmas</id>
@@ -272,56 +362,11 @@
   
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
-  <link href="/research/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2017-11-15T00:00:00-05:00</published>
-
-  
-    <updated>2017-11-15T00:00:00-05:00</updated>
-  
-
-  <id>/research/rda-tmi</id>
-  <content type="html" xml:base="/research/rda-tmi/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="endoscopy" />
-  
-
-  
-    <summary type="text">arXiv</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
   <link href="/research_select/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2017-11-15T00:00:00-05:00</published>
+  <published>2017-11-15T00:00:00-08:00</published>
 
   
-    <updated>2017-11-15T00:00:00-05:00</updated>
+    <updated>2017-11-15T00:00:00-08:00</updated>
   
 
   <id>/research_select/rda-tmi</id>
@@ -363,10 +408,10 @@
     <entry>
   <title>Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System</title>
   <link href="/research/camelyon17_visions/" rel="alternate" type="text/html" title="Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System" />
-  <published>2017-10-02T00:00:00-04:00</published>
+  <published>2017-10-02T00:00:00-07:00</published>
 
   
-    <updated>2017-10-02T00:00:00-04:00</updated>
+    <updated>2017-10-02T00:00:00-07:00</updated>
   
 
   <id>/research/camelyon17_visions</id>
@@ -408,10 +453,10 @@
     <entry>
   <title>Making Unexpected Friends in Cupertino</title>
   <link href="/blog/meatfresh/" rel="alternate" type="text/html" title="Making Unexpected Friends in Cupertino" />
-  <published>2017-08-11T00:00:00-04:00</published>
+  <published>2017-08-11T00:00:00-07:00</published>
 
   
-    <updated>2017-08-11T00:00:00-04:00</updated>
+    <updated>2017-08-11T00:00:00-07:00</updated>
   
 
   <id>/blog/meatfresh</id>
@@ -465,10 +510,10 @@
     <entry>
   <title>Automated pN-Stage Classification System for Breast Cancer Patients</title>
   <link href="/research/camelyon17_isbi/" rel="alternate" type="text/html" title="Automated pN-Stage Classification System for Breast Cancer Patients" />
-  <published>2017-04-17T00:00:00-04:00</published>
+  <published>2017-04-17T00:00:00-07:00</published>
 
   
-    <updated>2017-04-17T00:00:00-04:00</updated>
+    <updated>2017-04-17T00:00:00-07:00</updated>
   
 
   <id>/research/camelyon17_isbi</id>
@@ -510,10 +555,10 @@
     <entry>
   <title>Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity</title>
   <link href="/research/kaleyedos_dmd/" rel="alternate" type="text/html" title="Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity" />
-  <published>2017-04-11T00:00:00-04:00</published>
+  <published>2017-04-11T00:00:00-07:00</published>
 
   
-    <updated>2017-04-11T00:00:00-04:00</updated>
+    <updated>2017-04-11T00:00:00-07:00</updated>
   
 
   <id>/research/kaleyedos_dmd</id>
@@ -555,10 +600,10 @@
     <entry>
   <title>Traveling in NYC #1</title>
   <link href="/blog/nyc/" rel="alternate" type="text/html" title="Traveling in NYC #1" />
-  <published>2016-09-06T00:00:00-04:00</published>
+  <published>2016-09-06T00:00:00-07:00</published>
 
   
-    <updated>2016-09-06T00:00:00-04:00</updated>
+    <updated>2016-09-06T00:00:00-07:00</updated>
   
 
   <id>/blog/nyc</id>
@@ -611,10 +656,10 @@
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-04:00</published>
+  <published>2016-08-04T00:00:00-07:00</published>
 
   
-    <updated>2016-08-04T00:00:00-04:00</updated>
+    <updated>2016-08-04T00:00:00-07:00</updated>
   
 
   <id>/research_select/camelyon16</id>
@@ -656,10 +701,10 @@
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-04:00</published>
+  <published>2016-08-04T00:00:00-07:00</published>
 
   
-    <updated>2016-08-04T00:00:00-04:00</updated>
+    <updated>2016-08-04T00:00:00-07:00</updated>
   
 
   <id>/research/camelyon16</id>
@@ -701,10 +746,10 @@
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
   <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-05:00</published>
+  <published>2015-11-13T00:00:00-08:00</published>
 
   
-    <updated>2015-11-13T00:00:00-05:00</updated>
+    <updated>2015-11-13T00:00:00-08:00</updated>
   
 
   <id>/research_select/stemcell</id>
@@ -744,10 +789,10 @@
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
   <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-05:00</published>
+  <published>2015-11-13T00:00:00-08:00</published>
 
   
-    <updated>2015-11-13T00:00:00-05:00</updated>
+    <updated>2015-11-13T00:00:00-08:00</updated>
   
 
   <id>/research/stemcell</id>
@@ -787,7 +832,7 @@
     <entry>
   <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
   <link href="/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
-  <published>2015-09-11T00:00:00-04:00</published>
+  <published>2015-09-11T00:00:00-07:00</published>
 
   
     <updated>2015-10-19T14:47:05-04:00</updated>
@@ -972,10 +1017,10 @@
     <entry>
   <title>An Immersion into Vinyl</title>
   <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl" />
-  <published>2014-08-14T00:00:00-04:00</published>
+  <published>2014-08-14T00:00:00-07:00</published>
 
   
-    <updated>2014-08-14T00:00:00-04:00</updated>
+    <updated>2014-08-14T00:00:00-07:00</updated>
   
 
   <id>/blog/vinylimmersion</id>
@@ -1025,10 +1070,10 @@
     <entry>
   <title>Making Ratatouille</title>
   <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille" />
-  <published>2014-07-20T00:00:00-04:00</published>
+  <published>2014-07-20T00:00:00-07:00</published>
 
   
-    <updated>2014-07-20T00:00:00-04:00</updated>
+    <updated>2014-07-20T00:00:00-07:00</updated>
   
 
   <id>/blog/ratatouille</id>
@@ -1121,10 +1166,10 @@
     <entry>
   <title>Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
   <link href="/research/squeez_scct/" rel="alternate" type="text/html" title="Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
-  <published>2014-01-04T00:00:00-05:00</published>
+  <published>2014-01-04T00:00:00-08:00</published>
 
   
-    <updated>2014-01-04T00:00:00-05:00</updated>
+    <updated>2014-01-04T00:00:00-08:00</updated>
   
 
   <id>/research/squeez_scct</id>
