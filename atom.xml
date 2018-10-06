@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-06-20T22:45:11-07:00</updated>
+  <updated>2018-10-06T16:18:27-07:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -30,6 +30,186 @@
   </author>
 
 
+
+  
+    <entry>
+  <title>Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images</title>
+  <link href="/research/maskgen/" rel="alternate" type="text/html" title="Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images" />
+  <published>2018-09-29T00:00:00-07:00</published>
+
+  
+    <updated>2018-09-29T00:00:00-07:00</updated>
+  
+
+  <id>/research/maskgen</id>
+  <content type="html" xml:base="/research/maskgen/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">In Submission to: IEEE Transactions on Medical Imaging</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images</title>
+  <link href="/research/cr/" rel="alternate" type="text/html" title="Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images" />
+  <published>2018-09-13T00:00:00-07:00</published>
+
+  
+    <updated>2018-09-13T00:00:00-07:00</updated>
+  
+
+  <id>/research/cr</id>
+  <content type="html" xml:base="/research/cr/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge</title>
+  <link href="/research/camelyon17_tmi/" rel="alternate" type="text/html" title="From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge" />
+  <published>2018-08-27T00:00:00-07:00</published>
+
+  
+    <updated>2018-08-27T00:00:00-07:00</updated>
+  
+
+  <id>/research/camelyon17_tmi</id>
+  <content type="html" xml:base="/research/camelyon17_tmi/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">IEEE Transactions on Medical Imaging</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Rethinking Monocular Depth Estimation with Adversarial Training</title>
+  <link href="/research/wacv18/" rel="alternate" type="text/html" title="Rethinking Monocular Depth Estimation with Adversarial Training" />
+  <published>2018-08-22T00:00:00-07:00</published>
+
+  
+    <updated>2018-08-22T00:00:00-07:00</updated>
+  
+
+  <id>/research/wacv18</id>
+  <content type="html" xml:base="/research/wacv18/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="depth estimation" />
+  
+
+  
+    <summary type="text">In Submission to: WACV19</summary>
+  
+</entry>
 
   
     <entry>
@@ -73,141 +253,6 @@
 
   
     <summary type="text">IEEE Transactions on Medical Imaging</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images</title>
-  <link href="/research/cr/" rel="alternate" type="text/html" title="Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images" />
-  <published>2018-05-22T00:00:00-07:00</published>
-
-  
-    <updated>2018-05-22T00:00:00-07:00</updated>
-  
-
-  <id>/research/cr</id>
-  <content type="html" xml:base="/research/cr/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="endoscopy" />
-  
-
-  
-    <summary type="text">arXiv</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images</title>
-  <link href="/research/rda-isbi2/" rel="alternate" type="text/html" title="Improved Computer-Aided Polyp Localization Using Reverse Domain-Adapted Endoscopy Images" />
-  <published>2018-04-06T00:00:00-07:00</published>
-
-  
-    <updated>2018-04-06T00:00:00-07:00</updated>
-  
-
-  <id>/research/rda-isbi2</id>
-  <content type="html" xml:base="/research/rda-isbi2/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="endoscopy" />
-  
-
-  
-    <summary type="text">ISBI 2018</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data</title>
-  <link href="/research/rda-isbi1/" rel="alternate" type="text/html" title="Adversarial Training for Adapting Networks Trained on Synthetically Generated Colonoscopy Data to Real Data" />
-  <published>2018-04-06T00:00:00-07:00</published>
-
-  
-    <updated>2018-04-06T00:00:00-07:00</updated>
-  
-
-  <id>/research/rda-isbi1</id>
-  <content type="html" xml:base="/research/rda-isbi1/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="endoscopy" />
-  
-
-  
-    <summary type="text">ISBI 2018</summary>
   
 </entry>
 
@@ -406,51 +451,6 @@
 
   
     <entry>
-  <title>Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System</title>
-  <link href="/research/camelyon17_visions/" rel="alternate" type="text/html" title="Predicting pN-Stage of Breast Cancer Patients with a Fully Automated Image Analysis System" />
-  <published>2017-10-02T00:00:00-07:00</published>
-
-  
-    <updated>2017-10-02T00:00:00-07:00</updated>
-  
-
-  <id>/research/camelyon17_visions</id>
-  <content type="html" xml:base="/research/camelyon17_visions/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="pathology" />
-  
-
-  
-    <summary type="text">Pathology Visions Conference 2017; Abstract in Journal of Pathology Informatics</summary>
-  
-</entry>
-
-  
-    <entry>
   <title>Making Unexpected Friends in Cupertino</title>
   <link href="/blog/meatfresh/" rel="alternate" type="text/html" title="Making Unexpected Friends in Cupertino" />
   <published>2017-08-11T00:00:00-07:00</published>
@@ -503,51 +503,6 @@
 
   
     <summary type="text">A Serendipitious Encounter on the Cal Train</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Automated pN-Stage Classification System for Breast Cancer Patients</title>
-  <link href="/research/camelyon17_isbi/" rel="alternate" type="text/html" title="Automated pN-Stage Classification System for Breast Cancer Patients" />
-  <published>2017-04-17T00:00:00-07:00</published>
-
-  
-    <updated>2017-04-17T00:00:00-07:00</updated>
-  
-
-  <id>/research/camelyon17_isbi</id>
-  <content type="html" xml:base="/research/camelyon17_isbi/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="pathology" />
-  
-
-  
-    <summary type="text">8th Place in ISBI Camelyon17 Grand Challenge</summary>
   
 </entry>
 
@@ -655,51 +610,6 @@
   
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
-  <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-07:00</published>
-
-  
-    <updated>2016-08-04T00:00:00-07:00</updated>
-  
-
-  <id>/research_select/camelyon16</id>
-  <content type="html" xml:base="/research_select/camelyon16/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="pathology" />
-  
-
-  
-    <summary type="text">arXiv</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
   <published>2016-08-04T00:00:00-07:00</published>
 
@@ -744,16 +654,61 @@
 
   
     <entry>
+  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
+  <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
+  <published>2016-08-04T00:00:00-07:00</published>
+
+  
+    <updated>2016-08-04T00:00:00-07:00</updated>
+  
+
+  <id>/research_select/camelyon16</id>
+  <content type="html" xml:base="/research_select/camelyon16/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research_select/stemcell</id>
-  <content type="html" xml:base="/research_select/stemcell/">
+  <id>/research/stemcell</id>
+  <content type="html" xml:base="/research/stemcell/">
     
     
 
@@ -788,15 +743,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research/stemcell</id>
-  <content type="html" xml:base="/research/stemcell/">
+  <id>/research_select/stemcell</id>
+  <content type="html" xml:base="/research_select/stemcell/">
     
     
 
@@ -1159,49 +1114,6 @@
 
   
     <summary type="text">Anyone can cook! - Ratatouille</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
-  <link href="/research/squeez_scct/" rel="alternate" type="text/html" title="Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
-  <published>2014-01-04T00:00:00-08:00</published>
-
-  
-    <updated>2014-01-04T00:00:00-08:00</updated>
-  
-
-  <id>/research/squeez_scct</id>
-  <content type="html" xml:base="/research/squeez_scct/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="CT" />
-  
-    <category term="imaging" />
-  
-
-  
-    <summary type="text">9th Annual Scientific Meeting of the Society of Cardiovascular Computed Tomography; Abstract in Journal of Cardiovascular Computed Tomography</summary>
   
 </entry>
 
