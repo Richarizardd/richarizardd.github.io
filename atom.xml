@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-10-07T17:06:26-07:00</updated>
+  <updated>2018-10-07T17:09:44-07:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -117,7 +117,7 @@
   
 
   
-    <summary type="text">Physics in Medicine &amp;amp; Biology</summary>
+    <summary type="text">IOP Physics in Medicine &amp;amp; Biology</summary>
   
 </entry>
 
@@ -799,15 +799,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research_select/stemcell</id>
-  <content type="html" xml:base="/research_select/stemcell/">
+  <id>/research/stemcell</id>
+  <content type="html" xml:base="/research/stemcell/">
     
     
 
@@ -842,15 +842,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research/stemcell</id>
-  <content type="html" xml:base="/research/stemcell/">
+  <id>/research_select/stemcell</id>
+  <content type="html" xml:base="/research_select/stemcell/">
     
     
 
@@ -1213,49 +1213,6 @@
 
   
     <summary type="text">Anyone can cook! - Ratatouille</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI</title>
-  <link href="/research/squeez_scct/" rel="alternate" type="text/html" title="Quantitative Assessment of Regional Cardiac Function By SQUEEZ From 4D CT In Acute Infarction: Validation Against Circumferential Strain From Tagged MRI" />
-  <published>2014-01-04T00:00:00-08:00</published>
-
-  
-    <updated>2014-01-04T00:00:00-08:00</updated>
-  
-
-  <id>/research/squeez_scct</id>
-  <content type="html" xml:base="/research/squeez_scct/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="CT" />
-  
-    <category term="imaging" />
-  
-
-  
-    <summary type="text">9th Annual Scientific Meeting of the Society of Cardiovascular Computed Tomography; Abstract in Journal of Cardiovascular Computed Tomography</summary>
   
 </entry>
 

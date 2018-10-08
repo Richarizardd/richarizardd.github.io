@@ -61,11 +61,11 @@
 <lastmod>2016-08-04T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>/research_select/stemcell/</loc>
+<loc>/research/stemcell/</loc>
 <lastmod>2015-11-13T00:00:00-08:00</lastmod>
 </url>
 <url>
-<loc>/research/stemcell/</loc>
+<loc>/research_select/stemcell/</loc>
 <lastmod>2015-11-13T00:00:00-08:00</lastmod>
 </url>
 <url>
@@ -79,10 +79,6 @@
 <url>
 <loc>/blog/ratatouille/</loc>
 <lastmod>2014-07-20T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/research/squeez_scct/</loc>
-<lastmod>2014-01-04T00:00:00-08:00</lastmod>
 </url>
 <url>
 <loc>/portraits/</loc>
@@ -127,12 +123,6 @@
 <loc>/about/</loc>
 </url>
 <url>
-<loc>/tag/ct/</loc>
-</url>
-<url>
-<loc>/tag/imaging/</loc>
-</url>
-<url>
 <loc>/tag/personal/</loc>
 </url>
 <url>
@@ -154,6 +144,9 @@
 <loc>/tag/stem-cells/</loc>
 </url>
 <url>
+<loc>/tag/imaging/</loc>
+</url>
+<url>
 <loc>/tag/deep-learning/</loc>
 </url>
 <url>
@@ -170,6 +163,9 @@
 </url>
 <url>
 <loc>/tag/endoscopy/</loc>
+</url>
+<url>
+<loc>/tag/ct/</loc>
 </url>
 <url>
 <loc>/tag/depth-estimation/</loc>
