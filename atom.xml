@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-10-07T17:09:44-07:00</updated>
+  <updated>2018-10-12T02:34:28-07:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -344,8 +344,8 @@
 
   
     <entry>
-  <title>Perfect Shakshuka</title>
-  <link href="/blog/shakshuka/" rel="alternate" type="text/html" title="Perfect Shakshuka" />
+  <title>Shakshuka - An Ongoing Review</title>
+  <link href="/blog/shakshuka/" rel="alternate" type="text/html" title="Shakshuka - An Ongoing Review" />
   <published>2018-01-26T00:00:00-08:00</published>
 
   
@@ -354,13 +354,17 @@
 
   <id>/blog/shakshuka</id>
   <content type="html" xml:base="/blog/shakshuka/">
-    &lt;img src=&quot;/images/blog/shakshuka/feature.jpg&quot; alt=&quot;Perfect Shakshuka feature&quot;&gt;&lt;br/&gt;
-    &lt;h2 class=&quot;section-heading&quot;&gt;Shakshuka&lt;/h2&gt;
+    &lt;img src=&quot;/images/blog/shakshuka/feature.jpg&quot; alt=&quot;Shakshuka - An Ongoing Review feature&quot;&gt;&lt;br/&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making a Shakshuka that would make the center-piece in a Sunday brunch, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;I. Introduction&lt;/h2&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Before leaving Tel Aviv, I learned from an Israeli grandma on how to make Israeli brunch, which included: Shakshuka, roasted eggplant + tahini, and Israeli Salad. Overall, a lot of sweet and savory memories made with the people and food here.&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Since Tel Aviv, I&#39;ve sought to recreate the taste, and have made several iterations of Shakshuka (each with slight variations and adjustments). Below is a recipe for my favorite variation, which includes chorizo sausage and a dash of coconut milk. I realized that Shakshuka shares a lot of cooking steps with Indian/Thai curry, in which the only ingredient that stops the Shakshuka from becoming a curry was coconut milk and garam masala. Shakshuka can be interpretted as a very dense curry with very beautiful pepper and tomato flavors, and I&#39;m happy with the results! For your brunch needs, if you&#39;re only planning on making one dish (Shakshuka), then leaving out the coconut milk and/or optional ingredients can be a good strategy to have a less heavy + more balanced meal.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Since Tel Aviv, I&#39;ve sought to recreate the taste, and have made several iterations of Shakshuka (each with slight variations and adjustments). Below is a recipe for my favorite variation, which includes chorizo sausage and a dash of coconut milk. I realized that Shakshuka shares a lot of cooking steps with Indian/Thai curry, in which the only ingredient that stops the Shakshuka from becoming a curry was coconut milk and garam masala. Thus, Shakshuka can be reinterpretted as a very dense curry with very beautiful pepper and tomato flavors. For your brunch needs, if you&#39;re only planning on making one dish (Shakshuka), then leaving out the coconut milk and/or optional ingredients can be a good strategy to have a less heavy + more balanced meal.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Shakshuka (Ingredients for 4 people)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;II. Methodology&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;5 tablespoons of olive oil (plus more for drizziling)&lt;/li&gt;
@@ -372,11 +376,10 @@
   &lt;li&gt;3 chorizo sausages (cut in even pieces)&lt;/li&gt;
   &lt;li&gt;1/2 can of coconut milk and garam masala (optional)&lt;/li&gt;
   &lt;li&gt;9 eggs&lt;/li&gt;
-  &lt;li&gt;Spices: cumin, paprika, cayenne pepper, salt, black pepper&lt;/li&gt;
+  &lt;li&gt;Spices: cumin, garam masala, paprika, cayenne pepper, salt, black pepper&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Directions&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;1. First, we blanch tomatoes to quickly peel the skin. Prepare both a pot of boiling water and an ice bath. While the water is boiling, cut a cross (about a quarter inch deep) on each tomato. Put tomatoes in boiling water for 2 minutes, than transfer to ice bath quickly. Peel skin, then dice.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
@@ -384,6 +387,10 @@
 &lt;/figure&gt;
 
 &lt;p&gt;2. Roast bell peppers on gas stove until charred. If you don&#39;t have a gas stove, you can roast your peppers by putting it in the oven at 500 C for 40 minutes, which will also char your vegetables nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;second&quot;&gt;
+	&lt;img src=&quot;/images/blog/shakshuka/char.jpg&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;3. Heat a large, deep pan over medium-high heat. Add onion, bell pepper slices, and jalapeno and spread into an even layer. Roast vegetables until the onion and vegetables caramelize (maillard reaction), about 4 minutes. Add oil, half of your garlic (chopped), and spices, then mix for about 2 minutes.&lt;/p&gt;
 
@@ -407,11 +414,17 @@
 
 &lt;p&gt;7. When the eggs are set, season yolks with salt, black pepper, and a dash of paprika. If the eggs have sunk to much to the bottom, you can gently lift up the eggs and push some of the dense mixtures underneath the egg.&lt;/p&gt;
 
-&lt;p&gt;8. Sprinkle with remaining cilantro or parsley, along with any of the optional toppings. Serve immediately with crusty bread!&lt;/p&gt;
+&lt;p&gt;8. Sprinkle with remaining cilantro or parsley, along with any of the optional toppings. Serve immediately with crusty bread.&lt;/p&gt;
 
+&lt;h2 class=&quot;section-heading&quot;&gt;III. Results and Discussion&lt;/h2&gt;
 &lt;figure class=&quot;second&quot;&gt;
 	&lt;img src=&quot;/images/blog/shakshuka/final2.jpg&quot; /&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;Tastes pretty good. I am eggstatic with the results XD.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;IV. Conclusion&lt;/h2&gt;
+&lt;p&gt;Though results are promising, further work needs to be done to present a methodologically-inclined review on Shakshuka. Future work includes ablation experiments with Feta Cheese and Mushrooms.&lt;/p&gt;
 
   </content>
 
@@ -437,7 +450,7 @@
   
 
   
-    <summary type="text">A part of Israeli Brunch</summary>
+    <summary type="text">Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making a Shakshuka that would make the center-piece in a Sunday brunch, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.</summary>
   
 </entry>
 
