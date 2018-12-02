@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-12-01T16:02:50-08:00</updated>
+  <updated>2018-12-01T16:34:50-08:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -811,16 +811,97 @@
 
   
     <entry>
+  <title>Clinical Search Index</title>
+  <link href="/projects/hophacks2016/" rel="alternate" type="text/html" title="Clinical Search Index" />
+  <published>2016-02-09T00:00:00-08:00</published>
+
+  
+    <updated>2016-02-09T00:00:00-08:00</updated>
+  
+
+  <id>/projects/hophacks2016</id>
+  <content type="html" xml:base="/projects/hophacks2016/">
+    &lt;img src=&quot;/images/hophacks2016-feature.jpg&quot; alt=&quot;Clinical Search Index feature&quot;&gt;&lt;br/&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;The medications developed in clinical trials today are the therapies that have the potential to drive new treatments and potential cures over the next 5 to 10 years - from addressing the spectrum of huge diseases such as diabetes and autism, to rare diseases with no treatments such as ALS. The success of clinical trials are important to not only big stakeholders like pharmaceutical companies, researchers, physicians, but also ordinary people like taxpayers and special interests. Approximately $10 billion is spent funding clinical trials every year, yet there lacks a functional query tool that makes the results and successes of these expenditures transparent.  Even with very specific tools such as clinicaltrials.gov, finding the right clinical trial can be extremely frustrating. Failures in clinical trials are hardly ever reported, with approximately 10% of studies ever published. Of these 10%, most are difficult to find and locate on the clinicaltrials.gov website.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;What It Does&lt;/h2&gt;
+&lt;p&gt;CSI is a functional query tool that displays the best clinical trials (both ongoing and complete) in the nation around any disease. Given search parameter such as age, gender, and health status, CSI searches for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;clinical trials that our user would be eligible for by state. Finding the right clinical trial can be time-consuming, so we used parameters tin the study design of each research study to narrow down the best clinical trials going on in every single state&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;clinical trials ordered by rank and reputation of the sponsor. Since a large number of clinical trials are completed without any results, we penalized sponsors who did not publish the results of their clinical trials.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;second&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2016-home.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;How We Built It&lt;/h2&gt;
+&lt;p&gt;We used Django as our back-end framework, with Javascript as out front-end. In Python, we scraped every single webpage in http://clinicaltrials.gov into a SQL server database, which communicates with our Django back-end.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Challenges We Ran Into&lt;/h2&gt;
+&lt;p&gt;Django has a high learning curve, and some problems we ran into include:
+* implementing the search functionality on the clinical trials database
+* getting the UI to communicate with the back-end
+* scraping the page sources of clinicaltrial.gov for more information that the Clinical Trials API does not give out&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Accomplishments That We&#39;re Proud Of&lt;/h2&gt;
+&lt;p&gt;This is our first Django project. As a team, we have an eclectic background in stacks such as Android, Flask, Meteor, and Raspberry Pi, but at this hackathon, we wanted to develop with something we haven’t seen before. In addition to using the Clinical Trial API, we’re proud of writing our own python tool that scrapes the the page sources of clinicaltrial.gov. None of us have had experiences developing UI before, so we’re proud of getting more experience with javascript, HTML, and CSS.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;What&#39;s Next For The Galvanic Stress Response&lt;/h2&gt;
+&lt;p&gt;We hope to scale CSI further by giving our website more functionality, in which users could query for pharmaceuticals, and learn more about a disease just from the CSI website.&lt;/p&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="hackathon" />
+  
+    <category term="android" />
+  
+    <category term="big data" />
+  
+    <category term="clinical trials" />
+  
+    <category term="django" />
+  
+
+  
+    <summary type="text">HopHacks Spring 2016</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research/stemcell</id>
-  <content type="html" xml:base="/research/stemcell/">
+  <id>/research_select/stemcell</id>
+  <content type="html" xml:base="/research_select/stemcell/">
     
     
 
@@ -855,15 +936,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-08:00</published>
 
   
     <updated>2015-11-13T00:00:00-08:00</updated>
   
 
-  <id>/research_select/stemcell</id>
-  <content type="html" xml:base="/research_select/stemcell/">
+  <id>/research/stemcell</id>
+  <content type="html" xml:base="/research/stemcell/">
     
     
 
@@ -1082,6 +1163,160 @@
 
   
     <entry>
+  <title>Galvanic Stress Response</title>
+  <link href="/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
+  <published>2015-09-11T00:00:00-07:00</published>
+
+  
+    <updated>2015-09-11T00:00:00-07:00</updated>
+  
+
+  <id>/projects/hophacks2015</id>
+  <content type="html" xml:base="/projects/hophacks2015/">
+    &lt;img src=&quot;/images/hophacks2015-feature.jpg&quot; alt=&quot;Galvanic Stress Response feature&quot;&gt;&lt;br/&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Autism is a spectrum disorder that affects the families of over 3.5 million people in the United States. Disabilities in Autism range from speech and language impairments to emotional outbreaks and violent breakdowns. These outbreaks manifest from being unable to communicate and address stress, which can make it hard for people suffering from this disease to live normal lives. For Autism parents, being able to monitor stress level of their children can prevent emotional outbreaks, and minimize the damaging effects of compounding stress. In the Autism community, raising a child with autism can be challenging, so we want to put an open sourced tool in the hands of guardians to better understand and help their child.&lt;/p&gt;
+
+&lt;figure class=&quot;second&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2015-chillin.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;What It Does&lt;/h2&gt;
+&lt;p&gt;The device is based on a home-brew galvanic skin response (GSR) sensor. Measuring GSR gives an easy, indirect method of gauging relative stress levels by peeking at the sympathetic nervous system. When stressed, the GSR naturally increases, and vice versa. The sensor reports data to a Raspberry Pi, which is uploaded to a hosted database. An easy to use web-app allows someone to monitor the person from anywhere, and to watch for any irregularities. If abnormal stress levels are observed, the guardian can respond appropriately.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2015-rasp.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2015-process.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;How We Built It&lt;/h2&gt;
+&lt;p&gt;The GSR sensor consists of 2 electrodes integrated into an elastic wrist-band. The wrist-band, when worn, contacts the forearm on the top and bottom, providing a comfortable location to measure GSR. A unique Super-Mario “M” allows the positioning to be fun and easy. The electrodes are connected to a simple circuit to measure the GSR, and a 16-bit ADC reads the value. The digitized information is read in by the Raspberry Pi and uploaded to a hosted Mongo database.&lt;/p&gt;
+
+&lt;figure class=&quot;second&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2015-mario.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Challenges We Ran Into&lt;/h2&gt;
+&lt;p&gt;Among the challenges we ran into were reading analog signals with the Raspberry Pi. Originally, we used an Arduino Uno to read the voltages and send them to the Pi via USB. Then BookHolders came along and provided us with an analog to digital converter with an I2C interface; which was fortunate because reading data via USB was unstable and prone to crashing our program. We were also provided with a OLED I2C screen, which allowed us to consider giving extra information about the data.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Accomplishments That We&#39;re Proud Of&lt;/h2&gt;
+&lt;p&gt;We’re really proud of our sensor and its surprising functionality and our ability to display the information on both the small screen on the Pi, the Android app as well as a live stream and static graph in the browser, allowing the information to be accessed from nearly anywhere. Though our device does not have 100% functionality, we’re really proud of how we built this device in only 36 hours, and we hope to raise awareness of a very poorly understood disease.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;What&#39;s Next For The Galvanic Stress Response&lt;/h2&gt;
+&lt;p&gt;We did this project mainly for fun, but we hope to continue experimenting with the “Galvanic Stress Response” to more useful and more accurate. In addition to the GSR sensor, we want to include a heart rate sensor in the wrist-band, increasing the accuracy of the sensor. For now at least, this tool is open sourced on my GitHub, and we’re open to recieving any feedback!&lt;/p&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="circuits" />
+  
+    <category term="hackathon" />
+  
+    <category term="android" />
+  
+    <category term="big data" />
+  
+    <category term="medical devices" />
+  
+    <category term="shiny" />
+  
+    <category term="DIY" />
+  
+
+  
+    <summary type="text">HopHacks Fall 2015</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Mole Sniffer</title>
+  <link href="/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
+  <published>2014-09-23T00:00:00-07:00</published>
+
+  
+    <updated>2014-09-23T00:00:00-07:00</updated>
+  
+
+  <id>/projects/hophacks2014</id>
+  <content type="html" xml:base="/projects/hophacks2014/">
+    &lt;img src=&quot;/images/hophacks2014-feature.jpg&quot; alt=&quot;Mole Sniffer feature&quot;&gt;&lt;br/&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Vision&lt;/h2&gt;
+&lt;p&gt;As a team of four biomedical engineers from Hopkins, we wanted a powerful med-tech app that would have an immediate impact in the world around us. Our vision was to benefit the largest user base in a lightweight, scale-able manner. As skin cancer is the most common cancer in the United States, there is an obvious need for a low-cost early detection system.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;How We Built It&lt;/h2&gt;
+&lt;p&gt;Our application is comprised of two parts: Mole Sniffer and Holy Moley.&lt;/p&gt;
+
+&lt;p&gt;Mole Sniffer allows the user to quickly capture a photo of a mole. Different properties are analyzed via computer vision to detect known indicators of skin cancer. If desired, the patient can anonymously upload the photo to the cloud, where a qualified healthcare professional can provide advice.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2014-select.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-molesnif.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/hophacks2014-rolymoley.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Holy Moley is the application in which a health care worker can receive images and provide comments to the user, without compromising privacy.&lt;/p&gt;
+
+&lt;p&gt;We applied the Google Android API so that our software could be utilized quickly and conveniently by millions of existing smartphones. We integrated Facebook’s Parse to facilitate simple doctor-patient interaction without the hassle and costs of visits and paperwork.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;We are most proud of the user experience, from the patient to the doctor. In addition, we are excited about the potential applications to other ailments and expanding to underdeveloped nations.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;/images/hophacks2014-3rdplace.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="circuits" />
+  
+    <category term="hackathon" />
+  
+    <category term="android" />
+  
+    <category term="medical devices" />
+  
+    <category term="DIY" />
+  
+
+  
+    <summary type="text">HopHacks Fall 2014</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>An Immersion into Vinyl</title>
   <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl" />
   <published>2014-08-14T00:00:00-07:00</published>
@@ -1226,6 +1461,63 @@
 
   
     <summary type="text">Anyone can cook! - Ratatouille</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Respirage</title>
+  <link href="/projects/respirage/" rel="alternate" type="text/html" title="Respirage" />
+  <published>2014-06-15T00:00:00-07:00</published>
+
+  
+    <updated>2014-06-15T00:00:00-07:00</updated>
+  
+
+  <id>/projects/respirage</id>
+  <content type="html" xml:base="/projects/respirage/">
+    &lt;img src=&quot;/images/DT7-feature.jpg&quot; alt=&quot;Respirage feature&quot;&gt;&lt;br/&gt;
+    &lt;p&gt;To improve medical decision-making in the emergency department (ED) of hospitals, we developed a novel respiratory device called “Respirage” for emergency triage that will accurately measure respiratory rate to within ±2 breaths per minute.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+	&lt;img src=&quot;/images/DT7-respiragefinal.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;div id=&quot;pdfWrapper&quot;&gt;
+&lt;iframe src=&quot;/images/respirage-poster.jpg&quot; width=&quot;1200px&quot; height=&quot;900px&quot; style=&quot;border:0&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="circuits" />
+  
+    <category term="hackathon" />
+  
+    <category term="android" />
+  
+    <category term="medical devices" />
+  
+    <category term="DIY" />
+  
+
+  
+    <summary type="text">Respirage</summary>
   
 </entry>
 
