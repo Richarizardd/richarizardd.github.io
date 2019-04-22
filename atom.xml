@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2018-12-01T16:34:50-08:00</updated>
+  <updated>2019-04-22T15:17:50-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -35,10 +35,10 @@
     <entry>
   <title>Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images</title>
   <link href="/research/maskgen/" rel="alternate" type="text/html" title="Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images" />
-  <published>2018-09-29T00:00:00-07:00</published>
+  <published>2018-09-29T00:00:00-04:00</published>
 
   
-    <updated>2018-09-29T00:00:00-07:00</updated>
+    <updated>2018-09-29T00:00:00-04:00</updated>
   
 
   <id>/research/maskgen</id>
@@ -80,10 +80,10 @@
     <entry>
   <title>Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images</title>
   <link href="/research/cr/" rel="alternate" type="text/html" title="Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images" />
-  <published>2018-09-13T00:00:00-07:00</published>
+  <published>2018-09-13T00:00:00-04:00</published>
 
   
-    <updated>2018-09-13T00:00:00-07:00</updated>
+    <updated>2018-09-13T00:00:00-04:00</updated>
   
 
   <id>/research/cr</id>
@@ -125,10 +125,10 @@
     <entry>
   <title>From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge</title>
   <link href="/research/camelyon17_tmi/" rel="alternate" type="text/html" title="From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge" />
-  <published>2018-08-27T00:00:00-07:00</published>
+  <published>2018-08-27T00:00:00-04:00</published>
 
   
-    <updated>2018-08-27T00:00:00-07:00</updated>
+    <updated>2018-08-27T00:00:00-04:00</updated>
   
 
   <id>/research/camelyon17_tmi</id>
@@ -170,10 +170,10 @@
     <entry>
   <title>Rethinking Monocular Depth Estimation with Adversarial Training</title>
   <link href="/research/wacv18/" rel="alternate" type="text/html" title="Rethinking Monocular Depth Estimation with Adversarial Training" />
-  <published>2018-08-22T00:00:00-07:00</published>
+  <published>2018-08-22T00:00:00-04:00</published>
 
   
-    <updated>2018-08-22T00:00:00-07:00</updated>
+    <updated>2018-08-22T00:00:00-04:00</updated>
   
 
   <id>/research/wacv18</id>
@@ -215,10 +215,10 @@
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
   <link href="/research/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2018-06-01T00:00:00-07:00</published>
+  <published>2018-06-01T00:00:00-04:00</published>
 
   
-    <updated>2018-06-01T00:00:00-07:00</updated>
+    <updated>2018-06-01T00:00:00-04:00</updated>
   
 
   <id>/research/rda-tmi</id>
@@ -260,10 +260,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research_select/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-07:00</published>
+  <published>2018-03-12T00:00:00-04:00</published>
 
   
-    <updated>2018-03-12T00:00:00-07:00</updated>
+    <updated>2018-03-12T00:00:00-04:00</updated>
   
 
   <id>/research_select/squeez_ijci</id>
@@ -303,10 +303,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-07:00</published>
+  <published>2018-03-12T00:00:00-04:00</published>
 
   
-    <updated>2018-03-12T00:00:00-07:00</updated>
+    <updated>2018-03-12T00:00:00-04:00</updated>
   
 
   <id>/research/squeez_ijci</id>
@@ -346,22 +346,22 @@
     <entry>
   <title>Shakshuka - An Ongoing Review</title>
   <link href="/blog/shakshuka/" rel="alternate" type="text/html" title="Shakshuka - An Ongoing Review" />
-  <published>2018-01-26T00:00:00-08:00</published>
+  <published>2018-01-26T00:00:00-05:00</published>
 
   
-    <updated>2018-01-26T00:00:00-08:00</updated>
+    <updated>2018-01-26T00:00:00-05:00</updated>
   
 
   <id>/blog/shakshuka</id>
   <content type="html" xml:base="/blog/shakshuka/">
     &lt;img src=&quot;/images/blog/shakshuka/feature.jpg&quot; alt=&quot;Shakshuka - An Ongoing Review feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making a Shakshuka that would make the center-piece in a Sunday brunch, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.&lt;/p&gt;
+&lt;p&gt;Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making Shakshuka, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;I. Introduction&lt;/h2&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Before leaving Tel Aviv, I learned from an Israeli grandma on how to make Israeli brunch, which included: Shakshuka, roasted eggplant + tahini, and Israeli Salad. Overall, a lot of sweet and savory memories made with the people and food here.&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Since Tel Aviv, I&#39;ve sought to recreate the taste, and have made several iterations of Shakshuka (each with slight variations and adjustments). Below is a recipe for my favorite variation, which includes chorizo sausage and a dash of coconut milk. I realized that Shakshuka shares a lot of cooking steps with Indian/Thai curry, in which the only ingredient that stops the Shakshuka from becoming a curry was coconut milk and garam masala. Thus, Shakshuka can be reinterpretted as a very dense curry with very beautiful pepper and tomato flavors. For your brunch needs, if you&#39;re only planning on making one dish (Shakshuka), then leaving out the coconut milk and/or optional ingredients can be a good strategy to have a less heavy + more balanced meal.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Since Tel Aviv, I have sought to recreate the taste, and have made several iterations of Shakshuka (each with slight variations and adjustments). Below is a recipe for my favorite variation, which includes chorizo sausage and a dash of coconut milk. I realized that Shakshuka shares a lot of cooking steps with Indian/Thai curry, in which the only ingredients that stops the Shakshuka from becoming a curry were coconut milk and garam masala. Thus, one could reinterpret Shakshuka as a very dense curry with richer pepper and tomato flavors. For your brunch needs, if you are only planning on making one dish item (Shakshuka), then leaving out the coconut milk and/or optional ingredients can be a good strategy to have a less heavy and more balanced meal.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;II. Methodology&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/p&gt;
@@ -380,13 +380,13 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Directions&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;1. First, we blanch tomatoes to quickly peel the skin. Prepare both a pot of boiling water and an ice bath. While the water is boiling, cut a cross (about a quarter inch deep) on each tomato. Put tomatoes in boiling water for 2 minutes, than transfer to ice bath quickly. Peel skin, then dice.&lt;/p&gt;
+&lt;p&gt;1. First, we blanch tomatoes to quickly peel the skin. Prepare both a pot of boiling water and an ice bath. While the water is boiling, cut a cross (about a quarter inch deep) on each tomato. Gently submerge tomatoes in boiling water for 2 minutes, than transfer to ice bath quickly. Peel skin, then dice.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
 	&lt;img src=&quot;/images/blog/shakshuka/tomatoes.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;2. Roast bell peppers on gas stove until charred. If you don&#39;t have a gas stove, you can roast your peppers by putting it in the oven at 500 C for 40 minutes, which will also char your vegetables nicely.&lt;/p&gt;
+&lt;p&gt;2. Roast bell peppers on gas stove until charred. If you don&#39;t have a gas stove, you can roast your peppers by putting it in the oven at 500 C for 40 minutes, which will also char your vegetables nicely. If you are using the gas stove, make sure you trim the stems. Else, the stems will catch on fire when exposed to the flames.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
 	&lt;img src=&quot;/images/blog/shakshuka/char.jpg&quot; /&gt;
@@ -400,13 +400,13 @@
 
 &lt;p&gt;4. Create a large well to brown your chorizo sausages, then mix. This section is optional, and can be left out to keep it vegetarian.&lt;/p&gt;
 
-&lt;p&gt;5. To turn your Shakshuka into a Curry Shakshuka, add 1/2 can of coconut milk, and deglaze the bottom of the pan (optional). Else, skip the coconut milk option and directly add the tomatoes. The water released by the tomatoes can be used to deglaze the bottom. Add the rest of the garlic (whole), and continue to cook (lid over pan) until the tomatoes are fully softened and transform into a thick sauce (about 8 minutes on medium-high). Taste for salt, and adjust if needed.&lt;/p&gt;
+&lt;p&gt;5. To turn your Shakshuka into a Curry Shakshuka, add 1/2 can of coconut milk, and deglaze the bottom of the pan (optional). Else, skip the coconut milk option and directly add the tomatoes. The water released by the tomatoes can be used to deglaze the bottom. Add the rest of the garlic (whole), and continue to cook (lid over pan) until the tomatoes are fully softened (about 8 minutes on medium-high). The appearance of the dish might appear too watery, but it will thicken up when you let it cool after the recipe is finished. Taste for salt, and adjust if needed. Depending on the size of your pan, you might need to control for the amount of coconut milk and tomatoes added, as the pan might overflow.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
 	&lt;img src=&quot;/images/blog/shakshuka/add_tomatoes.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;6. Using a large spoon, make a well and break an egg into the pan. Repeat around the circumference of the pan, leaving the eggs exposed. To create distance between the eggs, push some of the dense mixtures (onion, sausage, peppers, etc...) between the wells. Do not cover, and reduce heat to lowest setting, until egg whites are barely set and yolks are still runny (5-8 minutes). While the eggs are cooking, add cilantro. Optionally, you can also add crumbs of feta cheese.&lt;/p&gt;
+&lt;p&gt;6. Using a large spoon, make a well and break an egg into the pan. Repeat around the circumference of the pan, leaving the eggs exposed. To create distance between the eggs, push some of the dense mixtures (onion, sausage, peppers, etc...) between the wells. Do not cover, and reduce heat to lowest setting, until egg whites are barely set and yolks are still runny (5-8 minutes). While the eggs are cooking, add cilantro/parsley. Optionally, you can add crumbs of feta cheese.&lt;/p&gt;
 
 &lt;figure class=&quot;second&quot;&gt;
 	&lt;img src=&quot;/images/blog/shakshuka/wells.jpg&quot; /&gt;
@@ -414,7 +414,7 @@
 
 &lt;p&gt;7. When the eggs are set, season yolks with salt, black pepper, and a dash of paprika. If the eggs have sunk to much to the bottom, you can gently lift up the eggs and push some of the dense mixtures underneath the egg.&lt;/p&gt;
 
-&lt;p&gt;8. Sprinkle with remaining cilantro or parsley, along with any of the optional toppings. Serve immediately with crusty bread.&lt;/p&gt;
+&lt;p&gt;8. Garnish with the remaining cilantro/4parsley, along with any optional toppings. Serve immediately with crusty bread.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;III. Results and Discussion&lt;/h2&gt;
 &lt;figure class=&quot;second&quot;&gt;
@@ -424,7 +424,7 @@
 &lt;p&gt;Tastes pretty good. I am eggstatic with the results XD.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;IV. Conclusion&lt;/h2&gt;
-&lt;p&gt;Though results are promising, further work needs to be done to present a methodologically-inclined review on Shakshuka. Future work includes ablation experiments with Feta Cheese and Mushrooms.&lt;/p&gt;
+&lt;p&gt;Though results are promising, further work needs to be done to present a full methodologically-inclined review on Shakshuka variants. Future work includes detailed ablation experiments with feta cheese and mushrooms.&lt;/p&gt;
 
   </content>
 
@@ -450,7 +450,7 @@
   
 
   
-    <summary type="text">Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making a Shakshuka that would make the center-piece in a Sunday brunch, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.</summary>
+    <summary type="text">Shakshuka is a Middle-Eastern dish of eggs poached in a tomato sauce and spiced with cumin, paprika, and peppers, and is a staple item in any brunch experiences. In this work, we present a recipe on making Shakshuka, which features fresh tomatoes, roasted bell peppers, fried chorizo, and a dash of coconut milk.</summary>
   
 </entry>
 
@@ -458,10 +458,10 @@
     <entry>
   <title>Spending Christmas in Jerusalem</title>
   <link href="/blog/shabbatchristmas/" rel="alternate" type="text/html" title="Spending Christmas in Jerusalem" />
-  <published>2017-12-27T00:00:00-08:00</published>
+  <published>2017-12-27T00:00:00-05:00</published>
 
   
-    <updated>2017-12-27T00:00:00-08:00</updated>
+    <updated>2017-12-27T00:00:00-05:00</updated>
   
 
   <id>/blog/shabbatchristmas</id>
@@ -520,10 +520,10 @@
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
   <link href="/research_select/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2017-11-15T00:00:00-08:00</published>
+  <published>2017-11-15T00:00:00-05:00</published>
 
   
-    <updated>2017-11-15T00:00:00-08:00</updated>
+    <updated>2017-11-15T00:00:00-05:00</updated>
   
 
   <id>/research_select/rda-tmi</id>
@@ -565,10 +565,10 @@
     <entry>
   <title>Making Unexpected Friends in Cupertino</title>
   <link href="/blog/meatfresh/" rel="alternate" type="text/html" title="Making Unexpected Friends in Cupertino" />
-  <published>2017-08-11T00:00:00-07:00</published>
+  <published>2017-08-11T00:00:00-04:00</published>
 
   
-    <updated>2017-08-11T00:00:00-07:00</updated>
+    <updated>2017-08-11T00:00:00-04:00</updated>
   
 
   <id>/blog/meatfresh</id>
@@ -622,10 +622,10 @@
     <entry>
   <title>Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity</title>
   <link href="/research/kaleyedos_dmd/" rel="alternate" type="text/html" title="Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity" />
-  <published>2017-04-11T00:00:00-07:00</published>
+  <published>2017-04-11T00:00:00-04:00</published>
 
   
-    <updated>2017-04-11T00:00:00-07:00</updated>
+    <updated>2017-04-11T00:00:00-04:00</updated>
   
 
   <id>/research/kaleyedos_dmd</id>
@@ -665,113 +665,12 @@
 
   
     <entry>
-  <title>Traveling in NYC #1</title>
-  <link href="/blog/nyc/" rel="alternate" type="text/html" title="Traveling in NYC #1" />
-  <published>2016-09-06T00:00:00-07:00</published>
-
-  
-    <updated>2016-09-06T00:00:00-07:00</updated>
-  
-
-  <id>/blog/nyc</id>
-  <content type="html" xml:base="/blog/nyc/">
-    &lt;img src=&quot;/images/blog/nyc/feature.jpg&quot; alt=&quot;Traveling in NYC #1 feature&quot;&gt;&lt;br/&gt;
-    &lt;h2 class=&quot;section-heading&quot;&gt;A journey is best measured in friends, rather than miles. - Tim Cahill&lt;/h2&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A couple of months ago, my friend Andy Tsai wrote a blog titled, &quot;Take Memories, Not Pictures.&quot;[1] To somewhat expound on that, here are some thoughts I have on my NYC trip and traveling in general I found, to serve as a possible antithesis against myself in how I reveal myself on social media.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I don&#39;t really get out of Maryland that often. Last weekend though, I escaped Baltimore for the first time this summer and traveled to New York City. I took my first class @ BDC, saw my first sunset on The High Line, visited Times Square for the first time in my life, experienced my first Pokemon stampede @ Madison Square Park, ate my first ramen burger, and the firsts go on. Some firsts that are less proud to openly acknowledge. When I went to &quot;Sons of Thunder&quot; and ordered my first ever bowl of Poke, I got a &quot;look&quot; from Aurora Jin for mispronouncing /poʊˈkeɪ/ as /pōk/. Instead of riding the NYC transit, I naively tried running every block around Manhattan, and I learned from the tendonitis I&#39;ve developed for the first time in my calves that Manhattan != Baltimore...clearly. The ~20-30 blocks I sprinted in 20 minutes from Greenwich Village to make Ian Eastwood&#39;s masters class @ BDC was probably the most exhausting thing I&#39;ve ever ran in my life, even worse than my freshman year intercession hospital visit. It seems like every time I explore a new city, my inner cross-country itch goes wild - taking me to places I&#39;ve never explored, and hospitals I never planned on visiting. Lastly, a first police encounter. Apparently, I looked like a &quot;troubled youth on the run&quot; for sitting on the ground in the middle of Port Authority, and when I told them I was just trying to find Wi-Fi, I got another &quot;look&quot; and was silently guided to the Starbucks that was just one floor below. Understatement of the century, but I&#39;m a very inexperienced New Yorker.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;They say that traveling is one of the few luxuries you can buy that can enrich your life, and to some degree I guess that is true. You can buy the food, the plane tickets, the access to the culture through tour guides, and the camera to take all your photos, but you can&#39;t really buy the camaraderie and interactions you have with other people that help elevate your critical thinking beyond basic introspection. No one man can try and become an island, and like a connectome/graphical model of a patient with Alzheimer&#39;s, it&#39;s strange how even when you&#39;re standing on the highest mountain or staring at a sunset with the widest horizon, the absence of just a couple people and your connections to them can still obliterate your own presence in the moment. Maybe it was the sunset I saw on The High Line that dwarfed my presence, but sometimes that moment is so enormous the only way to truly appreciate the beauty and singularity of what is unfolding before you is to share it with someone else. As independent as people want to become, as independent as I want to feel in grinding for hours away on research papers and problem sets, ambitions and values are only as withstanding as the people you surround yourself with that influence your plasticity, and a feeling of significance and purpose is only ever properly realized when we have a link to something bigger than ourselves - like family, a promise between childhood friends, a dance group, a religious community, a company we work for, a research lab that we contribute to, the school and major we represent, mankind, God. Maybe I&#39;m thinking about it all too much, but in trying to capture what I liked so much about my last weekend of summer 2015, again, it wasn&#39;t so much about the time and place in particular, but the camaraderie I&#39;ve developed and went on this grand adventure with.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;/images/blog/nyc/1.png&quot; /&gt;
-	&lt;img src=&quot;/images/blog/nyc/2.jpg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Maybe just one more first, but this was the first time I traveled to New York (let alone anywhere) with friEnds. For all of the memorable firsts I had on my NYC trip, maybe about half of them ended up on my Snapchat. As suggested in [1], my only regret is that I didn&#39;t create enough intentional, singular memories on this trip. I wouldn&#39;t have minded if we spent that weekend barhopping in Fell&#39;s Point or chilling on Kyoung-a Cho&#39;s couch; as long as it was something unique that would add as a beautiful memory to our lives, as every experience, regardless of its breadth or its environment, has the power to shape our lives in incredibly ways. All it really needs is the right people to come together, and I couldn&#39;t ask for a better camarederie. Being in NYC for just a weekend really humbled me and helped me gain better understanding of what I value, and I wanted to write a post to show appreciation to Kyoung-a Cho, Elli Tian, Tony Melo, Victoria Lui, Vanessa Phuong, Bryan Li, and Elizabeth Hawkes for letting me come up with them. It is a great privilege when anyone intentionally creates and spends time with you. Traveling is healthy, but it&#39;s important to measure yourself not by the places you&#39;ve explored or the pictures you&#39;ve taken, but the moments of integrity you discover with other people and build for yourself so you can live closer by your ideas and ideals.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;References&lt;/h2&gt;
-&lt;p&gt; [1] abalabazn&#39;s Blog @ GitBooks: Take Memories, Not Pictures. https://abalabazn.gitbooks.io/blog/content/take_memories,_not_pictures.html. Accessed: 2016-09-06. &lt;/p&gt;
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="personal" />
-  
-    <category term="traveling" />
-  
-
-  
-    <summary type="text">A journey is best measured in friends, rather than miles. - Tim Cahill</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
-  <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-07:00</published>
-
-  
-    <updated>2016-08-04T00:00:00-07:00</updated>
-  
-
-  <id>/research_select/camelyon16</id>
-  <content type="html" xml:base="/research_select/camelyon16/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="pathology" />
-  
-
-  
-    <summary type="text">arXiv</summary>
-  
-</entry>
-
-  
-    <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-07:00</published>
+  <published>2016-08-04T00:00:00-04:00</published>
 
   
-    <updated>2016-08-04T00:00:00-07:00</updated>
+    <updated>2016-08-04T00:00:00-04:00</updated>
   
 
   <id>/research/camelyon16</id>
@@ -811,12 +710,57 @@
 
   
     <entry>
-  <title>Clinical Search Index</title>
-  <link href="/projects/hophacks2016/" rel="alternate" type="text/html" title="Clinical Search Index" />
-  <published>2016-02-09T00:00:00-08:00</published>
+  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
+  <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
+  <published>2016-08-04T00:00:00-04:00</published>
 
   
-    <updated>2016-02-09T00:00:00-08:00</updated>
+    <updated>2016-08-04T00:00:00-04:00</updated>
+  
+
+  <id>/research_select/camelyon16</id>
+  <content type="html" xml:base="/research_select/camelyon16/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="pathology" />
+  
+
+  
+    <summary type="text">arXiv</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Clinical Search Index</title>
+  <link href="/projects/hophacks2016/" rel="alternate" type="text/html" title="Clinical Search Index" />
+  <published>2016-02-09T00:00:00-05:00</published>
+
+  
+    <updated>2016-02-09T00:00:00-05:00</updated>
   
 
   <id>/projects/hophacks2016</id>
@@ -894,10 +838,10 @@
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
   <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-08:00</published>
+  <published>2015-11-13T00:00:00-05:00</published>
 
   
-    <updated>2015-11-13T00:00:00-08:00</updated>
+    <updated>2015-11-13T00:00:00-05:00</updated>
   
 
   <id>/research_select/stemcell</id>
@@ -937,10 +881,10 @@
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
   <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-08:00</published>
+  <published>2015-11-13T00:00:00-05:00</published>
 
   
-    <updated>2015-11-13T00:00:00-08:00</updated>
+    <updated>2015-11-13T00:00:00-05:00</updated>
   
 
   <id>/research/stemcell</id>
@@ -980,7 +924,7 @@
     <entry>
   <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
   <link href="/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
-  <published>2015-09-11T00:00:00-07:00</published>
+  <published>2015-09-11T00:00:00-04:00</published>
 
   
     <updated>2015-10-19T14:47:05-04:00</updated>
@@ -1165,10 +1109,10 @@
     <entry>
   <title>Galvanic Stress Response</title>
   <link href="/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
-  <published>2015-09-11T00:00:00-07:00</published>
+  <published>2015-09-11T00:00:00-04:00</published>
 
   
-    <updated>2015-09-11T00:00:00-07:00</updated>
+    <updated>2015-09-11T00:00:00-04:00</updated>
   
 
   <id>/projects/hophacks2015</id>
@@ -1247,10 +1191,10 @@
     <entry>
   <title>Mole Sniffer</title>
   <link href="/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
-  <published>2014-09-23T00:00:00-07:00</published>
+  <published>2014-09-23T00:00:00-04:00</published>
 
   
-    <updated>2014-09-23T00:00:00-07:00</updated>
+    <updated>2014-09-23T00:00:00-04:00</updated>
   
 
   <id>/projects/hophacks2014</id>
@@ -1317,74 +1261,20 @@
 
   
     <entry>
-  <title>An Immersion into Vinyl</title>
-  <link href="/blog/vinylimmersion/" rel="alternate" type="text/html" title="An Immersion into Vinyl" />
-  <published>2014-08-14T00:00:00-07:00</published>
-
-  
-    <updated>2014-08-14T00:00:00-07:00</updated>
-  
-
-  <id>/blog/vinylimmersion</id>
-  <content type="html" xml:base="/blog/vinylimmersion/">
-    &lt;img src=&quot;/images/blog/vinylimmersion/feature.jpg&quot; alt=&quot;An Immersion into Vinyl feature&quot;&gt;&lt;br/&gt;
-    &lt;h2 class=&quot;section-heading&quot;&gt;The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry&lt;/h2&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Lured by my curiosity, I stepped into my first record shop, Dimensions Music, on August 11th, and a smell hit me – a combination of musty odors and dust that relayed to me this place has not been disturbed in a very long time. I found this shop sealed in a perfect time capsule on the corner of West Lexington Street and Park Avenue, shielded away in a bubble of anachronism from the streets of Baltimore that have withered away into phosphorescent landing strips for crime and destitution.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The shop wasn’t dirty, but obviously ancient. A finger through any surface of the shop would amount to a lonely pile of debris. The objects for sale were records, large discs coated with polyvinyl chloride and precisely etched with the vibrations of music such that when a needle moves along the spiral grooves, it echoes the music back perfectly. These records were stored in crates neatly arranged in a government warehouse-esque operation, all lost in transcription as the only way to rummage these records was to manually pull one out. Muddled in an ocean of grey-white labeling, I decide to pull a record out of one of the crates, unbeknownst that it was an impressive-looking cover of Earth, Wind, &amp;amp; Fire’s album, “I Am.” The record’s dust jacket lived up to its name as when brushed, dust particles scattered in the air in a colloidal suspension, revealing  the full hand-drawn artwork on the album cover.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;/images/vinylimmersion-ewf.jpg&quot; /&gt;
-	&lt;img src=&quot;/images/vinylimmersion-record.jpg&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;To no surprise to even the microscopic dust mites that might have found cozy living spaces in the shop, the record itself was also dusty; however, one quick wipe gleamed two iridescent conic sections at an angle of 30° that shined bright red, green blue, and white on opposite sides of the record. Against the light of an old incandescent light bulb, as I moved the record in a gentle lemniscate rotation, these bright conic sections moved with my hands around the record, revealing the full, intricate grooves of the laser etching. $15. That is how much the cashier departed with my money, as I picked up 3 Earth, Wind and Fire Albums, Gershwin’s Rhapsody in Blue, and Chuck Mangione’s “Feel So Good.” &lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;My experience seeing, holding, and smelling a record taught me that vinyl is a medium that strongly appeals to the senses. The holographic sheen of the record and the beautiful 12” by 12” artwork of the album covers, the weight of the record and the texture of the fine grooves when you run your fingers across it, the crisp smell of must when you open the dust jacket  – all of these senses, sight, touch, and smell, become naturally associated with the music you hear and refines the way you listen to music. As I played some Earth, Wind, &amp;amp; Fire on my Magnavox Turntable, I felt a stronger connection to the music after bonding with the album in my odyssey of finding it, admiring the artwork, rigorously checking for scratches, and feeling the grooves. I didn’t even mind the crackling too much on the turntable, as I felt it added more texture to the music. Vinyl is a hobby I’m slowly getting into, but it’s something I hope to grow and grow with as I journey to experience more records.&lt;/p&gt;
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="personal" />
-  
-    <category term="vinyl" />
-  
-
-  
-    <summary type="text">The four building blocks of the universe are fire, water, gravel and vinyl. - Dave Barry</summary>
-  
-</entry>
-
-  
-    <entry>
   <title>Making Ratatouille</title>
   <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Making Ratatouille" />
-  <published>2014-07-20T00:00:00-07:00</published>
+  <published>2014-07-20T00:00:00-04:00</published>
 
   
-    <updated>2014-07-20T00:00:00-07:00</updated>
+    <updated>2014-07-20T00:00:00-04:00</updated>
   
 
   <id>/blog/ratatouille</id>
   <content type="html" xml:base="/blog/ratatouille/">
     &lt;img src=&quot;/images/ratatouille-feature.jpg&quot; alt=&quot;Making Ratatouille feature&quot;&gt;&lt;br/&gt;
     &lt;h2 class=&quot;section-heading&quot;&gt;Anyone can cook! - Ratatouille&lt;/h2&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;For the better half of July, I&#39;ve been stuck in a torpor - the weather here in Baltimore alternates between sunny skies to a maelstorm of heavy rain; the summer course I&#39;m taking, Discrete Mathematics, constantly stupefies me with proofs and theorems, and my injured hand has rendered me pretty much incapacitated. I haven&#39;t been able to properly lift and dance due to my injury, but at the same time, I haven&#39;t been able to let it heal either since I have to always write and take notes, which works the tendons and the wrist in my hand.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; However, I haven&#39;t allowed these debilitating circumstances to completely sap my motivation to try new things and be productive with what little free time I have. This weekend, I made Confit Byaldi, which is a stylized version of the french dish, Ratatouille, that inspired the movie movie, &quot;Ratatouille&quot; (Quite a mouthful to type out)! I made this dish for a friend&#39;s birthday, who was vegan, and being that I never cooked without meat before, I thought this would be really fun to try.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specific recipe I used was Bruno Albouze&#39;s Ratatouille Casserole Dish, which I liked very much. If someone like me, who has had very little cooking experience, can make it look good, you can probably too!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; This weekend, I made Confit Byaldi, which is a stylized version of the french dish, Ratatouille, that inspired the movie movie, &quot;Ratatouille&quot;. I made this dish for a friend&#39;s birthday, who was vegan, and being that I never cooked without meat before, I thought this would be really fun to try.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The specific recipe I used was Bruno Albouze&#39;s Ratatouille Casserole Dish, which I liked very much.&lt;/p&gt;
 &lt;p&gt;A text version of his recipe if you want to copy/paste:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Piperade Sauce&lt;/strong&gt;&lt;/p&gt;
@@ -1434,7 +1324,7 @@
 
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I had a lot of fun making Ratatouille, and its colorful pattern and vibrant taste makes pretty great to bring to a party. I think what made this dish really stand out was the Piperade Mixture; It had a strong, spicy taste on its own, while also packed with flavor from the tomatoes. When roasted underneath the sliced vegetables, everything caramelized altogether, and it made eating these vegetables a treat. I&#39;ve never been a fan of eggplant or zuccihini, but after making this, I&#39;m going to be rethinking my old diet of chicken, curry, steamed bok choy, and Chipotle.&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This dish was a great wake up call to an overall lethargic July. I would love to make this again if given the time, and I hope you can share this recipe as well!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This dish was a great wake up call to an overall lethargic July. I would love to make this again if given the time, and I hope you can share this recipe as well.&lt;/p&gt;
 
   </content>
 
@@ -1468,10 +1358,10 @@
     <entry>
   <title>Respirage</title>
   <link href="/projects/respirage/" rel="alternate" type="text/html" title="Respirage" />
-  <published>2014-06-15T00:00:00-07:00</published>
+  <published>2014-06-15T00:00:00-04:00</published>
 
   
-    <updated>2014-06-15T00:00:00-07:00</updated>
+    <updated>2014-06-15T00:00:00-04:00</updated>
   
 
   <id>/projects/respirage</id>
