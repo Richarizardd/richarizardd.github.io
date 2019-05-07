@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-04-24T01:48:46-04:00</updated>
+  <updated>2019-05-07T16:47:11-04:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -30,6 +30,51 @@
   </author>
 
 
+
+  
+    <entry>
+  <title>Polyp segmentation and classification using predicted depth from monocular endoscopy</title>
+  <link href="/research/spie/" rel="alternate" type="text/html" title="Polyp segmentation and classification using predicted depth from monocular endoscopy" />
+  <published>2019-03-15T00:00:00-04:00</published>
+
+  
+    <updated>2019-03-15T00:00:00-04:00</updated>
+  
+
+  <id>/research/spie</id>
+  <content type="html" xml:base="/research/spie/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">SPIE Medical Imaging 2019</summary>
+  
+</entry>
 
   
     <entry>
@@ -72,7 +117,7 @@
   
 
   
-    <summary type="text">In Submission to: IEEE Transactions on Medical Imaging</summary>
+    <summary type="text">IEEE Transactions on Medical Imaging</summary>
   
 </entry>
 
@@ -163,51 +208,6 @@
 
   
     <summary type="text">IEEE Transactions on Medical Imaging</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Rethinking Monocular Depth Estimation with Adversarial Training</title>
-  <link href="/research/wacv18/" rel="alternate" type="text/html" title="Rethinking Monocular Depth Estimation with Adversarial Training" />
-  <published>2018-08-22T00:00:00-04:00</published>
-
-  
-    <updated>2018-08-22T00:00:00-04:00</updated>
-  
-
-  <id>/research/wacv18</id>
-  <content type="html" xml:base="/research/wacv18/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="depth estimation" />
-  
-
-  
-    <summary type="text">In Submission to: WACV19</summary>
   
 </entry>
 
@@ -666,51 +666,6 @@
   
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
-  <link href="/research/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-04:00</published>
-
-  
-    <updated>2016-08-04T00:00:00-04:00</updated>
-  
-
-  <id>/research/camelyon16</id>
-  <content type="html" xml:base="/research/camelyon16/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="imaging" />
-  
-    <category term="deep learning" />
-  
-    <category term="pathology" />
-  
-
-  
-    <summary type="text">arXiv</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
   <published>2016-08-04T00:00:00-04:00</published>
 
@@ -837,15 +792,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-05:00</published>
 
   
     <updated>2015-11-13T00:00:00-05:00</updated>
   
 
-  <id>/research_select/stemcell</id>
-  <content type="html" xml:base="/research_select/stemcell/">
+  <id>/research/stemcell</id>
+  <content type="html" xml:base="/research/stemcell/">
     
     
 
@@ -880,15 +835,15 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
   <published>2015-11-13T00:00:00-05:00</published>
 
   
     <updated>2015-11-13T00:00:00-05:00</updated>
   
 
-  <id>/research/stemcell</id>
-  <content type="html" xml:base="/research/stemcell/">
+  <id>/research_select/stemcell</id>
+  <content type="html" xml:base="/research_select/stemcell/">
     
     
 

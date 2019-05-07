@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/research/spie/</loc>
+<lastmod>2019-03-15T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/research/maskgen/</loc>
 <lastmod>2018-09-29T00:00:00-04:00</lastmod>
 </url>
@@ -11,10 +15,6 @@
 <url>
 <loc>/research/camelyon17_tmi/</loc>
 <lastmod>2018-08-27T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>/research/wacv18/</loc>
-<lastmod>2018-08-22T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>/research/rda-tmi/</loc>
@@ -49,10 +49,6 @@
 <lastmod>2017-04-11T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/research/camelyon16/</loc>
-<lastmod>2016-08-04T00:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>/research_select/camelyon16/</loc>
 <lastmod>2016-08-04T00:00:00-04:00</lastmod>
 </url>
@@ -61,11 +57,11 @@
 <lastmod>2016-02-09T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>/research_select/stemcell/</loc>
+<loc>/research/stemcell/</loc>
 <lastmod>2015-11-13T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>/research/stemcell/</loc>
+<loc>/research_select/stemcell/</loc>
 <lastmod>2015-11-13T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -200,9 +196,6 @@
 <loc>/tag/ct/</loc>
 </url>
 <url>
-<loc>/tag/depth-estimation/</loc>
-</url>
-<url>
 <loc>/2014/</loc>
 </url>
 <url>
@@ -216,6 +209,9 @@
 </url>
 <url>
 <loc>/2018/</loc>
+</url>
+<url>
+<loc>/2019/</loc>
 </url>
 <url>
 <loc>/images/TensorFlow%20-%20Large-Scale%20Machine%20Learning%20on%20Heterogeneous%20Distributed%20Systems.pdf</loc>
