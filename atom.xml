@@ -6,7 +6,7 @@
   <generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-05-07T16:47:11-04:00</updated>
+  <updated>2019-08-04T16:31:29-08:00</updated>
   <id>/</id>
 
   <title>Richarizardd</title>
@@ -33,16 +33,61 @@
 
   
     <entry>
-  <title>Polyp segmentation and classification using predicted depth from monocular endoscopy</title>
-  <link href="/research/spie/" rel="alternate" type="text/html" title="Polyp segmentation and classification using predicted depth from monocular endoscopy" />
-  <published>2019-03-15T00:00:00-04:00</published>
+  <title>Developing Measures of Cognitive Impairment in the Real World from Consumer-Grade Multimodal Sensor Streams</title>
+  <link href="/research/cerebro/" rel="alternate" type="text/html" title="Developing Measures of Cognitive Impairment in the Real World from Consumer-Grade Multimodal Sensor Streams" />
+  <published>2019-04-08T00:00:00-08:00</published>
 
   
-    <updated>2019-03-15T00:00:00-04:00</updated>
+    <updated>2019-04-08T00:00:00-08:00</updated>
   
 
-  <id>/research/spie</id>
-  <content type="html" xml:base="/research/spie/">
+  <id>/research/cerebro</id>
+  <content type="html" xml:base="/research/cerebro/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="mhealth" />
+  
+    <category term="apple" />
+  
+    <category term="cognition" />
+  
+
+  
+    <summary type="text">SIGKIDD 2019 Applied Data Science Track - Oral Presentation and Best Paper Runner-Up</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>SLAM Endoscopy enhanced by adversarial depth prediction</title>
+  <link href="/research/endoslam/" rel="alternate" type="text/html" title="SLAM Endoscopy enhanced by adversarial depth prediction" />
+  <published>2019-04-05T00:00:00-08:00</published>
+
+  
+    <updated>2019-04-05T00:00:00-08:00</updated>
+  
+
+  <id>/research/endoslam</id>
+  <content type="html" xml:base="/research/endoslam/">
     
     
 
@@ -72,7 +117,97 @@
   
 
   
-    <summary type="text">SPIE Medical Imaging 2019</summary>
+    <summary type="text">SIGKDD 2019 Workshop on Applied Data Science for Healthcare</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Robust photometric stereo endoscopy via deep learning trained on synthetic data</title>
+  <link href="/research/spie_photometric/" rel="alternate" type="text/html" title="Robust photometric stereo endoscopy via deep learning trained on synthetic data" />
+  <published>2019-03-15T00:00:00-08:00</published>
+
+  
+    <updated>2019-03-15T00:00:00-08:00</updated>
+  
+
+  <id>/research/spie_photometric</id>
+  <content type="html" xml:base="/research/spie_photometric/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">SPIE Medical Imaging 2019 - Oral Presentation</summary>
+  
+</entry>
+
+  
+    <entry>
+  <title>Polyp segmentation and classification using predicted depth from monocular endoscopy</title>
+  <link href="/research/spie_fusion/" rel="alternate" type="text/html" title="Polyp segmentation and classification using predicted depth from monocular endoscopy" />
+  <published>2019-03-15T00:00:00-08:00</published>
+
+  
+    <updated>2019-03-15T00:00:00-08:00</updated>
+  
+
+  <id>/research/spie_fusion</id>
+  <content type="html" xml:base="/research/spie_fusion/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="imaging" />
+  
+    <category term="deep learning" />
+  
+    <category term="endoscopy" />
+  
+
+  
+    <summary type="text">SPIE Medical Imaging 2019 - Oral Presentation and Conference Proceeding</summary>
   
 </entry>
 
@@ -80,10 +215,10 @@
     <entry>
   <title>Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images</title>
   <link href="/research/maskgen/" rel="alternate" type="text/html" title="Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images" />
-  <published>2018-09-29T00:00:00-04:00</published>
+  <published>2018-09-29T00:00:00-08:00</published>
 
   
-    <updated>2018-09-29T00:00:00-04:00</updated>
+    <updated>2018-09-29T00:00:00-08:00</updated>
   
 
   <id>/research/maskgen</id>
@@ -125,10 +260,10 @@
     <entry>
   <title>Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images</title>
   <link href="/research/cr/" rel="alternate" type="text/html" title="Deep Learning with Cinematic Rendering - Fine-Tuning Deep Neural Networks Using Photorealistic Medical Images" />
-  <published>2018-09-13T00:00:00-04:00</published>
+  <published>2018-09-13T00:00:00-08:00</published>
 
   
-    <updated>2018-09-13T00:00:00-04:00</updated>
+    <updated>2018-09-13T00:00:00-08:00</updated>
   
 
   <id>/research/cr</id>
@@ -170,10 +305,10 @@
     <entry>
   <title>From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge</title>
   <link href="/research/camelyon17_tmi/" rel="alternate" type="text/html" title="From detection of individual metastases to classification of lymph node status at the patient level: the CAMELYON17 challenge" />
-  <published>2018-08-27T00:00:00-04:00</published>
+  <published>2018-08-27T00:00:00-08:00</published>
 
   
-    <updated>2018-08-27T00:00:00-04:00</updated>
+    <updated>2018-08-27T00:00:00-08:00</updated>
   
 
   <id>/research/camelyon17_tmi</id>
@@ -215,10 +350,10 @@
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
   <link href="/research/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2018-06-01T00:00:00-04:00</published>
+  <published>2018-06-01T00:00:00-08:00</published>
 
   
-    <updated>2018-06-01T00:00:00-04:00</updated>
+    <updated>2018-06-01T00:00:00-08:00</updated>
   
 
   <id>/research/rda-tmi</id>
@@ -260,10 +395,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research_select/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-04:00</published>
+  <published>2018-03-12T00:00:00-08:00</published>
 
   
-    <updated>2018-03-12T00:00:00-04:00</updated>
+    <updated>2018-03-12T00:00:00-08:00</updated>
   
 
   <id>/research_select/squeez_ijci</id>
@@ -303,10 +438,10 @@
     <entry>
   <title>Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ</title>
   <link href="/research/squeez_ijci/" rel="alternate" type="text/html" title="Precision of regional wall motion estimates from ultra-low-dose cardiac CT using SQUEEZ" />
-  <published>2018-03-12T00:00:00-04:00</published>
+  <published>2018-03-12T00:00:00-08:00</published>
 
   
-    <updated>2018-03-12T00:00:00-04:00</updated>
+    <updated>2018-03-12T00:00:00-08:00</updated>
   
 
   <id>/research/squeez_ijci</id>
@@ -346,10 +481,10 @@
     <entry>
   <title>Shakshuka - An Ongoing Review</title>
   <link href="/blog/shakshuka/" rel="alternate" type="text/html" title="Shakshuka - An Ongoing Review" />
-  <published>2018-01-26T00:00:00-05:00</published>
+  <published>2018-01-26T00:00:00-09:00</published>
 
   
-    <updated>2018-01-26T00:00:00-05:00</updated>
+    <updated>2018-01-26T00:00:00-09:00</updated>
   
 
   <id>/blog/shakshuka</id>
@@ -458,10 +593,10 @@
     <entry>
   <title>Spending Christmas in Jerusalem</title>
   <link href="/blog/shabbatchristmas/" rel="alternate" type="text/html" title="Spending Christmas in Jerusalem" />
-  <published>2017-12-27T00:00:00-05:00</published>
+  <published>2017-12-27T00:00:00-09:00</published>
 
   
-    <updated>2017-12-27T00:00:00-05:00</updated>
+    <updated>2017-12-27T00:00:00-09:00</updated>
   
 
   <id>/blog/shabbatchristmas</id>
@@ -520,10 +655,10 @@
     <entry>
   <title>Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training</title>
   <link href="/research_select/rda-tmi/" rel="alternate" type="text/html" title="Unsupervised Reverse Domain Adaption for Synthetic Medical Images via Adversarial Training" />
-  <published>2017-11-15T00:00:00-05:00</published>
+  <published>2017-11-15T00:00:00-09:00</published>
 
   
-    <updated>2017-11-15T00:00:00-05:00</updated>
+    <updated>2017-11-15T00:00:00-09:00</updated>
   
 
   <id>/research_select/rda-tmi</id>
@@ -565,10 +700,10 @@
     <entry>
   <title>Making Unexpected Friends in Cupertino</title>
   <link href="/blog/meatfresh/" rel="alternate" type="text/html" title="Making Unexpected Friends in Cupertino" />
-  <published>2017-08-11T00:00:00-04:00</published>
+  <published>2017-08-11T00:00:00-08:00</published>
 
   
-    <updated>2017-08-11T00:00:00-04:00</updated>
+    <updated>2017-08-11T00:00:00-08:00</updated>
   
 
   <id>/blog/meatfresh</id>
@@ -622,10 +757,10 @@
     <entry>
   <title>Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity</title>
   <link href="/research/kaleyedos_dmd/" rel="alternate" type="text/html" title="Kaleyedos Imaging Device: A Telemedicine Solution for Retinopathy of Prematurity" />
-  <published>2017-04-11T00:00:00-04:00</published>
+  <published>2017-04-11T00:00:00-08:00</published>
 
   
-    <updated>2017-04-11T00:00:00-04:00</updated>
+    <updated>2017-04-11T00:00:00-08:00</updated>
   
 
   <id>/research/kaleyedos_dmd</id>
@@ -667,10 +802,10 @@
     <entry>
   <title>Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks</title>
   <link href="/research_select/camelyon16/" rel="alternate" type="text/html" title="Identifying Metastases in Sentinel Lymph Nodes with Deep Convolutional Neural Networks" />
-  <published>2016-08-04T00:00:00-04:00</published>
+  <published>2016-08-04T00:00:00-08:00</published>
 
   
-    <updated>2016-08-04T00:00:00-04:00</updated>
+    <updated>2016-08-04T00:00:00-08:00</updated>
   
 
   <id>/research_select/camelyon16</id>
@@ -712,10 +847,10 @@
     <entry>
   <title>Clinical Search Index</title>
   <link href="/projects/hophacks2016/" rel="alternate" type="text/html" title="Clinical Search Index" />
-  <published>2016-02-09T00:00:00-05:00</published>
+  <published>2016-02-09T00:00:00-09:00</published>
 
   
-    <updated>2016-02-09T00:00:00-05:00</updated>
+    <updated>2016-02-09T00:00:00-09:00</updated>
   
 
   <id>/projects/hophacks2016</id>
@@ -792,54 +927,11 @@
   
     <entry>
   <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
-  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-05:00</published>
-
-  
-    <updated>2015-11-13T00:00:00-05:00</updated>
-  
-
-  <id>/research/stemcell</id>
-  <content type="html" xml:base="/research/stemcell/">
-    
-    
-
-  </content>
-
-  
-  <author>
-    
-      <name>Richard Chen</name>
-    
-    
-      <email>rchen40@jhu.edu</email>
-    
-    <uri>/</uri>
-  </author>
-
-
-
-  
-
-  
-    <category term="microscopy" />
-  
-    <category term="stem cells" />
-  
-
-  
-    <summary type="text">PLOS One</summary>
-  
-</entry>
-
-  
-    <entry>
-  <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
   <link href="/research_select/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
-  <published>2015-11-13T00:00:00-05:00</published>
+  <published>2015-11-13T00:00:00-09:00</published>
 
   
-    <updated>2015-11-13T00:00:00-05:00</updated>
+    <updated>2015-11-13T00:00:00-09:00</updated>
   
 
   <id>/research_select/stemcell</id>
@@ -877,9 +969,52 @@
 
   
     <entry>
+  <title>Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States</title>
+  <link href="/research/stemcell/" rel="alternate" type="text/html" title="Variations in Glycogen Synthesis in Human Pluripotent Stem Cells with Altered Pluripotent States" />
+  <published>2015-11-13T00:00:00-09:00</published>
+
+  
+    <updated>2015-11-13T00:00:00-09:00</updated>
+  
+
+  <id>/research/stemcell</id>
+  <content type="html" xml:base="/research/stemcell/">
+    
+    
+
+  </content>
+
+  
+  <author>
+    
+      <name>Richard Chen</name>
+    
+    
+      <email>rchen40@jhu.edu</email>
+    
+    <uri>/</uri>
+  </author>
+
+
+
+  
+
+  
+    <category term="microscopy" />
+  
+    <category term="stem cells" />
+  
+
+  
+    <summary type="text">PLOS One</summary>
+  
+</entry>
+
+  
+    <entry>
   <title>New Paper by FiftyThree 3.0 Features I Can’t Live Without</title>
   <link href="/mastering-paper/paper-3-features/" rel="alternate" type="text/html" title="New Paper by FiftyThree 3.0 Features I Can’t Live Without" />
-  <published>2015-09-11T00:00:00-04:00</published>
+  <published>2015-09-11T00:00:00-08:00</published>
 
   
     <updated>2015-10-19T14:47:05-04:00</updated>
@@ -1064,10 +1199,10 @@
     <entry>
   <title>Galvanic Stress Response</title>
   <link href="/projects/hophacks2015/" rel="alternate" type="text/html" title="Galvanic Stress Response" />
-  <published>2015-09-11T00:00:00-04:00</published>
+  <published>2015-09-11T00:00:00-08:00</published>
 
   
-    <updated>2015-09-11T00:00:00-04:00</updated>
+    <updated>2015-09-11T00:00:00-08:00</updated>
   
 
   <id>/projects/hophacks2015</id>
@@ -1146,10 +1281,10 @@
     <entry>
   <title>Mole Sniffer</title>
   <link href="/projects/hophacks2014/" rel="alternate" type="text/html" title="Mole Sniffer" />
-  <published>2014-09-23T00:00:00-04:00</published>
+  <published>2014-09-23T00:00:00-08:00</published>
 
   
-    <updated>2014-09-23T00:00:00-04:00</updated>
+    <updated>2014-09-23T00:00:00-08:00</updated>
   
 
   <id>/projects/hophacks2014</id>
@@ -1218,10 +1353,10 @@
     <entry>
   <title>Reproducing Ratatouille</title>
   <link href="/blog/ratatouille/" rel="alternate" type="text/html" title="Reproducing Ratatouille" />
-  <published>2014-07-20T00:00:00-04:00</published>
+  <published>2014-07-20T00:00:00-08:00</published>
 
   
-    <updated>2014-07-20T00:00:00-04:00</updated>
+    <updated>2014-07-20T00:00:00-08:00</updated>
   
 
   <id>/blog/ratatouille</id>
@@ -1319,10 +1454,10 @@
     <entry>
   <title>Respirage</title>
   <link href="/projects/respirage/" rel="alternate" type="text/html" title="Respirage" />
-  <published>2014-06-15T00:00:00-04:00</published>
+  <published>2014-06-15T00:00:00-08:00</published>
 
   
-    <updated>2014-06-15T00:00:00-04:00</updated>
+    <updated>2014-06-15T00:00:00-08:00</updated>
   
 
   <id>/projects/respirage</id>
